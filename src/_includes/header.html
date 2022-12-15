@@ -34,10 +34,10 @@
         aria-label="Toggle navigation">
       </div>
       <div class="site-header__sheet">
+        <div class="site-sidebar site-sidebar--header d-md-none">
+          {% include sidenav-level-1.html nav=site.data.sidenav %}
+        </div>
         <ul class="navbar-nav">
-          <div class="site-sidebar site-sidebar--header d-md-none">
-            {% include sidenav-level-1.html nav=site.data.sidenav %}
-          </div>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="platform-navbar-dropdown"
                href="{{site.main-url}}/multi-platform" 
