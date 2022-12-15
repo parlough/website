@@ -226,13 +226,13 @@
           permalink: /development/platform-integration/web/renderers
         - title: Custom app initialization
           permalink: /development/platform-integration/web/initialization
-        - title: Windows
-          permalink: /development/platform-integration/windows
-          children:
-            - title: Building Windows apps
-              permalink: /development/platform-integration/windows/building
-            - title: Version information migration
-              permalink: /development/platform-integration/windows/version-migration
+    - title: Windows
+      permalink: /development/platform-integration/windows
+      children:
+        - title: Building Windows apps
+          permalink: /development/platform-integration/windows/building
+        - title: Version information migration
+          permalink: /development/platform-integration/windows/version-migration
 
 - title: Packages & plugins
   permalink: /development/packages-and-plugins
