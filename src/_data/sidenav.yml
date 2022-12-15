@@ -44,7 +44,7 @@
       permalink: /codelabs
     - title: Tutorials
       permalink: /reference/tutorials
-
+- divider
 - title: Widgets, layouts, & interactivity
   permalink: /development/ui
   children:
@@ -134,7 +134,7 @@
       permalink: /development/ui/advanced/splash-screen
     - title: Widget catalog
       permalink: /development/ui/widgets
-
+- divider
 - title: Data & backend
   permalink: /development/data-and-backend
   children:
@@ -388,7 +388,7 @@
       permalink: /deployment/web
     - title: Continuous deployment
       permalink: /deployment/cd
-
+- divider
 - title: Resources
   children:
     - title: Architectural overview

@@ -8,9 +8,7 @@
 {% endif -%}
 
 {% if entry2 == 'divider' -%}
-
-  <div class="dropdown-divider"></div>
-
+  <li><div class="sidebar-divider-sm" aria-hidden="true"></div></li>
 {%- elsif entry2.children == nil and entry2.permalink or show_entries_wo_pages -%}
 
   <li class="nav-item">

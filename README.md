@@ -171,8 +171,8 @@ _choose one_ of the following submodule-cloning techniques:
    with the generated `_site` directory visible locally.
 
    > **Note:** If you make changes to the `/src/_data/sidenav.yml` file,
-   > it isn't sufficient to just re-run "make up". You must re-run
-   > "make setup".
+   > it isn't sufficient to just re-run `make up`. You must re-run
+   > `make clean` or run `make clean` then `make up`.
 
 1. View your changes in the browser by navigating to `http://localhost:4002`.
    > **Note:** Unless you're editing files under `site-shared`, 
