@@ -100,6 +100,7 @@
     - title: Introduction
       permalink: /development/ui/animations
       match-page-url-exactly: true
+    - divider
     - title: Implicit animations
       permalink: /development/ui/animations/implicit-animations
     - title: Animate the properties of a container
