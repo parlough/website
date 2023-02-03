@@ -48,6 +48,7 @@
     - title: Tutorials
       permalink: /reference/tutorials
 
+- header: User interface
 - title: Development
   permalink: /development
   expanded: true
@@ -341,6 +342,7 @@
         - title: Code formatting
           permalink: /development/tools/formatting
 
+- header: Development
 - title: Testing & debugging
   permalink: /testing
   children:
@@ -415,6 +417,7 @@
     - title: Continuous deployment
       permalink: /deployment/cd
 
+- divider
 - title: Resources
   children:
     - title: Architectural overview

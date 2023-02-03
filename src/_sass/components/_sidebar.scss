@@ -1,5 +1,10 @@
 .site-sidebar {
-  padding: $site-content-top-padding $site-sidebar-side-padding;
+  padding: $site-content-top-padding 0;
+
+  .nav-header {
+    font-weight: $font-weight-bold;
+    user-select: none;
+  }
 
   // Customization for sidebar in mobile nav
   &.site-sidebar--header {
@@ -52,25 +57,53 @@
   }
 
   // Top-level nav item
-  > .nav > .nav-item {
-    font-family: $site-font-family-alt;
+  > .nav {
+    > .nav-item, > .nav-header {
+      font-family: $site-font-family-alt;
+      padding: 0 $site-sidebar-side-padding;
+    }
 
-    &:first-child {
+    > .nav-header {
+      padding-top: bs-spacer(3);
+    }
+
+    > .nav-item {
+      &:first-child {
+        > .nav-link {
+          padding-top: 0;
+        }
+      }
+
       > .nav-link {
-        padding-top: 0;
+        padding: bs-spacer(3) 0;
+
+        @include collapsable();
       }
     }
-
-    > .nav-link {
-      padding: bs-spacer(3) 0;
-
-      @include collapsable();
-    }
   }
+
+  //// Top-level nav item
+  //> .nav > .nav-item {
+  //  font-family: $site-font-family-alt;
+  //  padding: 0 $site-sidebar-side-padding;
+  //
+  //  &:first-child {
+  //    > .nav-link {
+  //      padding-top: 0;
+  //    }
+  //  }
+  //
+  //  > .nav-link {
+  //    padding: bs-spacer(3) 0;
+  //
+  //    @include collapsable();
+  //  }
+  //}
 
   // Sub navs
   > .nav .nav {
     padding-left: bs-spacer(4);
+    margin-bottom: bs-spacer(3);
 
     .nav-item {
       font-size: $font-size-sm;
@@ -103,5 +136,12 @@
         }
       }
     }
+  }
+
+  .sidebar-divider-lg {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1.25px solid $site-color-light-grey;
   }
 }
