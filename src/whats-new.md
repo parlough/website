@@ -1084,7 +1084,7 @@ We are updating DartPad to work with Flutter. Try our new
 [Basic Flutter layout codelab][] and tell us what you think!
 
 [Basic Flutter layout codelab]: {{site.url}}/codelabs/layout-basics
-[download the release]: {{site.url}}/development/tools/sdk/releases
+[download the release]: {{site.url}}/reference/sdk/releases
 [Flutter 1.5]: {{site.google-blog}}/2019/05/Flutter-io19.html
 [1.5.4 release notes]: {{site.url}}/development/tools/sdk/release-notes/release-notes-1.5.4
 
@@ -1122,7 +1122,7 @@ If you have questions or comments about any of these docs,
 
 [Android Studio/IntelliJ]: {{site.url}}/development/tools/android-studio
 [different state management options]: {{site.url}}/development/data-and-backend/state-mgmt/options
-[download the release]: {{site.url}}/development/tools/sdk/releases
+[download the release]: {{site.url}}/reference/sdk/releases
 [ephemeral vs app state]: {{site.url}}/development/data-and-backend/state-mgmt/ephemeral-vs-app
 [file an issue]: {{site.repo.this}}/issues
 [introduction]: {{site.url}}/development/data-and-backend/state-mgmt/intro
