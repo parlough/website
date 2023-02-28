@@ -1348,15 +1348,15 @@ To review a complete walkthrough, check out the [video_player example][].
 
 [Flutter for UIKit developers]: {{site.url}}/get-started/flutter-for/uikit-devs
 [Add Flutter to existing app]: {{site.url}}/add-to-app
-[Animations overview]: {{site.url}}/animations
-[Cupertino widgets]: {{site.url}}/widgets/catalog/cupertino
+[Animations overview]: {{site.url}}/ui/animations
+[Cupertino widgets]: {{site.url}}/ui/widgets/catalog/cupertino
 [Flutter concurrency for Swift developers]: {{site.url}}/resources/dart-swift-concurrency
-[Navigation and routing]: {{site.url}}/navigation
+[Navigation and routing]: {{site.url}}/ui/navigation
 [Material]: {{site.material}}/develop/flutter/
 [Platform adaptations]: {{site.url}}/resources/platform-adaptations
 [`url_launcher`]: {{site.pub-pkg}}/url_launcher
-[widget catalog]: {{site.url}}/widgets/catalog/layout
-[Understanding constraints]: {{site.url}}/widgets/layout/constraints
+[widget catalog]: {{site.url}}/ui/widgets/catalog/layout
+[Understanding constraints]: {{site.url}}/ui/widgets/layout/constraints
 [`WidgetApp`]: {{site.api}}/flutter/widgets/WidgetsApp-class.html
 [`CupertinoApp`]: {{site.api}}/flutter/cupertino/CupertinoApp-class.html
 [`Center`]: {{site.api}}/flutter/widgets/Center-class.html
@@ -1378,7 +1378,7 @@ To review a complete walkthrough, check out the [video_player example][].
 [Wonderous]: https://flutter.gskinner.com/wonderous/?utm_source=flutterdocs&utm_medium=docs&utm_campaign=iosdevs
 [video_player]: {{site.pub-pkg}}/video_player
 [video_player example]: {{site.pub-pkg}}/video_player/example
-[Creating responsive and adaptive apps]: {{site.url}}/widgets/layout/adaptive-responsive
+[Creating responsive and adaptive apps]: {{site.url}}/ui/widgets/layout/adaptive-responsive
 [`MediaQuery.of()`]: {{site.api}}/flutter/widgets/MediaQuery-class.html
 [`CustomPaint`]: {{site.api}}/flutter/widgets/CustomPaint-class.html
 [`CustomPainter`]: {{site.api}}/flutter/rendering/CustomPainter-class.html

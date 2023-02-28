@@ -2540,16 +2540,16 @@ For more information on using the Firebase Cloud Messaging API, see the
 [`firebase_messaging`][] plugin documentation.
 
 
-[Adding assets and images]: {{site.url}}/widgets/assets-and-images
-[Animation & Motion widgets]: {{site.url}}/widgets/catalog/animation
-[Animations overview]: {{site.url}}/animations
-[Animations tutorial]: {{site.url}}/animations/tutorial
+[Adding assets and images]: {{site.url}}/ui/widgets/assets-and-images
+[Animation & Motion widgets]: {{site.url}}/ui/widgets/catalog/animation
+[Animations overview]: {{site.url}}/ui/animations
+[Animations tutorial]: {{site.url}}/ui/animations/tutorial
 [Apple's iOS design language]: {{site.apple-dev}}/design/resources/
 [arb]: {{site.github}}/google/app-resource-bundle
 [Async UI]: #async-ui
 [`cloud_firestore`]: {{site.pub}}/packages/cloud_firestore
 [composing]: {{site.url}}/resources/architectural-overview#composition
-[Cupertino widgets]: {{site.url}}/widgets/catalog/cupertino
+[Cupertino widgets]: {{site.url}}/ui/widgets/catalog/cupertino
 [`devicePixelRatio`]: {{site.api}}/flutter/dart-ui/FlutterView/devicePixelRatio.html
 [developing packages and plugins]: {{site.url}}/packages-and-plugins/developing-packages
 [DevTools]: {{site.url}}/tools/devtools/overview
@@ -2572,7 +2572,7 @@ For more information on using the Firebase Cloud Messaging API, see the
 [`intl_translation`]: {{site.pub}}/packages/intl_translation
 [Introduction to declarative UI]: {{site.url}}/get-started/flutter-for/declarative
 [`Localizations`]: {{site.api}}/flutter/widgets/Localizations-class.html
-[Material Components]: {{site.url}}/widgets/catalog/material
+[Material Components]: {{site.url}}/ui/widgets/catalog/material
 [Material Design]: {{site.material}}/design
 [Material Design guidelines]: {{site.material}}/design
 [`Opacity` widget]: {{site.api}}/flutter/widgets/Opacity-class.html
@@ -2587,7 +2587,7 @@ For more information on using the Firebase Cloud Messaging API, see the
 [`TextEditingController`]: {{site.api}}/flutter/widgets/TextEditingController-class.html
 [`url_launcher`]: {{site.pub}}/packages/url_launcher
 [widget]: {{site.url}}/resources/architectural-overview#widgets
-[widget catalog]: {{site.url}}/widgets/catalog/layout
+[widget catalog]: {{site.url}}/ui/widgets/catalog/layout
 [`Window.locale`]: {{site.api}}/flutter/dart-ui/Window/locale.html
 [first_codelab]: {{site.codelabs}}/codelabs/flutter-codelab-first
 [write your own]: {{site.url}}/packages-and-plugins/developing-packages

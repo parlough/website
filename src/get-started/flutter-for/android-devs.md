@@ -2372,14 +2372,14 @@ see the [`firebase_messaging`][] plugin documentation.
 
 
 [Add Flutter to existing app]: {{site.url}}/add-to-app
-[Animation & Motion widgets]: {{site.url}}/widgets/catalog/animation
-[Animations tutorial]: {{site.url}}/animations/tutorial
-[Animations overview]: {{site.url}}/animations
+[Animation & Motion widgets]: {{site.url}}/ui/widgets/catalog/animation
+[Animations tutorial]: {{site.url}}/ui/animations/tutorial
+[Animations overview]: {{site.url}}/ui/animations
 [`AppLifecycleStatus` documentation]: {{site.api}}/flutter/dart-ui/AppLifecycleState.html
 [Apple's iOS design language]: {{site.apple-dev}}/design/resources/
 [`cloud_firestore`]: {{site.pub}}/packages/cloud_firestore
 [composing]: {{site.url}}/resources/architectural-overview#composition
-[Cupertino widgets]: {{site.url}}/widgets/catalog/cupertino
+[Cupertino widgets]: {{site.url}}/ui/widgets/catalog/cupertino
 [Custom Paint]: {{site.so}}/questions/46241071/create-signature-area-for-mobile-app-in-dart-flutter
 [developing packages and plugins]: {{site.url}}/packages-and-plugins/developing-packages
 [`devicePixelRatio`]: {{site.api}}/flutter/dart-ui/FlutterView/devicePixelRatio.html
@@ -2413,4 +2413,4 @@ see the [`firebase_messaging`][] plugin documentation.
 [Shared_Preferences plugin]: {{site.pub}}/packages/shared_preferences
 [SQFlite]: {{site.pub}}/packages/sqflite
 [StackOverflow]: {{site.so}}/questions/44396075/equivalent-of-relativelayout-in-flutter
-[widget catalog]: {{site.url}}/widgets/catalog/layout
+[widget catalog]: {{site.url}}/ui/widgets/catalog/layout

@@ -49,109 +49,140 @@
 - header: User interface
 
 - title: Widgets, layout, & interactivity
-  permalink: /widgets
+  permalink: /ui/widgets
   children:
     - title: Introduction
+      permalink: /ui/widgets
       match-page-url-exactly: true
-      permalink: /widgets
     - title: Building layouts
-      permalink: /widgets/layout
+      permalink: /ui/widgets/layout
       children:
         - title: Layouts in Flutter
-          permalink: /widgets/layout
+          permalink: /ui/widgets/layout
           match-page-url-exactly: true
         - title: Tutorial
-          permalink: /widgets/layout/tutorial
+          permalink: /ui/widgets/layout/tutorial
         - title: Creating adaptive and responsive apps
-          permalink: /widgets/layout/adaptive-responsive
+          permalink: /ui/widgets/layout/adaptive-responsive
         - title: Building adaptive apps
-          permalink: /widgets/layout/building-adaptive-apps
+          permalink: /ui/widgets/layout/building-adaptive-apps
         - title: Understanding constraints
-          permalink: /widgets/layout/constraints
+          permalink: /ui/widgets/layout/constraints
         - title: Box constraints
-          permalink: /widgets/layout/box-constraints
+          permalink: /ui/widgets/layout/box-constraints
     - title: Adding interactivity
-      permalink: /widgets/interactive
+      permalink: /ui/widgets/interactive
     - title: Assets & images
-      permalink: /widgets/assets-and-images
+      permalink: /ui/widgets/assets-and-images
     - title: Material Design
-      permalink: /widgets/material
+      permalink: /ui/widgets/material
     - title: Widget catalog
-      permalink: /widgets/catalog
+      permalink: /ui/widgets/catalog
       children:
         - title: Overview
-          permalink: /widgets/catalog
+          permalink: /ui/widgets/catalog
           match-page-url-exactly: true
         - title: Accessibility
-          permalink: /widgets/catalog/accessibility
+          permalink: /ui/widgets/catalog/accessibility
         - title: Animation
-          permalink: /widgets/catalog/animation
+          permalink: /ui/widgets/catalog/animation
         - title: Assets
-          permalink: /widgets/catalog/assets
+          permalink: /ui/widgets/catalog/assets
         - title: Async
-          permalink: /widgets/catalog/async
+          permalink: /ui/widgets/catalog/async
         - title: Basics
-          permalink: /widgets/catalog/basics
+          permalink: /ui/widgets/catalog/basics
         - title: Cupertino
-          permalink: /widgets/catalog/cupertino
+          permalink: /ui/widgets/catalog/cupertino
         - title: Input
-          permalink: /widgets/catalog/input
+          permalink: /ui/widgets/catalog/input
         - title: Interaction
-          permalink: /widgets/catalog/interaction
+          permalink: /ui/widgets/catalog/interaction
         - title: Layout
-          permalink: /widgets/catalog/layout
+          permalink: /ui/widgets/catalog/layout
         - title: Material
-          permalink: /widgets/catalog/material
+          permalink: /ui/widgets/catalog/material
         - title: Painting
-          permalink: /widgets/catalog/painting
+          permalink: /ui/widgets/catalog/painting
         - title: Scrolling
-          permalink: /widgets/catalog/scrolling
+          permalink: /ui/widgets/catalog/scrolling
         - title: Styling
-          permalink: /widgets/catalog/styling
+          permalink: /ui/widgets/catalog/styling
         - title: Text
-          permalink: /widgets/catalog/text
+          permalink: /ui/widgets/catalog/text
+
+#- title: Layouts
+#  permalink: /ui/widgets/layout
+#  children:
+#    - title: Layouts in Flutter
+#      permalink: /ui/layout
+#      match-page-url-exactly: true
+#    - title: Tutorial
+#      permalink: /ui/widgets/layout/tutorial
+#    - title: Creating adaptive and responsive apps
+#      permalink: /ui/widgets/layout/adaptive-responsive
+#    - title: Building adaptive apps
+#      permalink: /ui/widgets/layout/building-adaptive-apps
+#    - title: Understanding constraints
+#      permalink: /ui/widgets/layout/constraints
+#    - title: Box constraints
+#      permalink: /ui/widgets/layout/box-constraints
+#
+#- title: Interactivity
+#  children:
+#    - title: Adding interactivity
+#      permalink: /ui/widgets/interactive
+#      match-page-url-exactly: true
+#    - title: Actions & shortcuts
+#      permalink: /ui/advanced/actions_and_shortcuts
+#    - title: Keyboard focus system
+#      permalink: /ui/advanced/focus
+#    - title: Gestures
+#      permalink: /ui/advanced/gestures
 
 - title: Navigation & routing
+  permalink: /ui/navigation
   children:
     - title: Navigation in Flutter
-      permalink: /navigation
+      permalink: /ui/navigation
       match-page-url-exactly: true
     - title: Deep linking
-      permalink: /navigation/deep-linking
+      permalink: /ui/navigation/deep-linking
     - title: URL strategies
-      permalink: /navigation/url-strategies
+      permalink: /ui/navigation/url-strategies
 
 - title: Animations
+  permalink: /ui/animations
   children:
     - title: Introduction
-      permalink: /animations
+      permalink: /ui/animations
       match-page-url-exactly: true
     - title: Tutorial
-      permalink: /animations/tutorial
+      permalink: /ui/animations/tutorial
     - title: Implicit animations
-      permalink: /animations/implicit-animations
+      permalink: /ui/animations/implicit-animations
     - title: Hero animations
-      permalink: /animations/hero-animations
+      permalink: /ui/animations/hero-animations
     - title: Staggered animations
-      permalink: /animations/staggered-animations
+      permalink: /ui/animations/staggered-animations
     - title: API overview
-      permalink: /animations/overview
+      permalink: /ui/animations/overview
 
 - title: Advanced UI
-  permalink: /advanced-ui/
+  permalink: /ui/advanced
   children:
     - title: Actions & shortcuts
-      permalink: /advanced-ui/actions_and_shortcuts
+      permalink: /ui/advanced/actions_and_shortcuts
     - title: Fonts & typography
-      permalink: /advanced-ui/typography
+      permalink: /ui/advanced/typography
     - title: Keyboard focus system
-      permalink: /advanced-ui/focus
+      permalink: /ui/advanced/focus
     - title: Gestures
-      permalink: /advanced-ui/gestures
+      permalink: /ui/advanced/gestures
     - title: Shaders
-      permalink: /advanced-ui/shaders
+      permalink: /ui/advanced/shaders
     - title: Slivers
-      permalink: /advanced-ui/slivers
+      permalink: /ui/advanced/slivers
 
 - header: Development
 
@@ -331,6 +362,7 @@
       permalink: /perf/appendix
 
 - title: Deployment
+  permalink: /deployment
   children:
     - title: Obfuscating Dart code
       permalink: /deployment/obfuscate

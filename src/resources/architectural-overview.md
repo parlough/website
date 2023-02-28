@@ -711,9 +711,9 @@ Widget build(BuildContext context) {
 }
 ```
 
-More information about the constraint and layout system, along with worked
-examples, can be found in the [Understanding
-constraints]({{site.url}}/ui/layout/constraints) topic.
+More information about the constraint and layout system, 
+along with worked examples, can be found in the 
+[Understanding constraints]({{site.url}}/ui/widgets/layout/constraints) topic.
 
 The root of all `RenderObject`s is the `RenderView`, which represents the total
 output of the render tree. When the platform demands a new frame to be rendered

@@ -1680,8 +1680,8 @@ The following example specifies named routes in the `MaterialApp` widget.
   [Limitations][] in the [navigation overview][] page.
 {{site.alert.end}}
 
-[Limitations]: {{site.url}}/navigation#limitations
-[navigation overview]: {{site.url}}/navigation
+[Limitations]: {{site.url}}/ui/navigation#limitations
+[navigation overview]: {{site.url}}/ui/navigation
 
 <?code-excerpt "lib/navigation.dart (Navigator)"?>
 ```dart
@@ -2588,7 +2588,7 @@ and common widget properties.
 
 
 [`AboutDialog`]: {{site.api}}/flutter/material/AboutDialog-class.html
-[Adding Assets and Images in Flutter]: {{site.url}}/widgets/assets-and-images
+[Adding Assets and Images in Flutter]: {{site.url}}/ui/widgets/assets-and-images
 [`AlertDialog`]: {{site.api}}/flutter/material/AlertDialog-class.html
 [`Align`]: {{site.api}}/flutter/widgets/Align-class.html
 [`Animation`]: {{site.api}}/flutter/animation/Animation-class.html
@@ -2605,7 +2605,7 @@ and common widget properties.
 [`Checkbox`]: {{site.api}}/flutter/material/Checkbox-class.html
 [`CircleAvatar`]: {{site.api}}/flutter/material/CircleAvatar-class.html
 [`CircularProgressIndicator`]: {{site.api}}/flutter/material/CircularProgressIndicator-class.html
-[Cupertino (iOS-style)]: {{site.url}}/widgets/catalog/cupertino
+[Cupertino (iOS-style)]: {{site.url}}/ui/widgets/catalog/cupertino
 [`CustomPaint`]: {{site.api}}/flutter/widgets/CustomPaint-class.html
 [`CustomPainter`]: {{site.api}}/flutter/rendering/CustomPainter-class.html
 [Dart]: {{site.dart-site}}/dart-2
@@ -2624,9 +2624,9 @@ and common widget properties.
 [`FadeTransition`]: {{site.api}}/flutter/widgets/FadeTransition-class.html
 [Flutter packages]: {{site.pub}}/flutter/
 [Flutter Architectural Overview]: {{site.url}}/resources/architectural-overview
-[Flutter Basic Widgets]: {{site.url}}/widgets/catalog/basics
+[Flutter Basic Widgets]: {{site.url}}/ui/widgets/catalog/basics
 [Flutter Technical Overview]: {{site.url}}/resources/architectural-overview
-[Flutter Widget Catalog]: {{site.url}}/widgets/catalog
+[Flutter Widget Catalog]: {{site.url}}/ui/widgets/catalog
 [Flutter Widget Index]: {{site.url}}/reference/widgets
 [`FlutterLogo`]: {{site.api}}/flutter/material/FlutterLogo-class.html
 [`Form`]: {{site.api}}/flutter/widgets/Form-class.html
@@ -2639,7 +2639,7 @@ and common widget properties.
 [`IndexedWidgetBuilder`]: {{site.api}}/flutter/widgets/IndexedWidgetBuilder.html
 [`InheritedWidget`]: {{site.api}}/flutter/widgets/InheritedWidget-class.html
 [`InkWell`]: {{site.api}}/flutter/material/InkWell-class.html
-[Layout Widgets]: {{site.url}}/widgets/catalog/layout
+[Layout Widgets]: {{site.url}}/ui/widgets/catalog/layout
 [`LinearProgressIndicator`]: {{site.api}}/flutter/material/LinearProgressIndicator-class.html
 [`ListTile`]: {{site.api}}/flutter/material/ListTile-class.html
 [`ListView`]: {{site.api}}/flutter/widgets/ListView-class.html

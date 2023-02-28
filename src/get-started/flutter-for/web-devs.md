@@ -1074,5 +1074,5 @@ final container = Container(
 [`TextSpan`]: {{site.api}}/flutter/painting/TextSpan-class.html
 [`TextStyle`]: {{site.api}}/flutter/painting/TextStyle-class.html
 [`Transform`]: {{site.api}}/flutter/widgets/Transform-class.html
-[Understanding constraints]: {{site.url}}/widgets/layout/constraints
+[Understanding constraints]: {{site.url}}/ui/widgets/layout/constraints
 
