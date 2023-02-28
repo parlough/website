@@ -34,4 +34,4 @@ our [videos]({{site.url}}/resources/videos) page.
 {% endfor %}
 </div>
 
-[catalog]: {{site.url}}/widgets/catalog
+[catalog]: {{site.url}}/ui/widgets/catalog

@@ -59,16 +59,16 @@ Coming from another platform? Check out Flutter for:
 [FAQ][]
 : Get the answers to frequently asked questions.
 
-[A tour of the Flutter widget framework]: {{site.url}}/widgets
+[A tour of the Flutter widget framework]: {{site.url}}/ui/widgets
 [Android]: {{site.url}}/get-started/flutter-for/android-devs
-[Building layouts]: {{site.url}}/widgets/layout
+[Building layouts]: {{site.url}}/ui/widgets/layout
 [FAQ]: {{site.url}}/resources/faq
 [Get started]: {{site.url}}/get-started/install
-[interactivity]: {{site.url}}/widgets/interactive
+[interactivity]: {{site.url}}/ui/widgets/interactive
 [SwiftUI]: {{site.url}}/get-started/flutter-for/swiftui-devs
 [UIKit]: {{site.url}}/get-started/flutter-for/uikit-devs
 [React Native]: {{site.url}}/get-started/flutter-for/react-native-devs
-[Understanding constraints]: {{site.url}}/widgets/layout/constraints
+[Understanding constraints]: {{site.url}}/ui/widgets/layout/constraints
 [web]: {{site.url}}/get-started/flutter-for/web-devs
 [Xamarin.Forms]: {{site.url}}/get-started/flutter-for/xamarin-forms-devs
 

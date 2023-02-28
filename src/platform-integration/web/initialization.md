@@ -231,4 +231,4 @@ Then, from your project directory, run the following:
 $ flutter create . --platforms=web
 ```
 
-[Adding a splash screen to your mobile app]: {{site.url}}/advanced-ui/splash-screen
+[Adding a splash screen to your mobile app]: {{site.url}}/ui/advanced/splash-screen

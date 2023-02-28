@@ -795,16 +795,16 @@ Flutter Gallery [running app][], [repo][]
 [`foundation` library]: {{site.api}}/flutter/foundation/foundation-library.html
 [`GestureDetector`]: {{site.api}}/flutter/widgets/GestureDetector-class.html
 [Gestures]: {{site.url}}/cookbook/gestures
-[Gestures in Flutter]: {{site.url}}/advanced-ui/gestures
-[Handling gestures]: {{site.url}}/widgets/widgets-intro#handling-gestures
+[Gestures in Flutter]: {{site.url}}/ui/advanced/gestures
+[Handling gestures]: {{site.url}}/ui/widgets#handling-gestures
 [new-flutter-app]: {{site.url}}/get-started/test-drive
 [`IconButton`]: {{site.api}}/flutter/material/IconButton-class.html
 [`Icon`]: {{site.api}}/flutter/widgets/Icon-class.html
 [`InkWell`]: {{site.api}}/flutter/material/InkWell-class.html
-[Introduction to widgets]: {{site.url}}/widgets/widgets-intro
+[Introduction to widgets]: {{site.url}}/ui/widgets
 [iOS simulator]: {{site.url}}/get-started/install/macos#set-up-the-ios-simulator
-[building layouts tutorial]: {{site.url}}/widgets/layout/tutorial
-[building layouts tutorial (step 6)]: {{site.url}}/widgets/layout/tutorial#step-6-final-touch
+[building layouts tutorial]: {{site.url}}/ui/widgets/layout/tutorial
+[building layouts tutorial (step 6)]: {{site.url}}/ui/widgets/layout/tutorial#step-6-final-touch
 [community]: {{site.main-url}}/community
 [Handle taps]: {{site.url}}/cookbook/gestures/handling-taps
 [`lake.jpg`]: {{examples}}/layout/lakes/step6/images/lake.jpg

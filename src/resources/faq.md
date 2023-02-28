@@ -995,7 +995,7 @@ apps built with Flutter should follow Apple's
 [architectural overview]: {{site.url}}/resources/architectural-overview
 [`BasicMessageChannel`]: {{site.api}}/flutter/services/BasicMessageChannel-class.html
 [built into Android Studio]: {{site.android-dev}}/studio/build/apk-analyzer
-[catalog of Flutter's widgets]: {{site.url}}/widgets/catalog
+[catalog of Flutter's widgets]: {{site.url}}/ui/widgets/catalog
 [`Center`]: {{site.api}}/flutter/widgets/Center-class.html
 [`Chip`]: {{site.api}}/flutter/material/Chip-class.html
 [`color`]: {{site.api}}/flutter/widgets/Icon/color.html
@@ -1025,7 +1025,7 @@ apps built with Flutter should follow Apple's
 [flutter_view]: {{site.repo.flutter}}/tree/main/examples/flutter_view
 [`Future`]: {{site.api}}/flutter/dart-async/Future-class.html
 [Get $75 app advertising credit when you spend $25.]: https://ads.google.com/lp/appcampaigns/#?modal_active=none&subid=ww-ww-et-aw-a-flutter1!o3
-[gesture system]: {{site.url}}/advanced-ui/gestures
+[gesture system]: {{site.url}}/ui/advanced/gestures
 [`GestureDetector`]: {{site.api}}/flutter/widgets/GestureDetector-class.html
 [get_it]: {{site.pub}}/packages/get_it
 [GitHub]: {{site.repo.flutter}}
@@ -1102,6 +1102,6 @@ apps built with Flutter should follow Apple's
 [web]: {{site.url}}/web
 [web instructions]: {{site.url}}/get-started/web
 [`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
-[widgets]: {{site.url}}/widgets/catalog
+[widgets]: {{site.url}}/ui/widgets/catalog
 [supported platforms]: {{site.url}}/tools/sdk/release-notes/supported-platforms
 [riverpod]: {{site.pub}}/packages/riverpod

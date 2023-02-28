@@ -29,7 +29,7 @@ including a `MacosWindow` frame and scaffold,
 toolbars, pulldown and
 pop-up buttons, and modal dialogs.
 
-[Cupertino]: {{site.url}}/widgets/catalog/cupertino
+[Cupertino]: {{site.url}}/ui/widgets/catalog/cupertino
 [macos_ui]: {{site.pub}}/packages/macos_ui
 
 ## Building macOS apps

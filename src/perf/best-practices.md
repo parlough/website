@@ -330,7 +330,7 @@ section in the [Flutter architectural overview][].
 
 
 [Flutter architectural overview]: {{site.url}}/resources/architectural-overview
-[how layout and constraints work]: {{site.url}}/widgets/layout/constraints
+[how layout and constraints work]: {{site.url}}/ui/widgets/layout/constraints
 [layout and rendering]: {{site.url}}/resources/architectural-overview#layout-and-rendering
 [stack trace]: {{site.url}}/tools/devtools/cpu-profiler#flame-chart
 [Track layouts option]: {{site.url}}/tools/devtools/performance#track-layouts

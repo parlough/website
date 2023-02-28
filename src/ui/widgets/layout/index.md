@@ -1225,7 +1225,7 @@ The following resources might help when writing layout code.
 : One person's experience writing his first Flutter app.
 
 
-[Adding assets and images]: {{site.url}}/widgets/assets-and-images
+[Adding assets and images]: {{site.url}}/ui/widgets/assets-and-images
 [API reference docs]: {{api}}
 [`build()`]: {{api}}/widgets/StatelessWidget/build.html
 [`Card`]: {{api}}/material/Card-class.html
@@ -1236,7 +1236,7 @@ The following resources might help when writing layout code.
 [`Container`]: {{api}}/widgets/Container-class.html
 [`CrossAxisAlignment`]: {{api}}/rendering/CrossAxisAlignment.html
 [`DataTable`]: {{api}}/material/DataTable-class.html
-[Dealing with Box Constraints in Flutter]: {{site.url}}/widgets/layout/box-constraints
+[Dealing with Box Constraints in Flutter]: {{site.url}}/ui/widgets/layout/box-constraints
 [Elevation]: {{site.material}}/design/environment/elevation.html
 [`Expanded`]: {{api}}/widgets/Expanded-class.html
 [Flutter in Focus]: {{site.youtube-site}}/watch?v=wgTBLj7rMPM&list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2
@@ -1245,8 +1245,8 @@ The following resources might help when writing layout code.
 [HTML/CSS Analogs in Flutter]: {{site.url}}/get-started/flutter-for/web-devs
 [`Icon`]: {{api}}/material/Icons-class.html
 [`Image`]: {{api}}/widgets/Image-class.html
-[Layout tutorial]: {{site.url}}/widgets/layout/tutorial
-[layout widgets]: {{site.url}}/widgets/catalog/layout
+[Layout tutorial]: {{site.url}}/ui/widgets/layout/tutorial
+[layout widgets]: {{site.url}}/ui/widgets/catalog/layout
 [`ListTile`]: {{api}}/material/ListTile-class.html
 [`ListView`]: {{api}}/widgets/ListView-class.html
 [`MainAxisAlignment`]: {{api}}/rendering/MainAxisAlignment.html
@@ -1264,11 +1264,11 @@ The following resources might help when writing layout code.
 [`Stack`]: {{api}}/widgets/Stack-class.html
 [`Table`]: {{api}}/widgets/Table-class.html
 [`Text`]: {{api}}/widgets/Text-class.html
-[tutorial]: {{site.url}}/widgets/layout/tutorial
+[tutorial]: {{site.url}}/ui/widgets/layout/tutorial
 [widgets library]: {{api}}/widgets/widgets-library.html
-[Widget catalog]: {{site.url}}/widgets/catalog
+[Widget catalog]: {{site.url}}/ui/widgets/catalog
 [Debugging layout issues visually]: {{site.url}}/tools/devtools/inspector#debugging-layout-issues-visually
-[Understanding constraints]: {{site.url}}/widgets/layout/constraints
+[Understanding constraints]: {{site.url}}/ui/widgets/layout/constraints
 [Using the Flutter inspector]: {{site.url}}/tools/devtools/inspector
 [Widget of the Week series]: {{site.youtube-site}}/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 [Zero to One with Flutter]: {{site.medium}}/@mravn/zero-to-one-with-flutter-43b13fd7b354
