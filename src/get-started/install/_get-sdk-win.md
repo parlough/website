@@ -93,5 +93,5 @@ verify that you’ve set everything up correctly.
 
 
 [Flutter repo]: {{site.repo.flutter}}
-[SDK releases]: {{site.url}}/development/tools/sdk/releases
+[SDK releases]: {{site.url}}/tools/sdk/releases
 [Set up an editor]: {{site.url}}/get-started/editor?tab=androidstudio

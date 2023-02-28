@@ -77,14 +77,14 @@ To get started, see our project integration guide for
 Android and iOS:
 
 <div class="card-deck mb-8">
-  <a class="card" href="{{site.url}}/development/add-to-app/android/project-setup">
+  <a class="card" href="{{site.url}}/add-to-app/android/project-setup">
     <div class="card-body">
       <header class="card-title text-center m-0">
         Android
       </header>
     </div>
   </a>
-  <a class="card" href="{{site.url}}/development/add-to-app/ios/project-setup">
+  <a class="card" href="{{site.url}}/add-to-app/ios/project-setup">
     <div class="card-body">
       <header class="card-title text-center m-0">
         iOS
@@ -99,14 +99,14 @@ After Flutter is integrated into your project,
 see our API usage guides at the following links:
 
 <div class="card-deck mb-8">
-  <a class="card" href="{{site.url}}/development/add-to-app/android/add-flutter-screen">
+  <a class="card" href="{{site.url}}/add-to-app/android/add-flutter-screen">
     <div class="card-body">
       <header class="card-title text-center m-0">
         Android
       </header>
     </div>
   </a>
-  <a class="card" href="{{site.url}}/development/add-to-app/ios/add-flutter-screen">
+  <a class="card" href="{{site.url}}/add-to-app/ios/add-flutter-screen">
     <div class="card-body">
       <header class="card-title text-center m-0">
         iOS
@@ -128,7 +128,7 @@ see our API usage guides at the following links:
 
 [add-to-app GitHub Samples repository]: {{site.github}}/flutter/samples/tree/main/add_to_app
 [Android Archive (AAR)]: {{site.android-dev}}/studio/projects/android-library
-[Android plugin APIs]: {{site.url}}/development/platform-integration/android/plugin-api-migration
+[Android plugin APIs]: {{site.url}}/platform-integration/android/plugin-api-migration
 [Flutter plugins]: {{site.pub}}/flutter
 [`FlutterActivity`]: {{site.api}}/javadoc/io/flutter/embedding/android/FlutterActivity.html
 [java-engine]: {{site.api}}/javadoc/io/flutter/embedding/engine/FlutterEngine.html
@@ -139,5 +139,5 @@ see our API usage guides at the following links:
 [`FlutterViewController`]: {{site.api}}/objcdoc/Classes/FlutterViewController.html
 [iOS Framework]: {{site.apple-dev}}/library/archive/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html
 [maintained by the Flutter team]: {{site.repo.plugins}}/tree/main/packages
-[migrated to the V2 plugins APIs]: {{site.url}}/development/platform-integration/android/plugin-api-migration
-[multiple Flutters]: {{site.url}}/development/add-to-app/multiple-flutters
+[migrated to the V2 plugins APIs]: {{site.url}}/platform-integration/android/plugin-api-migration
+[multiple Flutters]: {{site.url}}/add-to-app/multiple-flutters

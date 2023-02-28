@@ -93,9 +93,9 @@
       { "source": "/using-packages", "destination": "/development/packages-and-plugins/using-packages", "type": 301 },
       { "source": "/web-analogs", "destination": "/get-started/flutter-for/web-devs", "type": 301 },
       { "source": "/webflutter.dev/web", "destination": "/web", "type": 301 },
-      { "source": "/widgets-intro", "destination": "/development/ui/widgets-intro", "type": 301 },
-      { "source": "/widgets", "destination": "/development/ui/widgets/catalog", "type": 301 },
-      { "source": "/widgets/:rest*", "destination": "/development/ui/widgets/:rest*", "type": 301 },
+      { "source": "/widgets-intro", "destination": "/widgets", "type": 301 },
+      { "source": "/widgets", "destination": "/widgets/catalog", "type": 301 },
+      { "source": "/widgets/:rest*", "destination": "/widgets/catalog/:rest*", "type": 301 },
 
       { "source": "/cookbook/networking", "destination": "/cookbook#networking", "type": 301 },
       { "source": "/cookbook/networking/named-routes", "destination": "/cookbook/navigation/named-routes", "type": 301 },
