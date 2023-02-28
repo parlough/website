@@ -2669,7 +2669,7 @@ and common widget properties.
 [`SingleTickerProviderStateMixin`]: {{site.api}}/flutter/widgets/SingleTickerProviderStateMixin-mixin.html
 [`Slider`]: {{site.api}}/flutter/material/Slider-class.html
 [`Stack`]: {{site.api}}/flutter/widgets/Stack-class.html
-[State management]: {{site.url}}/development/data-and-backend/state-mgmt
+[State management]: {{site.url}}/data-and-backend/state-mgmt
 [`StatefulWidget`]: {{site.api}}/flutter/widgets/StatefulWidget-class.html
 [`StatelessWidget`]: {{site.api}}/flutter/widgets/StatelessWidget-class.html
 [`Switch`]: {{site.api}}/flutter/material/Switch-class.html
