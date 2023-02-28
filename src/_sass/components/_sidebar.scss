@@ -65,7 +65,7 @@
     }
 
     > .nav-header {
-      padding-top: bs-spacer(3);
+      padding-top: bs-spacer(2);
     }
 
     > .nav-item {
@@ -76,7 +76,7 @@
       }
 
       > .nav-link {
-        padding: bs-spacer(3) 0;
+        padding: bs-spacer(2) 0;
         color: $site-color-body;
 
         @include collapsable();
@@ -105,7 +105,7 @@
   // Sub navs
   > .nav .nav {
     padding-left: bs-spacer(4);
-    margin-bottom: bs-spacer(3);
+    margin-bottom: bs-spacer(1);
 
     .nav-item {
       font-size: $font-size-sm;
@@ -142,7 +142,8 @@
 
   .sidebar-divider-lg {
     height: 0;
-    margin: 0;
+    margin-top: bs-spacer(1);
+    margin-bottom: bs-spacer(1);
     overflow: hidden;
     border-top: 1px solid $site-color-light-grey;
   }
