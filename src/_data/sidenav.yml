@@ -48,6 +48,7 @@
     - title: Tutorials
       permalink: /reference/tutorials
 
+- divider
 - header: User interface
 
 - title: Widgets, layout, & interactivity
@@ -188,6 +189,7 @@
     - title: Splash screens
       permalink: /ui/advanced/splash-screen
 
+- divider
 - header: Development
 
 - title: Data & backend
