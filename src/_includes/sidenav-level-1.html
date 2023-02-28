@@ -7,7 +7,6 @@
     {% if entry == 'divider' -%}
       <li><div class="sidebar-divider-lg" aria-hidden="true"></div></li>
     {% elsif entry contains 'header' -%}
-      <li><div class="sidebar-divider-lg" aria-hidden="true"></div></li>
       <li class="nav-header">{{entry.header}}</li>
     {% else -%}
       {% assign id = 'sidenav-' | append: forloop.index -%}

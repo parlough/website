@@ -46,6 +46,7 @@
     - title: Tutorials
       permalink: /reference/tutorials
 
+- divider
 - header: User interface
 
 - title: Widgets, layout, & interactivity
@@ -184,6 +185,7 @@
     - title: Slivers
       permalink: /ui/advanced/slivers
 
+- divider
 - header: Development
 
 - title: Data & backend
