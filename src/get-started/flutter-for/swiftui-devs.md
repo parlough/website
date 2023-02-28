@@ -1374,7 +1374,7 @@ To review a complete walkthrough, check out the [video_player example][].
 [`RotationTransition`]: {{site.api}}/flutter/widgets/RotationTransition-class.html
 [`Navigator`]: {{site.api}}/flutter/widgets/Navigator-class.html
 [`StatefulWidget`]: {{site.api}}/flutter/widgets/StatefulWidget-class.html
-[State management]:  {{site.url}}/development/data-and-backend/state-mgmt
+[State management]:  {{site.url}}/data-and-backend/state-mgmt
 [Wonderous]: https://flutter.gskinner.com/wonderous/?utm_source=flutterdocs&utm_medium=docs&utm_campaign=iosdevs
 [video_player]: {{site.pub-pkg}}/video_player
 [video_player example]: {{site.pub-pkg}}/video_player/example
