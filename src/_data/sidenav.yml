@@ -74,9 +74,9 @@
           permalink: /widgets/layout/box-constraints
     - title: Adding interactivity
       permalink: /widgets/interactive
-    - title: Assets and images
+    - title: Assets & images
       permalink: /widgets/assets-and-images
-    - title: Material
+    - title: Material Design
       permalink: /widgets/material
     - title: Widget catalog
       permalink: /widgets/catalog
@@ -182,7 +182,7 @@
     - title: Firebase
       permalink: /data-and-backend/firebase
 
-- title: Accessibility & internationalization
+- title: Accessibility & localization
   permalink: /accessibility-and-localization
   children:
     - title: Accessibility
