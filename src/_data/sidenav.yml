@@ -65,6 +65,7 @@
           permalink: /ui/widgets/layout/tutorial
         - title: Creating adaptive and responsive apps
           permalink: /ui/widgets/layout/adaptive-responsive
+        - header: Other
         - title: Building adaptive apps
           permalink: /ui/widgets/layout/building-adaptive-apps
         - title: Understanding constraints
