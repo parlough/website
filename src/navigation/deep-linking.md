@@ -16,8 +16,8 @@ using the [`Router`][Router] widget.
   [Limitations][] in the [navigation overview][] page.
 {{site.alert.end}}
 
-[Limitations]: {{site.url}}/development/ui/navigation#limitations
-[navigation overview]: {{site.url}}/development/ui/navigation
+[Limitations]: {{site.url}}/navigation#limitations
+[navigation overview]: {{site.url}}/navigation
 
 If you're running the app in a web browser, there's no additional setup
 required. Route paths are handled in the same way as an iOS or Android deep
@@ -147,7 +147,7 @@ is opened while the app is running.
 [Learning Flutter’s new navigation and routing system][] provides an introduction to the Router system.
 
 [Learning Flutter’s new navigation and routing system]: {{site.flutter-medium}}/learning-flutters-new-navigation-and-routing-system-7c9068155ade
-[switching-channels]: {{site.url}}/development/tools/sdk/upgrading#switching-flutter-channels
+[switching-channels]: {{site.url}}/tools/sdk/upgrading#switching-flutter-channels
 [routes]: {{site.api}}/flutter/material/MaterialApp/routes.html
 [onGenerateRoute]: {{site.api}}/flutter/material/MaterialApp/onGenerateRoute.html
 [Router]: {{site.api}}/flutter/widgets/Router-class.html
@@ -157,4 +157,4 @@ is opened while the app is running.
 [verify-android-links]: {{site.android-dev}}/training/app-links/verify-android-applinks
 [router-sample]: {{site.repo.samples}}/tree/main/navigation_and_routing
 
-[configuring the URL strategy]: {{site.url}}/development/ui/navigation/url-strategies
+[configuring the URL strategy]: {{site.url}}/navigation/url-strategies

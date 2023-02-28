@@ -21,7 +21,7 @@ directly inside your Flutter app.
   see [Hosting native iOS views][].
 {{site.alert.end}}
 
-[Hosting native iOS views]: {{site.url}}/development/platform-integration/ios/platform-views
+[Hosting native iOS views]: {{site.url}}/platform-integration/ios/platform-views
 
 Flutter supports two modes:
 Hybrid composition and virtual displays.
@@ -57,7 +57,7 @@ and add one of the following build implementations.
   [plugin migration guide][].
 {{site.alert.end}}
 
-[plugin migration guide]: {{site.url}}/development/platform-integration/android/plugin-api-migration
+[plugin migration guide]: {{site.url}}/platform-integration/android/plugin-api-migration
 
 #### Hybrid composition
 

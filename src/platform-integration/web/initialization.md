@@ -145,7 +145,7 @@ You can pass in the following (optional) parameters:
 </div>
 
 [jsflutterconfig-source]: {{site.github}}/flutter/engine/blob/main/lib/web_ui/lib/src/engine/configuration.dart#L247-L259
-[web-renderers]: {{site.url}}/development/platform-integration/web/renderers
+[web-renderers]: {{site.url}}/platform-integration/web/renderers
 
 {{site.alert.note}}
   Some of the parameters described above might have been overridden
@@ -231,4 +231,4 @@ Then, from your project directory, run the following:
 $ flutter create . --platforms=web
 ```
 
-[Adding a splash screen to your mobile app]: {{site.url}}/development/ui/advanced/splash-screen
+[Adding a splash screen to your mobile app]: {{site.url}}/advanced-ui/splash-screen

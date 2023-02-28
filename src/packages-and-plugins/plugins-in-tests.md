@@ -13,7 +13,7 @@ Almost all [Flutter plugins][] have two parts:
 In fact, the native (or host) language code distinguishes
 a plugin package from a standard package.
 
-[Flutter plugins]: {{site.url}}/development/packages-and-plugins/using-packages
+[Flutter plugins]: {{site.url}}/packages-and-plugins/using-packages
 
 Building and registering the host portion of a plugin
 is part of the Flutter application build process,
@@ -40,7 +40,7 @@ MissingPluginException(No implementation found for method someMethodName on chan
   so tests shouldn't rely on it.
 {{site.alert.end}}
 
-[only use Dart]: {{site.url}}/development/packages-and-plugins/developing-packages#dart-only-platform-implementations
+[only use Dart]: {{site.url}}/packages-and-plugins/developing-packages#dart-only-platform-implementations
 
 When unit testing code that uses plugins,
 there are several options to avoid this exception.
@@ -100,7 +100,7 @@ so you can’t change how it’s called.
 However, if possible,
 you should mock the dependency that uses the plugin instead.
 
-[federated plugin]: {{site.url}}/development/packages-and-plugins/developing-packages#federated-plugins
+[federated plugin]: {{site.url}}/packages-and-plugins/developing-packages#federated-plugins
 
 ## Mock the platform channel
 
@@ -136,5 +136,5 @@ is mainly useful in the internal tests
 of plugin implementations,
 rather than tests of code using plugins.
 
-[platform channels]: {{site.url}}/development/platform-integration/platform-channels
+[platform channels]: {{site.url}}/platform-integration/platform-channels
 [`TestDefaultBinaryMessenger`]: {{site.api}}/flutter/flutter_test/TestDefaultBinaryMessenger-class.html
