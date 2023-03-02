@@ -88,7 +88,7 @@ We publish breaking change announcements to the
 Aside from subscribing to receive announcements,
 we'd love to hear from you!
 
-[Flutter SDK releases]: {{site.url}}/development/tools/sdk/releases
+[Flutter SDK releases]: {{site.url}}/reference/sdk/releases
 [release channels]: {{site.repo.flutter}}/wiki/Flutter-build-release-channels
 [flutter-announce]: {{site.groups}}/forum/#!forum/flutter-announce
 [pubspec.yaml]: {{site.dart-site}}/tools/pub/pubspec
