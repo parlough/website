@@ -2,6 +2,12 @@
 title: Flutter 1.9.1 release notes
 short-title: 1.9.1 release notes
 description: Release notes for Flutter 1.9.1.
+prev:
+  title: 1.12.13 release notes
+  path: /reference/sdk/release-notes/release-notes-1.12.13
+next:
+  title: 1.7.8 release notes
+  path: /reference/sdk/release-notes/release-notes-1.7.8
 ---
 
 Hello and welcome to another stable release of Flutter. So far this year, we’ve been right on target with one stable release each quarter, as per [our plan](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels) (well, less of a plan and more of a goal, but still, it’s been working out pretty well so far…). This release is our biggest yet, with 620 Pull Requests merged from 116 contributors. As always, the interesting PRs are listed below. And there are lots of interesting things to discuss in this release, including:
@@ -1239,4 +1245,4 @@ In addition, this release also has a lot going on under the hood to provide you 
 
 ## Full PR List
 
-You can see the full list of merged PRs in this release [here]({{site.url}}/development/tools/sdk/release-notes/changelogs/changelog-1.9.1).
+You can see the full list of merged PRs in this release [here]({{site.url}}/reference/sdk/release-notes/changelogs/changelog-1.9.1).

@@ -2,6 +2,12 @@
 title: Flutter 1.17.0 release notes
 short-title: 1.17.0 release notes
 description: Release notes for Flutter 1.17.0.
+prev:
+  title: 1.20.0 release notes
+  path: /reference/sdk/release-notes/release-notes-1.20.0
+next:
+  title: 1.12.13 release notes
+  path: /reference/sdk/release-notes/release-notes-1.12.13
 ---
 
 ##  Merged pull requests by label
@@ -12491,5 +12497,4 @@ There were 214 pull requests.
 [2627](https://github.com/flutter/plugins/pull/2627) [google_maps_flutter] Rename 'Page' in the example app to avoid type conflict with the Flutter Framework. (cla: yes)
 
 [2628](https://github.com/flutter/plugins/pull/2628) [path_provider] Fix misaligned enum values in StorageDirectoryMapperTest (cla: yes)
-
 

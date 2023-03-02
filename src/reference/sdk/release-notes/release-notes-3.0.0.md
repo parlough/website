@@ -2,7 +2,14 @@
 title: Flutter 3.0.0 release notes
 short-title: 3.0.0 release notes
 description: Release notes for Flutter 3.0.0.
+prev:
+  title: 3.3.0 release notes
+  path: /reference/sdk/release-notes/release-notes-3.3.0
+next:
+  title: 2.10.0 release notes
+  path: /reference/sdk/release-notes/release-notes-2.10.0
 ---
+
 This page has release notes for 3.0.0.
 For information about subsequent bug-fix releases,
 see [Hotfixes to the Stable Channel][].

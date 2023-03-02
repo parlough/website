@@ -317,7 +317,7 @@ Expose quick actions on the home screen
 [`sensors_plus`]: {{site.pub-pkg}}/sensors_plus
 [`geolocator`]: {{site.pub-pkg}}/geolocator
 [`image_picker`]: {{site.pub-pkg}}/image_picker
-[`pubspec.yaml`]: {{ site.url }}/development/tools/pubspec
+[`pubspec.yaml`]: {{site.url}}/development/tools/pubspec
 [`quick_actions`]: {{site.pub-pkg}}/quick_actions
 [`in_app_purchase`]: {{site.pub-pkg}}/in_app_purchase
 [`pay`]: {{site.pub-pkg}}/pay

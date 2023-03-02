@@ -2,6 +2,12 @@
 title: Flutter 1.7.8 release notes
 short-title: 1.7.8 release notes
 description: Release notes for Flutter 1.7.8.
+prev:
+  title: 1.9.1 release notes
+  path: /reference/sdk/release-notes/release-notes-1.9.1
+next:
+  title: 1.5.4 release notes
+  path: /reference/sdk/release-notes/release-notes-1.5.4
 ---
 
 The 1.7.8 release is a follow-on to the 1.5.4 stable release in May,
@@ -359,4 +365,4 @@ Last but not least, we continue to polish and simplify our tooling as well, incl
 
 ## Full Issue List
 
-You can see the full list of issues addressed in this release [here]({{site.url}}/development/tools/sdk/release-notes/changelogs/changelog-1.7.8).
+You can see the full list of issues addressed in this release [here]({{site.url}}/reference/sdk/release-notes/changelogs/changelog-1.7.8).

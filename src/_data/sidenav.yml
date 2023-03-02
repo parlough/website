@@ -156,8 +156,6 @@
     - title: Platform integration
       permalink: /development/platform-integration
       children:
-        - title: Supported platforms
-          permalink: /development/tools/sdk/release-notes/supported-platforms
         - title: Building desktop apps with Flutter
           permalink: /development/platform-integration/desktop
         - title: Writing platform-specific code
@@ -314,25 +312,20 @@
               permalink: /development/tools/devtools/release-notes
         - title: Flutter SDK
           permalink: /development/tools/sdk
+          expanded: true
           children:
             - title: Overview
               permalink: /development/tools/sdk/overview
             - title: Upgrading
               permalink: /development/tools/sdk/upgrading
-            - title: Releases
-              permalink: /development/tools/sdk/releases
-            - title: Breaking changes
-              permalink: /release/breaking-changes
-            - title: Release notes
-              permalink: /development/tools/sdk/release-notes
+            - title: Flutter Fix
+              permalink: /development/tools/sdk/flutter-fix
+            - title: Code formatting
+              permalink: /development/tools/sdk/formatting
         - title: Flutter and the pubspec file
           permalink: /development/tools/pubspec
         - title: Hot reload
           permalink: /development/tools/hot-reload
-        - title: Flutter Fix
-          permalink: /development/tools/flutter-fix
-        - title: Code formatting
-          permalink: /development/tools/formatting
 
 - title: Testing & debugging
   permalink: /testing
@@ -452,7 +445,37 @@
       permalink: /reference/widgets
     - title: API reference
       permalink: https://api.flutter.dev
-    - title: flutter CLI reference
-      permalink: /reference/flutter-cli
     - title: Package site
       permalink: https://pub.dev/flutter
+    - title: Flutter SDK
+      children:
+        - title: flutter CLI
+          permalink: /reference/sdk/flutter-cli
+        - title: Supported platforms
+          permalink: /reference/sdk/supported-platforms
+        - title: Releases
+          permalink: /reference/sdk/releases
+        - title: Breaking changes
+          permalink: /reference/sdk/breaking-changes
+        - title: Release notes
+          permalink: /reference/sdk/release-notes
+          children:
+            - title: All
+              permalink: /reference/sdk/release-notes
+              match-page-url-exactly: true
+            - title: 3.7.0
+              permalink: /reference/sdk/release-notes/release-notes-3.7.0
+            - title: 3.3.0
+              permalink: /reference/sdk/release-notes/release-notes-3.3.0
+            - title: 3.0.0
+              permalink: /reference/sdk/release-notes/release-notes-3.0.0
+            - title: 2.10.0
+              permalink: /reference/sdk/release-notes/release-notes-2.10.0
+            - title: 2.8.0
+              permalink: /reference/sdk/release-notes/release-notes-2.8.0
+            - title: 2.5.0
+              permalink: /reference/sdk/release-notes/release-notes-2.5.0
+            - title: 2.2.0
+              permalink: /reference/sdk/release-notes/release-notes-2.2.0
+            - title: 2.0.0
+              permalink: /reference/sdk/release-notes/release-notes-2.0.0

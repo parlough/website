@@ -2,6 +2,12 @@
 title: Flutter 1.20.0 release notes
 short-title: 1.20.0 release notes
 description: Release notes for Flutter 1.20.0.
+prev:
+  title: 1.22.0 release notes
+  path: /reference/sdk/release-notes/release-notes-1.22.0
+next:
+  title: 1.17.0 release notes
+  path: /reference/sdk/release-notes/release-notes-1.17.0
 ---
 
 ##  Merged pull requests by label

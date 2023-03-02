@@ -62,6 +62,6 @@ migration guide.
 
 [flutter/tests repository]: {{site.github}}/flutter/tests
 [flutter-announce]: {{site.groups}}/forum/#!forum/flutter-announce
-[guides for migrating code]: {{site.url}}/release/breaking-changes
+[guides for migrating code]: {{site.url}}/reference/sdk/breaking-changes
 [separate breaking-change policy]: {{site.github}}/dart-lang/sdk/blob/master/docs/process/breaking-changes.md
 [Dart announce]: https://groups.google.com/a/dartlang.org/g/announce

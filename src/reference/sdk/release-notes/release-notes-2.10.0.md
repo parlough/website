@@ -2,7 +2,14 @@
 title: Flutter 2.10.0 release notes
 short-title: 2.10.0 release notes
 description: Release notes for Flutter 2.10.0.
+prev:
+  title: 3.0.0 release notes
+  path: /reference/sdk/release-notes/release-notes-3.0.0
+next:
+  title: 2.8.0 release notes
+  path: /reference/sdk/release-notes/release-notes-2.8.0
 ---
+
 This page has release notes for 2.10.0.
 For information about subsequent bug-fix releases, see
 [Hotfixes to the Stable Channel][].

@@ -30,9 +30,9 @@ most stable Flutter builds. See [Flutter’s channels][] for details.
 
 {% comment %} Tab panes {% endcomment -%}
 <div id="sdk-archives" class="tab-content">
-{% include_relative _os.md os="Windows" %}
-{% include_relative _os.md os="macOS" %}
-{% include_relative _os.md os="Linux" %}
+{% include_relative _release_os.md os="Windows" %}
+{% include_relative _release_os.md os="macOS" %}
+{% include_relative _release_os.md os="Linux" %}
 </div>
 
 ## Master channel
@@ -48,9 +48,8 @@ $ ./flutter/bin/flutter --version
 ```
 
 For additional details on how our installation bundles are structured,
-see [Installation bundles][].
+check out [Installation bundles][].
 
-[Flutter Spring 2020 Update]: {{site.flutter-medium}}/flutter-spring-2020-update-f723d898d7af
 [Flutter’s channels]: {{site.repo.flutter}}/wiki/Flutter-build-release-channels
 [GitHub repo]: {{site.repo.flutter}}
 [Installation bundles]: {{site.repo.flutter}}/wiki/Flutter-Installation-Bundles

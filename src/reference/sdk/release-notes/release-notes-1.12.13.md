@@ -2,6 +2,12 @@
 title: Flutter 1.12.13 release notes
 short-title: 1.12.13 release notes
 description: Release notes for Flutter 1.12.13.
+prev:
+  title: 1.17.0 release notes
+  path: /reference/sdk/release-notes/release-notes-1.17.0
+next:
+  title: 1.9.1 release notes
+  path: /reference/sdk/release-notes/release-notes-1.9.1
 ---
 
 Welcome to Flutter 1.12, our biggest stable release so far!
@@ -3008,7 +3014,7 @@ In addition to the PRs listed below, please also check out the following release
 
 ## Full PR List
 
- See the [full list]({{site.url}}/development/tools/sdk/release-notes/changelogs/changelog-1.12.13) of merged PRs for the 1.12 release.
+ See the [full list]({{site.url}}/reference/sdk/release-notes/changelogs/changelog-1.12.13) of merged PRs for the 1.12 release.
 
 
 [breaking change policy on the Flutter wiki]: {{site.github}}/flutter/flutter/wiki/Tree-hygiene#handling-breaking-changes

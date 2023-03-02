@@ -80,7 +80,7 @@ const DropdownButtonFormField dropDownButtonFormField = DropdownButtonFormField(
 const DropdownButtonFormField dropdownButtonFormField = DropdownButtonFormField(autovalidateMode: AutovalidateMode.disabled);
 ```
 
-[In-depth migration guide available]: {{site.url}}/release/breaking-changes/form-field-autovalidation-api
+[In-depth migration guide available]: {{site.url}}/reference/sdk/breaking-changes/form-field-autovalidation-api
 
 **References**
 
@@ -333,7 +333,7 @@ Relevant PRs:
 * Deprecated in [#59127]({{site.repo.flutter}}/issues/59127)
 * Removed in [#90295]({{site.repo.flutter}}/issues/90295)
 
-[In-depth migration guide available]: {{site.url}}/release/breaking-changes/bottom-navigation-title-to-label
+[In-depth migration guide available]: {{site.url}}/reference/sdk/breaking-changes/bottom-navigation-title-to-label
 [BottomNavigationBarItem title]: {{site.url}}/go/bottom-navigation-bar-title-deprecation
 [`BottomNavigationBarItem`]: {{site.api}}/flutter/widgets/BottomNavigationBarItem-class.html
 [`BottomNavigationBar`]: {{site.api}}/flutter/material/BottomNavigationBar-class.html

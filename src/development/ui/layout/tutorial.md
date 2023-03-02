@@ -449,7 +449,7 @@ You can add interactivity to this layout by following
 
 
 [Adding Interactivity to Your Flutter App]: {{site.url}}/development/ui/interactive
-[automatic reformatting support]: {{site.url}}/development/tools/formatting
+[automatic reformatting support]: {{site.url}}/development/tools/sdk/formatting
 [available online]: https://images.unsplash.com/photo-1471115853179-bb1d604434e0?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=583&amp;q=80&amp;cs=tinysrgb&amp;crop=
 [Flutter's approach to layout]: {{site.url}}/development/ui/layout
 [new-flutter-app]: {{site.url}}/get-started/test-drive

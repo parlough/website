@@ -138,7 +138,7 @@
 - title: Do contest submissions have to be formatted by the Dart formatter?
   content: >
     Yes. This ensures more consistent and readable code.
-    <a href="https://docs.flutter.dev/development/tools/formatting" target="_blank" rel="noopener noreferrer">You can do this from your IDE or at the command
+    <a href="https://docs.flutter.dev/development/tools/sdk/formatting" target="_blank" rel="noopener noreferrer">You can do this from your IDE or at the command
     line</a>.
 
 - title: Speaking of code formatting, what are some good coding practices for Flutter?

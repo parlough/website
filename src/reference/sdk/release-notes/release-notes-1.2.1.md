@@ -2,6 +2,12 @@
 title: Flutter 1.2.1 release notes
 short-title: 1.2.1 release notes
 description: Release notes for Flutter 1.2.1.
+prev:
+  title: 1.5.4 release notes
+  path: /reference/sdk/release-notes/release-notes-1.5.4
+next:
+  title: 0.0.21 - 1.0.0 release notes
+  path: /reference/sdk/release-notes/release-notes-0.0.21-1.0.0
 ---
 
 Our #1 priority since the Flutter v1.0 release has been to
@@ -286,6 +292,6 @@ In addition to Flutter framework changes in the 1.2 release, we've made a number
 
 ## Full Issue List
 
-You can see [the full list of PRs committed in this release]({{site.url}}/development/tools/sdk/release-notes/changelogs/changelog-1.2.1).
+You can see [the full list of PRs committed in this release]({{site.url}}/reference/sdk/release-notes/changelogs/changelog-1.2.1).
 
 [Android App Bundles]: https://developer.android.com/guide/app-bundle/

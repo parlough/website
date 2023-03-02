@@ -2,6 +2,12 @@
 title: Flutter 1.22.0 release notes
 short-title: 1.22.0 release notes
 description: Release notes for Flutter 1.22.0.
+prev:
+  title: 2.0.0 release notes
+  path: /reference/sdk/release-notes/release-notes-2.0.0
+next:
+  title: 1.20.0 release notes
+  path: /reference/sdk/release-notes/release-notes-1.20.0
 ---
 
 This page has release notes for 1.22.0.

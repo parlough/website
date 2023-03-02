@@ -2,7 +2,11 @@
 title: Flutter 3.7.0 release notes
 short-title: 3.7.0 release notes
 description: Release notes for Flutter 3.7.0.
+next:
+  title: 3.3.0 release notes
+  path: /reference/sdk/release-notes/release-notes-3.3.0
 ---
+
 This page has release notes for 3.7.0.
 For information about subsequent bug-fix releases,
 see [Hotfixes to the Stable Channel][].
