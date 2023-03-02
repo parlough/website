@@ -1,5 +1,6 @@
 ---
 title: Introduction to widgets
+short-title: Widgets
 description: Learn about Flutter's widgets.
 js:
   - defer: true
