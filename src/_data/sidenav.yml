@@ -435,7 +435,7 @@
     - title: Videos and online courses
       permalink: /resources/videos
 
-- title: References
+- title: Reference
   children:
     - title: Who is Dash?
       permalink: /dash
