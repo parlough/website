@@ -12,7 +12,7 @@ specialized FAQs:
 * [Web FAQ][]
 * [Performance FAQ][]
 
-[Web FAQ]: {{site.url}}/platform-integration/web
+[Web FAQ]: {{site.url}}/platform-integration/web/faq
 [Performance FAQ]: {{site.url}}/perf/faq
 
 ### What is Flutter?
@@ -1099,8 +1099,8 @@ apps built with Flutter should follow Apple's
 [`TextStyle`]: {{site.api}}/flutter/painting/TextStyle-class.html
 [`UserAccountsDrawerHeader`]: {{site.api}}/flutter/material/UserAccountsDrawerHeader-class.html
 [VS Code]: https://code.visualstudio.com/
-[web]: {{site.url}}/web
-[web instructions]: {{site.url}}/get-started/web
+[web]: {{site.url}}/development/platform-integration/web
+[web instructions]: {{site.url}}/development/platform-integration/web/building
 [`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
 [widgets]: {{site.url}}/ui/widgets/catalog
 [supported platforms]: {{site.url}}/tools/sdk/release-notes/supported-platforms

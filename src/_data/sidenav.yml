@@ -30,8 +30,6 @@
           permalink: /get-started/flutter-for/declarative
     - title: "Dart language overview"
       permalink: https://dart.dev/overview
-    - title: "Building a web app"
-      permalink: /get-started/web
 
 - title: Samples & tutorials
   children:
@@ -67,7 +65,6 @@
           permalink: /ui/widgets/layout/tutorial
         - title: Creating adaptive and responsive apps
           permalink: /ui/widgets/layout/adaptive-responsive
-        - header: Other
         - title: Building adaptive apps
           permalink: /ui/widgets/layout/building-adaptive-apps
         - title: Understanding constraints
