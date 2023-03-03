@@ -63,19 +63,80 @@
           match-page-url-exactly: true
         - title: Tutorial
           permalink: /ui/widgets/layout/tutorial
+        - title: Explore layout types
+          permalink: /ui/widgets/layout/explore
         - title: Creating adaptive and responsive apps
           permalink: /ui/widgets/layout/adaptive-responsive
         - header: Other
         - title: Building adaptive apps
           permalink: /ui/widgets/layout/building-adaptive-apps
+        - title: Update the UI based on orientation
+          permalink: /ui/widgets/layout/orientation
         - title: Understanding constraints
           permalink: /ui/widgets/layout/constraints
         - title: Box constraints
           permalink: /ui/widgets/layout/box-constraints
+        - title: Lists, grids, & scrolling
+          permalink: /ui/widgets/lists
+          children:
+            - title: Use lists
+              permalink: /ui/widgets/lists/basic
+            - title: Create a horizontal list
+              permalink: /ui/widgets/lists/horizontal
+            - title: Create a grid list
+              permalink: /ui/widgets/lists/grid
+            - title: Create lists with different types of items
+              permalink: /ui/widgets/lists/mixed
+            - title: Place a floating app bar above a list
+              permalink: /ui/widgets/lists/floating-app-bar
+            - title: Work with long lists
+              permalink: /ui/widgets/lists/floating-app-bar
+            - title: Creating a scrolling parallax effect
+              permalink: /ui/widgets/lists/parallax-scrolling
+
     - title: Adding interactivity
       permalink: /ui/widgets/interactive
+      children:
+        - title: Introduction
+          permalink: /ui/widgets/interactive
+          match-page-url-exactly: true
+        - title: Gestures
+          permalink: /ui/advanced/gestures
+          children:
+            - title: Introduction
+              permalink: /ui/advanced/gestures
+              match-page-url-exactly: true
+            - title: Handle taps
+              permalink: /ui/widgets/interactive/handle-taps
+            - title: Add Material touch ripples
+              permalink: /ui/widgets/interactive/ripples
+        - title: Forms and input
+          permalink: /ui/interactive/forms
+          children:
+            - title: Build a form with validation
+              permalink: /ui/interactive/forms/validation
+            - title: Create and style a text field
+              permalink: /ui/interactive/forms/text-input
+            - title: Handle changes to a text field
+              permalink: /ui/interactive/forms/text-field-changes
+            - title: Retrieve the value of a text field
+              permalink: /ui/interactive/forms/text-input
+        - title: Actions & shortcuts
+          permalink: /ui/advanced/actions_and_shortcuts
+        - title: Keyboard focus system
+          permalink: /ui/advanced/focus
     - title: Assets & images
       permalink: /ui/widgets/assets-and-images
+      children:
+        - title: Adding assets & images
+          permalink: /ui/widgets/assets-and-images
+          match-page-url-exactly: true
+        - title: Display images from the internet
+          permalink: /ui/widgets/assets-and-images/network-images
+        - title: Work with cached images
+          permalink: /ui/widgets/assets-and-images/cached-images
+        - title: Fade in images with a placeholder
+          permalink: /ui/widgets/assets-and-images/fading-in-images
     - title: Material Design
       permalink: /ui/widgets/material
     - title: Widget catalog
@@ -135,12 +196,31 @@
 #    - title: Adding interactivity
 #      permalink: /ui/widgets/interactive
 #      match-page-url-exactly: true
+#    - title: Gestures
+#      permalink: /ui/advanced/gestures
+#      children:
+#        - title: Introduction
+#          permalink: /ui/advanced/gestures
+#          match-page-url-exactly: true
+#        - title: Handle taps
+#          permalink: /ui/widgets/interactive/handle-taps
+#        - title: Add Material touch ripples
+#          permalink: /ui/widgets/interactive/ripples
+#    - title: Forms and input
+#      permalink: /ui/interactive/forms
+#      children:
+#        - title: Build a form with validation
+#          permalink: /ui/interactive/forms/validation
+#        - title: Create and style a text field
+#          permalink: /ui/interactive/forms/text-input
+#        - title: Handle changes to a text field
+#          permalink: /ui/interactive/forms/text-field-changes
+#        - title: Retrieve the value of a text field
+#          permalink: /ui/interactive/forms/text-input
 #    - title: Actions & shortcuts
 #      permalink: /ui/advanced/actions_and_shortcuts
 #    - title: Keyboard focus system
 #      permalink: /ui/advanced/focus
-#    - title: Gestures
-#      permalink: /ui/advanced/gestures
 
 - title: Navigation & routing
   permalink: /ui/navigation
@@ -158,25 +238,37 @@
       permalink: /ui/navigation/send-data
     - title: Return data from a screen
       permalink: /ui/navigation/return-data
+    - title: Create a nested navigation flow
+      permalink: /ui/navigation/nested-flow
     - title: Enable deep linking
       permalink: /ui/navigation/deep-linking
     - title: Configure URL strategies
       permalink: /ui/navigation/url-strategies
 
-- title: Animations & effects
+- title: Animations
   permalink: /ui/animations
   children:
     - title: Introduction
       permalink: /ui/animations
       match-page-url-exactly: true
-    - title: Tutorial
-      permalink: /ui/animations/tutorial
     - title: Implicit animations
       permalink: /ui/animations/implicit-animations
+    - title: Animate the properties of a container
+      permalink: /ui/animations/container-properties
+    - title: Fade a widget in and out
+      permalink: /ui/animations/opacity
     - title: Hero animations
       permalink: /ui/animations/hero-animations
+    - title: Animate a page route transition
+      permalink: /ui/animations/page-route-transition
+    - title: Explicit animations
+      permalink: /ui/animations/tutorial
     - title: Staggered animations
       permalink: /ui/animations/staggered-animations
+    - title: Create a staggered menu animation
+      permalink: /ui/animations/staggered-menu-animation
+    - title: Create a shimmer loading effect
+      permalink: /ui/animations/shimmer-loading
     - title: API overview
       permalink: /ui/animations/overview
 
