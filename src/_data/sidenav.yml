@@ -77,22 +77,24 @@
         - title: Box constraints
           permalink: /ui/widgets/layout/box-constraints
         - title: Lists, grids, & scrolling
-          permalink: /ui/widgets/lists
+          permalink: /ui/widgets/layout/lists
           children:
             - title: Use lists
-              permalink: /ui/widgets/lists/basic
+              permalink: /ui/widgets/layout/lists/basic
             - title: Create a horizontal list
-              permalink: /ui/widgets/lists/horizontal
+              permalink: /ui/widgets/layout/lists/horizontal
             - title: Create a grid list
-              permalink: /ui/widgets/lists/grid
+              permalink: /ui/widgets/layout/lists/grid
             - title: Create lists with different types of items
-              permalink: /ui/widgets/lists/mixed
+              permalink: /ui/widgets/layout/lists/mixed
             - title: Place a floating app bar above a list
-              permalink: /ui/widgets/lists/floating-app-bar
+              permalink: /ui/widgets/layout/lists/floating-app-bar
             - title: Work with long lists
-              permalink: /ui/widgets/lists/floating-app-bar
+              permalink: /ui/widgets/layout/lists/floating-app-bar
             - title: Creating a scrolling parallax effect
-              permalink: /ui/widgets/lists/parallax-scrolling
+              permalink: /ui/widgets/layout/lists/parallax-scrolling
+            - title: Using slivers to achieve fancy scrolling
+              permalink: /ui/widgets/layout/lists/slivers
 
     - title: Adding interactivity
       permalink: /ui/widgets/interactive
@@ -137,6 +139,18 @@
           permalink: /ui/widgets/assets-and-images/cached-images
         - title: Fade in images with a placeholder
           permalink: /ui/widgets/assets-and-images/fading-in-images
+    - title: Text
+      permalink: /ui/widgets/text
+      children:
+        - title: Overview
+          permalink: /ui/widgets/text
+          match-page-url-exactly: true
+        - title: Fonts & typography
+          permalink: /ui/widgets/text/typography
+        - title: Use a custom font
+          permalink: /ui/widgets/text/fonts
+        - title: Export fonts from a package
+          permalink: /ui/widgets/text/export-fonts
     - title: Material Design
       permalink: /ui/widgets/material
     - title: Widget catalog
@@ -545,7 +559,7 @@
     - title: Continuous deployment
       permalink: /deployment/cd
 
-- title: Add Flutter to an existing app
+- title: Add to an existing app
   permalink: /add-to-app
   children:
     - title: Introduction
