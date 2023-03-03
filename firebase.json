@@ -138,7 +138,6 @@
       { "source": "/get-started/install/null", "destination": "/get-started/install", "type": 301 },
       { "source": "/get-started/web", "destination": "/development/platform-integration/web/building", "type": 301 },
       { "source": "/reference/flutter-cli", "destination": "/reference/sdk/flutter-cli", "type": 301 },
-      { "source": "/reference/sdk", "destination": "/reference/sdk/flutter-cli", "type": 301 },
       { "source": "/reference/sdk/release-notes/changelogs/changelog-1.17.0", "destination": "/reference/sdk/release-notes/release-notes-1.17.0", "type": 301 },
       { "source": "/reference/sdk/release-notes/supported-platforms", "destination": "/reference/sdk/supported-platforms", "type": 301 },
       { "source": "/reference/widgets/:catalogpage+", "destination": "/development/ui/widgets/:catalogpage+", "type": 301 },
