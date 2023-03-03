@@ -145,15 +145,25 @@
 - title: Navigation & routing
   permalink: /ui/navigation
   children:
-    - title: Navigation in Flutter
+    - title: Introduction
       permalink: /ui/navigation
       match-page-url-exactly: true
-    - title: Deep linking
+    - title: Navigate to a new screen and back
+      permalink: /ui/navigation/push-pop
+    - title: Navigate with named routes
+      permalink: /ui/navigation/named-routes
+    - title: Pass arguments to a named route
+      permalink: /ui/navigation/navigate-with-arguments
+    - title: Send data to a new screen
+      permalink: /ui/navigation/send-data
+    - title: Return data from a screen
+      permalink: /ui/navigation/return-data
+    - title: Enable deep linking
       permalink: /ui/navigation/deep-linking
-    - title: URL strategies
+    - title: Configure URL strategies
       permalink: /ui/navigation/url-strategies
 
-- title: Animations
+- title: Animations & effects
   permalink: /ui/animations
   children:
     - title: Introduction
@@ -205,12 +215,44 @@
           permalink: /data-and-backend/state-mgmt/simple
         - title: Options
           permalink: /data-and-backend/state-mgmt/options
-    - title: Networking & http
-      permalink: /data-and-backend/networking
     - title: JSON and serialization
       permalink: /data-and-backend/json
+    - title: Serialization
+      permalink: /data-and-backend/serialization
+      children:
+        - title: JSON
+          permalink: /data-and-backend/serialization/json
+        - title: Parse JSON in the background
+          permalink: /data-and-backend/json-background-parsing
     - title: Firebase
       permalink: /data-and-backend/firebase
+    - title: Networking
+      permalink: /data-and-backend/networking
+      children:
+        - title: Overview
+          permalink: /data-and-backend/networking
+          match-page-url-exactly: true
+        - title: Fetch data from the internet
+          permalink: /data-and-backend/networking/fetch-data
+        - title: Make authenticated requests
+          permalink: /data-and-backend/networking/authenticated-requests
+        - title: Send data to the internet
+          permalink: /data-and-backend/networking/send-data
+        - title: Update data over the internet
+          permalink: /data-and-backend/networking/update-data
+        - title: Delete data on the internet
+          permalink: /data-and-backend/networking/delete-data
+        - title: Work with WebSockets
+          permalink: /data-and-backend/networking/web-sockets
+    - title: Persistence
+      permalink: /data-and-backend/persistence
+      children:
+        - title: Store key-value data on disk
+          permalink: /data-and-backend/persistence/key-value
+        - title: Read and write files
+          permalink: /data-and-backend/persistence/reading-writing-files
+        - title: Persist data with SQLite
+          permalink: /data-and-backend/persistence/sqlite
 
 - title: Accessibility & localization
   permalink: /accessibility-and-localization
@@ -326,14 +368,39 @@
       permalink: /testing/common-errors
     - title: Handling errors
       permalink: /testing/errors
+    - title: Report errors to a service
+      permalink: /testing/error-reporting
     - title: Testing
       permalink: /testing
       match-page-url-exactly: true
+    - title: Widget testing
+      permalink: /testing/widget
+      children:
+        - title: Write and run a widget test
+          permalink: /testing/widget/write
+        - title: Find widgets
+          permalink: /testing/widget/finders
+        - title: Handle scrolling
+          permalink: /testing/widget/scrolling
+        - title: Simulate interaction
+          permalink: /testing/widget/interaction
     - title: Integration testing
-      permalink: /testing/integration-tests
-      match-page-url-exactly: true
-    - title: Migrating from flutter_driver
-      permalink: /testing/integration-tests/migration
+      permalink: /testing/integration
+      children:
+        - title: Introduction
+          permalink: /testing/integration
+          match-page-url-exactly: true
+        - title: Write and run an integration test
+          permalink: /testing/integration/write
+        - title: Migrating from flutter_driver
+          permalink: /testing/integration/migration
+    - title: Unit testing
+      permalink: /testing/unit
+      children:
+        - title: Write and run a unit test
+          permalink: /testing/unit/write
+        - title: Mock dependencies using Mockito
+          permalink: /testing/unit/mocking
 
 - title: Performance & optimization
   permalink: /perf

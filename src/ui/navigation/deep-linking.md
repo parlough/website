@@ -1,5 +1,5 @@
 ---
-title: Deep linking
+title: Enable deep linking
 description: Navigate to routes when the app receives a new URL
 ---
 
