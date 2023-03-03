@@ -1,6 +1,6 @@
 .site-sidebar {
   font-family: $site-font-family-alt;
-  padding: $site-content-top-padding 0;
+  padding: $site-content-top-padding 0 ($site-content-top-padding * 2);
 
   .nav-header {
     font-weight: $font-weight-bold;

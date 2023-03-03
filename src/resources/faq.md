@@ -12,11 +12,7 @@ specialized FAQs:
 * [Web FAQ][]
 * [Performance FAQ][]
 
-<<<<<<< HEAD
-[Web FAQ]: {{site.url}}/development/platform-integration/web/faq
-=======
-[Web FAQ]: {{site.url}}/platform-integration/web
->>>>>>> 81eb5fc3 (Update links)
+[Web FAQ]: {{site.url}}/platform-integration/web/faq
 [Performance FAQ]: {{site.url}}/perf/faq
 
 ### What is Flutter?
@@ -1103,11 +1099,7 @@ apps built with Flutter should follow Apple's
 [web]: {{site.url}}/development/platform-integration/web
 [web instructions]: {{site.url}}/development/platform-integration/web/building
 [`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
-<<<<<<< HEAD
-[widgets]: {{site.url}}/widgets/catalog
-[supported platforms]: {{site.url}}/reference/sdk/supported-platforms
-=======
+[`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
 [widgets]: {{site.url}}/ui/widgets/catalog
-[supported platforms]: {{site.url}}/tools/sdk/release-notes/supported-platforms
->>>>>>> 51f9661e (Adjust file locations)
+[supported platforms]: {{site.url}}/reference/sdk/supported-platforms
 [riverpod]: {{site.pub}}/packages/riverpod

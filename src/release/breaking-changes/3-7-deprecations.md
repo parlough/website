@@ -188,7 +188,7 @@ Removed in:
 * [#120577][]
 * [#120932][]
 
-[Accent color migration guide]: {{site.url}}/release/breaking-changes/theme-data-accent-properties
+[Accent color migration guide]: {{site.url}}/reference/sdk/breaking-changes/theme-data-accent-properties
 [`ThemeData`]: {{site.api}}/flutter/widgets/Draggable-class.html
 [`ColorScheme`]: {{site.api}}/flutter/widgets/LongPressDraggable-class.html
 [#56639]: {{site.repo.flutter}}/pull/56639

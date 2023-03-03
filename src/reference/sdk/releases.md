@@ -30,9 +30,9 @@ most stable Flutter builds. See [Flutter’s channels][] for details.
 
 {% comment %} Tab panes {% endcomment -%}
 <div id="sdk-archives" class="tab-content">
-{% include_relative _os.md os="Windows" %}
-{% include_relative _os.md os="macOS" %}
-{% include_relative _os.md os="Linux" %}
+{% include_relative _release_os.md os="Windows" %}
+{% include_relative _release_os.md os="macOS" %}
+{% include_relative _release_os.md os="Linux" %}
 </div>
 
 ## Master channel

@@ -462,12 +462,6 @@
           permalink: /tools/sdk/overview
         - title: Upgrading
           permalink: /tools/sdk/upgrading
-        - title: Releases
-          permalink: /tools/sdk/releases
-        - title: Breaking changes
-          permalink: /release/breaking-changes
-        - title: Release notes
-          permalink: /tools/sdk/release-notes
     - title: Flutter and the pubspec file
       permalink: /tools/pubspec
     - title: Hot reload
@@ -523,7 +517,37 @@
       permalink: /reference/widgets
     - title: API reference
       permalink: https://api.flutter.dev
-    - title: flutter CLI reference
-      permalink: /reference/flutter-cli
     - title: Package site
       permalink: https://pub.dev/flutter
+    - title: Flutter SDK
+      children:
+        - title: flutter CLI
+          permalink: /reference/sdk/flutter-cli
+        - title: Supported platforms
+          permalink: /reference/sdk/supported-platforms
+        - title: Releases
+          permalink: /reference/sdk/releases
+        - title: Breaking changes
+          permalink: /reference/sdk/breaking-changes
+        - title: Release notes
+          permalink: /reference/sdk/release-notes
+          children:
+            - title: Overview
+              permalink: /reference/sdk/release-notes
+              match-page-url-exactly: true
+            - title: 3.7.0
+              permalink: /reference/sdk/release-notes/release-notes-3.7.0
+            - title: 3.3.0
+              permalink: /reference/sdk/release-notes/release-notes-3.3.0
+            - title: 3.0.0
+              permalink: /reference/sdk/release-notes/release-notes-3.0.0
+            - title: 2.10.0
+              permalink: /reference/sdk/release-notes/release-notes-2.10.0
+            - title: 2.8.0
+              permalink: /reference/sdk/release-notes/release-notes-2.8.0
+            - title: 2.5.0
+              permalink: /reference/sdk/release-notes/release-notes-2.5.0
+            - title: 2.2.0
+              permalink: /reference/sdk/release-notes/release-notes-2.2.0
+            - title: 2.0.0
+              permalink: /reference/sdk/release-notes/release-notes-2.0.0

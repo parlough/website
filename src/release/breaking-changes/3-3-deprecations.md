@@ -235,7 +235,7 @@ Relevant PRs:
 * Deprecated in [#78588][]
 * Removed in [#111715][]
 
-[In-depth migration guide available]: {{site.url}}/release/breaking-changes/default-desktop-scrollbars
+[In-depth migration guide available]: {{site.url}}/reference/sdk/breaking-changes/default-desktop-scrollbars
 [Exposing & Updating ScrollBehaviors]: {{site.url}}/go/exposing-scroll-behaviors
 [`ScrollBehavior`]: {{site.api}}/flutter/widgets/ScrollBehavior-class.html
 [Scrollbars should be always visible and instantiated by default on web and desktop]: {{site.repo.flutter}}/issues/40107
