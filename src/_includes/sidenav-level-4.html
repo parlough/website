@@ -1,5 +1,10 @@
 {% for entry in include.children -%}
-  {% if entry.permalink -%}
+
+  {% if entry == 'divider' -%}
+  <li><div class="dropdown-divider" aria-hidden="true"></div></li>
+  {% elsif entry contains 'header' -%}
+  <li class="nav-header">{{entry.header}}</li>
+  {%- elsif entry.permalink -%}
 
   {% if include.active_entries and forloop.index == include.active_entries[3] -%}
     {% assign isActive = true -%}

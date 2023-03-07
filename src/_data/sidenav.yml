@@ -58,20 +58,19 @@
     - title: Building layouts
       permalink: /ui/widgets/layout
       children:
-        - title: Layouts in Flutter
+        - title: Introduction
           permalink: /ui/widgets/layout
           match-page-url-exactly: true
         - title: Tutorial
           permalink: /ui/widgets/layout/tutorial
         - title: Explore layout types
-          permalink: /ui/widgets/layout/explore
+          permalink: /codelabs/layout-basics
         - title: Creating adaptive and responsive apps
           permalink: /ui/widgets/layout/adaptive-responsive
-        - header: Other
         - title: Building adaptive apps
           permalink: /ui/widgets/layout/building-adaptive-apps
         - title: Update the UI based on orientation
-          permalink: /ui/widgets/layout/orientation
+          permalink: /cookbook/design/orientation
         - title: Understanding constraints
           permalink: /ui/widgets/layout/constraints
         - title: Box constraints
@@ -80,21 +79,22 @@
           permalink: /ui/widgets/layout/lists
           children:
             - title: Use lists
-              permalink: /ui/widgets/layout/lists/basic
+              permalink: /cookbook/lists/basic-list
             - title: Create a horizontal list
-              permalink: /ui/widgets/layout/lists/horizontal
+              permalink: /cookbook/lists/horizontal-list
             - title: Create a grid list
-              permalink: /ui/widgets/layout/lists/grid
+              permalink: /cookbook/lists/grid-lists
             - title: Create lists with different types of items
-              permalink: /ui/widgets/layout/lists/mixed
-            - title: Place a floating app bar above a list
-              permalink: /ui/widgets/layout/lists/floating-app-bar
+              permalink: /cookbook/lists/mixed-list
             - title: Work with long lists
-              permalink: /ui/widgets/layout/lists/floating-app-bar
-            - title: Creating a scrolling parallax effect
-              permalink: /ui/widgets/layout/lists/parallax-scrolling
-            - title: Using slivers to achieve fancy scrolling
+              permalink: /cookbook/lists/long-lists
+            - header: Scrolling
+            - title: Use slivers to achieve fancy scrolling
               permalink: /ui/widgets/layout/lists/slivers
+            - title: Place a floating app bar above a list
+              permalink: /cookbook/lists/floating-app-bar
+            - title: Create a scrolling parallax effect
+              permalink: /cookbook/effects/parallax-scrolling
     - title: Text
       permalink: /ui/widgets/text
       children:
@@ -104,9 +104,9 @@
         - title: Fonts & typography
           permalink: /ui/widgets/text/typography
         - title: Use a custom font
-          permalink: /ui/widgets/text/fonts
+          permalink: /cookbook/design/fonts
         - title: Export fonts from a package
-          permalink: /ui/widgets/text/export-fonts
+          permalink: /cookbook/design/package-fonts
     - title: Material Design
       permalink: /ui/widgets/material
       children:
@@ -173,22 +173,24 @@
           permalink: /ui/interactivity/gestures
           match-page-url-exactly: true
         - title: Handle taps
-          permalink: /ui/interactivity/handle-taps
+          permalink: /cookbook/gestures/handling-taps
         - title: Drag a UI element
-          permalink: /ui/interactivity/drag
+          permalink: /cookbook/effects/drag-a-widget
         - title: Add Material touch ripples
-          permalink: /ui/interactivity/ripples
+          permalink: /cookbook/gestures/ripples
     - title: Forms and input
       permalink: /ui/interactivity/forms
       children:
         - title: Build a form with validation
-          permalink: /ui/interactivity/forms/validation
+          permalink: /cookbook/forms/validation
         - title: Create and style a text field
-          permalink: /ui/interactivity/forms/text-input
+          permalink: /cookbook/forms/text-input
         - title: Handle changes to a text field
-          permalink: /ui/interactivity/forms/text-field-changes
+          permalink: /cookbook/forms/text-field-changes
         - title: Retrieve the value of a text field
-          permalink: /ui/interactivity/forms/text-input
+          permalink: /cookbook/forms/retrieve-input
+        - title: Manage text field focus
+          permalink: /cookbook/forms/focus
     - title: Actions & shortcuts
       permalink: /ui/interactivity/actions-and-shortcuts
     - title: Keyboard focus system
@@ -201,13 +203,13 @@
       permalink: /ui/assets/adding
       match-page-url-exactly: true
     - title: Display images from the internet
-      permalink: /ui/assets/network-images
+      permalink: /cookbook/images/network-image
     - title: Work with cached images
-      permalink: /ui/assets/cached-images
+      permalink: /cookbook/images/cached-images
     - title: Fade in images with a placeholder
-      permalink: /ui/assets/fading-in-images
+      permalink: /cookbook/images/fading-in-images
     - title: Play and pause a video
-      permalink: /ui/assets/play-video
+      permalink: /cookbook/plugins/play-video
 
 - title: Navigation & routing
   permalink: /ui/navigation
@@ -216,17 +218,17 @@
       permalink: /ui/navigation
       match-page-url-exactly: true
     - title: Navigate to a new screen and back
-      permalink: /ui/navigation/push-pop
+      permalink: /cookbook/navigation/navigation-basics
     - title: Navigate with named routes
       permalink: /ui/navigation/named-routes
     - title: Pass arguments to a named route
-      permalink: /ui/navigation/navigate-with-arguments
+      permalink: /cookbook/navigation/navigate-with-arguments
     - title: Send data to a new screen
-      permalink: /ui/navigation/send-data
+      permalink: /cookbook/navigation/passing-data
     - title: Return data from a screen
-      permalink: /ui/navigation/return-data
+      permalink: /cookbook/navigation/returning-data
     - title: Create a nested navigation flow
-      permalink: /ui/navigation/nested-flow
+      permalink: /cookbook/effects/nested-nav
     - title: Enable deep linking
       permalink: /ui/navigation/deep-linking
     - title: Configure URL strategies
@@ -280,15 +282,13 @@
           permalink: /data-and-backend/state-mgmt/simple
         - title: Options
           permalink: /data-and-backend/state-mgmt/options
-    - title: JSON and serialization
-      permalink: /data-and-backend/json
     - title: Serialization
       permalink: /data-and-backend/serialization
       children:
         - title: JSON
           permalink: /data-and-backend/serialization/json
         - title: Parse JSON in the background
-          permalink: /data-and-backend/json-background-parsing
+          permalink: /cookbook/networking/background-parsing
     - title: Firebase
       permalink: /data-and-backend/firebase
     - title: Networking
@@ -298,26 +298,26 @@
           permalink: /data-and-backend/networking
           match-page-url-exactly: true
         - title: Fetch data from the internet
-          permalink: /data-and-backend/networking/fetch-data
+          permalink: /cookbook/networking/fetch-data
         - title: Make authenticated requests
-          permalink: /data-and-backend/networking/authenticated-requests
+          permalink: /cookbook/networking/authenticated-requests
         - title: Send data to the internet
-          permalink: /data-and-backend/networking/send-data
+          permalink: /cookbook/networking/send-data
         - title: Update data over the internet
-          permalink: /data-and-backend/networking/update-data
+          permalink: /cookbook/networking/update-data
         - title: Delete data on the internet
-          permalink: /data-and-backend/networking/delete-data
+          permalink: /cookbook/networking/delete-data
         - title: Work with WebSockets
-          permalink: /data-and-backend/networking/web-sockets
+          permalink: /cookbook/networking/web-sockets
     - title: Persistence
       permalink: /data-and-backend/persistence
       children:
         - title: Store key-value data on disk
-          permalink: /data-and-backend/persistence/key-value
+          permalink: /cookbook/persistence/key-value
         - title: Read and write files
-          permalink: /data-and-backend/persistence/reading-writing-files
+          permalink: /cookbook/persistence/reading-writing-files
         - title: Persist data with SQLite
-          permalink: /data-and-backend/persistence/sqlite
+          permalink: /cookbook/persistence/sqlite
 
 - title: Accessibility & localization
   permalink: /accessibility-and-localization
@@ -434,21 +434,21 @@
     - title: Handling errors
       permalink: /testing/errors
     - title: Report errors to a service
-      permalink: /testing/error-reporting
+      permalink: /cookbook/maintenance/error-reporting
     - title: Testing
       permalink: /testing
       match-page-url-exactly: true
     - title: Widget testing
       permalink: /testing/widget
       children:
-        - title: Write and run a widget test
-          permalink: /testing/widget/write
+        - title: Introduction
+          permalink: /cookbook/testing/widget/introduction
         - title: Find widgets
-          permalink: /testing/widget/finders
+          permalink: /cookbook/testing/widget/finders
         - title: Handle scrolling
-          permalink: /testing/widget/scrolling
+          permalink: /cookbook/testing/widget/scrolling
         - title: Simulate interaction
-          permalink: /testing/widget/interaction
+          permalink: /cookbook/testing/widget/tap-drag
     - title: Integration testing
       permalink: /testing/integration
       children:
@@ -456,16 +456,18 @@
           permalink: /testing/integration
           match-page-url-exactly: true
         - title: Write and run an integration test
-          permalink: /testing/integration/write
+          permalink: /cookbook/testing/integration/introduction
         - title: Migrating from flutter_driver
           permalink: /testing/integration/migration
+        - title: Profiling an integration test
+          permalink: /cookbook/testing/integration/profiling
     - title: Unit testing
       permalink: /testing/unit
       children:
-        - title: Write and run a unit test
-          permalink: /testing/unit/write
+        - title: Introduction
+          permalink: /cookbook/testing/unit/introduction
         - title: Mock dependencies using Mockito
-          permalink: /testing/unit/mocking
+          permalink: /cookbook/testing/unit/mocking
 
 - title: Performance & optimization
   permalink: /perf
