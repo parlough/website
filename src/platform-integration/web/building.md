@@ -154,7 +154,7 @@ $ flutter create --platforms web .
 [Build and release a web app]: {{site.url}}/deployment/web
 [creating a new Flutter project]: {{site.url}}/get-started/test-drive
 [dart2js]: {{site.dart-site}}/tools/dart2js
-[desktop]: {{site.url}}/development/platform-integration/desktop
+[desktop]: {{site.url}}/platform-integration/desktop
 [development compiler]: {{site.dart-site}}/tools/dartdevc
 [file an issue]: {{site.repo.flutter}}/issues/new?title=[web]:+%3Cdescribe+issue+here%3E&labels=%E2%98%B8+platform-web&body=Describe+your+issue+and+include+the+command+you%27re+running,+flutter_web%20version,+browser+version
 [install the Flutter and Dart plugins]: {{site.url}}/get-started/editor

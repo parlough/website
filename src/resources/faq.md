@@ -1005,7 +1005,7 @@ apps built with Flutter should follow Apple's
 [Dart]: {{site.dart-site}}/
 [Dart DevTools]: {{site.url}}/tools/devtools
 [Debugging with Flutter]: {{site.url}}/testing/debugging
-[desktop]: {{site.url}}/development/platform-integration/desktop
+[desktop]: {{site.url}}/platform-integration/desktop
 [detailed discussion on the API docs for `State.build`]: {{site.api}}/flutter/widgets/State/build.html
 [Discord]: https://discord.gg/N7Yshp4
 [`Divider`]: {{site.api}}/flutter/material/Divider-class.html
@@ -1023,7 +1023,7 @@ apps built with Flutter should follow Apple's
 [flutter_view]: {{site.repo.flutter}}/tree/main/examples/flutter_view
 [`Future`]: {{site.api}}/flutter/dart-async/Future-class.html
 [Get $75 app advertising credit when you spend $25.]: https://ads.google.com/lp/appcampaigns/#?modal_active=none&subid=ww-ww-et-aw-a-flutter1!o3
-[gesture system]: {{site.url}}/ui/advanced/gestures
+[gesture system]: {{site.url}}/ui/interactivity/gestures
 [`GestureDetector`]: {{site.api}}/flutter/widgets/GestureDetector-class.html
 [get_it]: {{site.pub}}/packages/get_it
 [GitHub]: {{site.repo.flutter}}
@@ -1050,7 +1050,7 @@ apps built with Flutter should follow Apple's
 [issue tracker]: {{site.repo.flutter}}/issues
 [issues related to running Flutter on Chromebooks]: {{site.repo.flutter}}/labels/platform-arc
 [`Iterable`]: {{site.api}}/flutter/dart-core/Iterable-class.html
-[JSON tutorial]: {{site.url}}/data-and-backend/json
+[JSON tutorial]: {{site.url}}/data-and-backend/serialization/json
 [kiwi]: {{site.pub}}/packages/kiwi
 [license file]: https://raw.githubusercontent.com/flutter/engine/master/sky/packages/sky_engine/LICENSE
 [`LicenseRegistry`]: {{site.api}}/flutter/foundation/LicenseRegistry-class.html
@@ -1096,8 +1096,8 @@ apps built with Flutter should follow Apple's
 [`TextStyle`]: {{site.api}}/flutter/painting/TextStyle-class.html
 [`UserAccountsDrawerHeader`]: {{site.api}}/flutter/material/UserAccountsDrawerHeader-class.html
 [VS Code]: https://code.visualstudio.com/
-[web]: {{site.url}}/development/platform-integration/web
-[web instructions]: {{site.url}}/development/platform-integration/web/building
+[web]: {{site.url}}/platform-integration/web
+[web instructions]: {{site.url}}/platform-integration/web/building
 [`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
 [`Widget`]: {{site.api}}/flutter/widgets/Widget-class.html
 [widgets]: {{site.url}}/ui/widgets/catalog

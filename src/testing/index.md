@@ -129,4 +129,4 @@ integration services, see the following:
 [Test Flutter apps on Appcircle]: https://appcircle.io/blog/guide-to-automated-mobile-ci-cd-for-flutter-projects-with-appcircle/#testing-the-flutter-app
 [Test Flutter apps on Cirrus]: https://cirrus-ci.org/examples/#flutter
 [Test Flutter apps on Travis]: {{site.flutter-medium}}/test-flutter-apps-on-travis-3fd5142ecd8c
-[integration testing page]: {{site.url}}/testing/integration-tests
+[integration testing page]: {{site.url}}/testing/integration

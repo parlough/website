@@ -150,7 +150,7 @@ SkSLs are generated and tested automatically over the lifetime of an app.
 
 {{site.alert.note}}
   The integration_test package is now the recommended way to write integration
-  tests. See the [Integration testing]({{site.url}}/testing/integration-tests/) page
+  tests. See the [Integration testing]({{site.url}}/testing/integration) page
   for details.
 {{site.alert.end}}
 

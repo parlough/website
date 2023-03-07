@@ -120,7 +120,7 @@ and [Introducing Dart 3 alpha][].
 [Learning Dart as a Swift developer]: {{site.dart-site}}/guides/language/coming-from/swift-to-dart
 [Security false positives]: {{site.url}}/resources/security-false-positives
 [Using the memory view]: {{site.url}}/tools/devtools/memory
-[Writing and using fragment shaders]: {{site.url}}/ui/advanced/shaders
+[Writing and using fragment shaders]: {{site.url}}/ui/widgets/painting/shaders
 [Writing custom platform-specific code]: {{site.url}}/platform-integration/platform-channels
 
 **Codelabs and workshops**
@@ -302,7 +302,7 @@ and the [Flutter 3 release notes][].
 [Customizing web app initialization]: {{site.url}}/platform-integration/web/initialization
 [dart-whats-new]: {{site.dart-site}}/guides/whats-new
 [dart.dev]: {{site.dart-site}}
-[Desktop]: {{site.url}}/development/platform-integration/desktop
+[Desktop]: {{site.url}}/platform-integration/desktop
 [Flutter Firebase get started guide]: https://firebase.google.com/docs/flutter/setup
 [Games page]: {{site.main-url}}/games
 [Games doc page]: {{site.url}}/resources/games-toolkit
@@ -480,7 +480,7 @@ publication since the last stable release:
 [DartPad Sharing Guide (using a Gist file)]: {{site.github}}/dart-lang/dart-pad/wiki/Sharing-Guide
 [DartPad Workshop Authoring Guide]: {{site.github}}/dart-lang/dart-pad/wiki/Workshop-Authoring-Guide
 [Deferred components]: {{site.url}}/perf/deferred-components
-[desktop]: {{site.url}}/development/platform-integration/desktop
+[desktop]: {{site.url}}/platform-integration/desktop
 [Embedded Support for Flutter]: {{site.url}}/embedded
 [Embedding DartPad in your web page]: {{site.github}}/dart-lang/dart-pad/wiki/Embedding-Guide
 [Firebase for Flutter]: {{site.youtube-site}}/watch?v=4wunbF29Kkg
@@ -605,10 +605,10 @@ publication since the last stable release:
 [Updates on Flutter Testing]: {{site.flutter-medium}}/updates-on-flutter-testing-f54aa9f74c7e
 [Using multiple Flutter instances]: {{site.url}}/add-to-app/multiple-flutters
 [Web FAQ]: {{site.url}}/platform-integration/web/faq
-[Web support for Flutter]: {{site.url}}/development/platform-integration/web
+[Web support for Flutter]: {{site.url}}/platform-integration/web
 [What's new in Flutter 2]: {{site.flutter-medium}}/whats-new-in-flutter-2-0-fe8e95ecc65
 [Who is Dash?]: {{site.url}}/dash
-[write integration tests using the integration_test package]: {{site.url}}/testing/integration-tests
+[write integration tests using the integration_test package]: {{site.url}}/testing/integration
 
 ---
 
@@ -678,8 +678,8 @@ publication since the last stable release:
 [Learn testing with the new Flutter sample]: {{site.flutter-medium}}/learn-testing-with-the-new-flutter-sample-gsoc20-work-product-e872c7f6492a
 [Learning Flutter's new navigation and routing]: {{site.flutter-medium}}/learning-flutters-new-navigation-and-routing-system-7c9068155ade
 [Platform channel examples]: {{site.flutter-medium}}/platform-channel-examples-7edeaeba4a66
-[Android views]: {{site.url}}/development/platform-integration/android/platform-views
-[iOS views]: {{site.url}}/development/platform-integration/ios/platform-views
+[Android views]: {{site.url}}/platform-integration/android/platform-views
+[iOS views]: {{site.url}}/platform-integration/ios/platform-views
 [Supporting iOS 14 and Xcode 12 with Flutter]: {{site.flutter-medium}}/supporting-ios-14-and-xcode-12-with-flutter-15fe0062e98b
 [Updates on Flutter and Firebase]: {{site.flutter-medium}}/updates-on-flutter-and-firebase-8076f70bc90e
 [webview_flutter]: {{site.pub}}/packages/webview_flutter
@@ -760,7 +760,7 @@ publication since the last stable release:
 [Announcing Flutter 1.20]: {{site.flutter-medium}}/announcing-flutter-1-20-2aaf68c89c75
 [Building performant Flutter widgets]: {{site.flutter-medium}}/building-performant-flutter-widgets-3b2558aa08fa
 [codelabs landing]: {{site.url}}/codelabs
-[Desktop support]: {{site.url}}/development/platform-integration/desktop
+[Desktop support]: {{site.url}}/platform-integration/desktop
 [dev-tools]: {{site.flutter-medium}}/new-tools-for-flutter-developers-built-in-flutter-a122cb4eec86
 [Developing for iOS 14 beta]: {{site.url}}/platform-integration/ios/ios-debugging
 [Enums with Extensions in Dart]: {{site.flutter-medium}}/enums-with-extensions-dart-460c42ea51f7
@@ -930,8 +930,8 @@ Happy Fluttering!
 [add Flutter to an existing app]: {{site.url}}/add-to-app
 [Announcing Flutter 1.12: What a year!]: {{site.flutter-medium}}/announcing-flutter-1-12-what-a-year-22c256ba525d
 [app size]: {{site.url}}/perf/app-size#ios
-[building a web app with Flutter]: {{site.url}}/development/platform-integration/web/building
-[Desktop support for Flutter]: {{site.url}}/development/platform-integration/desktop
+[building a web app with Flutter]: {{site.url}}/platform-integration/web/building
+[Desktop support for Flutter]: {{site.url}}/platform-integration/desktop
 [Flutter: the first UI platform designed for ambient computing]: {{site.google-blog}}/2019/12/flutter-ui-ambient-computing.html?m=1
 [Flutter Favorite program]: {{site.url}}/packages-and-plugins/favorites
 [Flutter 1.12.13]: {{site.url}}/reference/sdk/release-notes/release-notes-1.12.13
@@ -940,7 +940,7 @@ Happy Fluttering!
 [Flutter Medium publication]: {{site.medium}}/flutter
 [Migrating your plugin to the new Android APIs]: {{site.url}}/platform-integration/android/plugin-api-migration
 [implicit animations]: {{site.url}}/codelabs/implicit-animations
-[Web support for Flutter]: {{site.url}}/development/platform-integration/web
+[Web support for Flutter]: {{site.url}}/platform-integration/web
 [Web support for Flutter goes beta]: {{site.flutter-medium}}/web-support-for-flutter-goes-beta-35b64a1217c0
 [write your first Flutter app on the web]: {{site.url}}/get-started/codelab-web
 [Get started]: {{site.url}}/get-started/install
@@ -1008,7 +1008,7 @@ Happy Fluttering!
 [ColorFiltered demo]: {{site.github}}/csells/flutter_color_filter
 [creating responsive apps]: {{site.url}}/ui/widgets/layout/adaptive-responsive
 [Flutter Medium publication]: {{site.medium}}/flutter
-[Flutter for web]: {{site.url}}/development/platform-integration/web
+[Flutter for web]: {{site.url}}/platform-integration/web
 [Flutter news from GDD China: uniting Flutter on web and mobile, and introducing Flutter 1.9]: {{site.google-blog}}/2019/09/flutter-news-from-gdd-china-flutter1.9.html?m=1
 [Improving Flutter's Error Messages]: {{site.flutter-medium}}/improving-flutters-error-messages-e098513cecf9
 [Performance view]: {{site.url}}/tools/devtools/performance
@@ -1019,7 +1019,7 @@ Happy Fluttering!
 [ToggleButtons demo]: {{site.github}}/csells/flutter_toggle_buttons
 [Try it out]: {{site.url}}/codelabs/layout-basics
 [Upgrading from package:flutter_web to the Flutter SDK]: {{site.repo.flutter}}/wiki/Upgrading-from-package:flutter_web-to-the-Flutter-SDK
-[using the dart:ffi library]: {{site.url}}/development/platform-integration/android/c-interop
+[using the dart:ffi library]: {{site.url}}/platform-integration/android/c-interop
 [web FAQ]: {{site.url}}/platform-integration/web/faq
 
 ## July 9, 2019: 1.7 release

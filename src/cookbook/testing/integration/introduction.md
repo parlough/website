@@ -268,6 +268,6 @@ flutter drive \
 [Download GeckoDriver]: {{site.github}}/mozilla/geckodriver/releases
 [flutter_driver]: {{site.api}}/flutter/flutter_driver/flutter_driver-library.html
 [integration_test]: {{site.repo.flutter}}/tree/main/packages/integration_test
-[Integration testing]: {{site.url}}/testing/integration-tests
+[Integration testing]: {{site.url}}/testing/integration
 [`SerializableFinders`]: {{site.api}}/flutter/flutter_driver/CommonFinders-class.html
 [`ValueKey`]: {{site.api}}/flutter/foundation/ValueKey-class.html

@@ -920,7 +920,7 @@ For more information, see the [`GlobalKey`][] API.
 [`final`]: {{site.dart-site}}/guides/language/language-tour#final-and-const
 [`flex`]: {{api}}/widgets/Expanded-class.html#flex
 [`FloatingActionButton`]: {{api}}/material/FloatingActionButton-class.html
-[Gestures in Flutter]: {{site.url}}/ui/advanced/gestures
+[Gestures in Flutter]: {{site.url}}/ui/interactivity/gestures
 [`GestureDetector`]: {{api}}/widgets/GestureDetector-class.html
 [`GlobalKey`]: {{api}}/widgets/GlobalKey-class.html
 [`IconButton`]: {{api}}/material/IconButton-class.html
