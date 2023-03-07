@@ -12,7 +12,7 @@ join the groups [Flutter announce][] and [Dart announce][].
 The following guides are available. They are sorted by
 release, and listed in alphabetical order:
 
-[breaking change policy]: {{site.url}}/resources/compatibility
+[breaking change policy]: {{site.url}}/reference/sdk/compatibility
 [Flutter announce]: {{site.groups}}/forum/#!forum/flutter-announce
 [Dart announce]: https://groups.google.com/a/dartlang.org/g/announce
 

@@ -542,38 +542,41 @@
 
 - title: Resources
   children:
+    - header: Concepts
     - title: Architectural overview
       permalink: /resources/architectural-overview
-    - title: Books
-      permalink: /resources/books
-    - title: Compatibility policy
-      permalink: /resources/compatibility
-    - title: Contributing to Flutter
-      permalink: https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md
-    - title: Creating useful bug reports
-      permalink: /resources/bug-reports
-    - title: Dart resources
-      permalink: /resources/bootstrap-into-dart
-    - title: Design documents
-      permalink: /resources/design-docs
-    - title: FAQ
-      permalink: /resources/faq
-    - title: Casual Games Toolkit
-      permalink: /resources/games-toolkit
-    - title: Google Fonts package
-      permalink: https://pub.dev/packages/google_fonts
+    - title: Platform adaptations
+      permalink: /resources/platform-adaptations
     - title: Inside Flutter
       permalink: /resources/inside-flutter
     - title: Flutter vs. Swift Concurrency
       permalink: /resources/dart-swift-concurrency
-    - title: Official brand assets
-      permalink: https://flutter.dev/brand
-    - title: Platform adaptations
-      permalink: /resources/platform-adaptations
-    - title: Security false positives
-      permalink: /resources/security-false-positives
+    - header: Learning
+    - title: Books
+      permalink: /resources/books
     - title: Videos and online courses
       permalink: /resources/videos
+    - title: Dart resources
+      permalink: /resources/bootstrap-into-dart
+    - header: Contributing
+    - title: Creating useful bug reports
+      permalink: /resources/bug-reports
+    - title: Contributing to Flutter
+      permalink: https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md
+    - title: Design documents
+      permalink: /resources/design-docs
+    - header: Toolkits
+    - title: Casual Games Toolkit
+      permalink: /resources/games-toolkit
+    - title: Flutter News Toolkit
+      permalink: /resources/news-toolkit
+    - header: Other
+    - title: FAQ
+      permalink: /resources/faq
+    - title: Google Fonts package
+      permalink: https://pub.dev/packages/google_fonts
+    - title: Official brand assets
+      permalink: https://flutter.dev/brand
 
 - title: Reference
   expanded: true
@@ -582,6 +585,8 @@
       permalink: /dash
     - title: Widget index
       permalink: /reference/widgets
+    - title: Security false positives
+      permalink: /reference/security-false-positives
     - title: API reference
       permalink: https://api.flutter.dev
     - title: Package site
@@ -621,6 +626,8 @@
           permalink: /reference/sdk/flutter-cli
         - title: Supported platforms
           permalink: /reference/sdk/supported-platforms
+        - title: Compatibility policy
+          permalink: /reference/sdk/compatibility
         - title: Releases
           permalink: /reference/sdk/releases
         - title: Breaking changes
