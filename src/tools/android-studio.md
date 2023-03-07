@@ -390,7 +390,7 @@ Prior to filing new issues:
 
 When filing new issues, include the output of [`flutter doctor`][].
 
-[DevTools]: {{site.url}}/tools/devtools
+[DevTools]: {{site.url}}/reference/devtools
 [GitHub issue tracker]: {{site.repo.flutter}}-intellij/issues
 [JetBrains YouTrack]: https://youtrack.jetbrains.com/issues?q=%23dart%20%23Unresolved
 [`flutter doctor`]: {{site.url}}/resources/bug-reports#provide-some-flutter-diagnostics
@@ -400,6 +400,6 @@ When filing new issues, include the output of [`flutter doctor`][].
 [Flutter plugin README]: {{site.repo.flutter}}-intellij/blob/master/README.md
 ["project view"]: {{site.android-dev}}/studio/projects/#ProjectView
 [let us know]: {{site.repo.this}}/issues/new
-[Running DevTools from Android Studio]: {{site.url}}/tools/devtools/android-studio
+[Running DevTools from Android Studio]: {{site.url}}/reference/devtools/android-studio
 [Hot reload]: {{site.url}}/tools/hot-reload
-[Timeline view]: {{site.url}}/tools/devtools/performance
+[Timeline view]: {{site.url}}/reference/devtools/performance

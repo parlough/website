@@ -118,9 +118,9 @@ dependencies, see the
 [asset images in package dependencies][]
 section in the same page.
 
-[Assets and images]: {{site.url}}/ui/widgets/assets-and-images
-[asset images in package dependencies]: {{site.url}}/ui/widgets/assets-and-images#from-packages
-[resolution aware]: {{site.url}}/ui/widgets/assets-and-images#resolution-aware
+[Assets and images]: {{site.url}}/ui/assets/adding
+[asset images in package dependencies]: {{site.url}}/ui/assets/adding#from-packages
+[resolution aware]: {{site.url}}/ui/assets/adding#resolution-aware
 
 ## Fonts
 

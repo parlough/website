@@ -114,7 +114,7 @@ build-image:
 		--build-arg BUILD_CONFIGS=${BUILD_CONFIGS} -t ${BUILD_TAG} .
 
 # Build the production site & Run the link checker
-# Usage: `make check-links`
+# Usage: `make build-image-and-check-links`
 build-image-and-check-links:
 	DOCKER_BUILDKIT=1 time docker build --rm --no-cache --target checklinks \
 		--build-arg BUILD_CONFIGS=${BUILD_CONFIGS} -t ${BUILD_TAG} .

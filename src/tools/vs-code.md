@@ -312,13 +312,13 @@ Prior to filing new issues:
 When filing new issues, include [flutter doctor][] output.
 
 [Command Palette]: https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette
-[DevTools]: {{site.url}}/tools/devtools
+[DevTools]: {{site.url}}/reference/devtools
 [flutter doctor]: {{site.url}}/resources/bug-reports/#provide-some-flutter-diagnostics
-[Flutter inspector]: {{site.url}}/tools/devtools/inspector
+[Flutter inspector]: {{site.url}}/reference/devtools/inspector
 [Flutter's build modes]: {{site.url}}/testing/build-modes
 [Hot reload]: {{site.url}}/tools/hot-reload
 [let us know]: {{site.repo.this}}/issues/new
 [issue tracker]: {{site.github}}/Dart-Code/Dart-Code/issues
-[Running DevTools from VS Code]: {{site.url}}/tools/devtools/vscode
+[Running DevTools from VS Code]: {{site.url}}/reference/devtools/vscode
 [Set up an editor]: {{site.url}}/get-started/editor?tab=vscode
 [VS Code status bar]: {{site.url}}/assets/images/docs/tools/vs-code/device_status_bar.png

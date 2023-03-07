@@ -2588,7 +2588,7 @@ and common widget properties.
 
 
 [`AboutDialog`]: {{site.api}}/flutter/material/AboutDialog-class.html
-[Adding Assets and Images in Flutter]: {{site.url}}/ui/widgets/assets-and-images
+[Adding Assets and Images in Flutter]: {{site.url}}/ui/assets/adding
 [`AlertDialog`]: {{site.api}}/flutter/material/AlertDialog-class.html
 [`Align`]: {{site.api}}/flutter/widgets/Align-class.html
 [`Animation`]: {{site.api}}/flutter/animation/Animation-class.html
@@ -2619,7 +2619,7 @@ and common widget properties.
 [DartPadE]: {{site.dartpad}}/c85038ad677963cb6dc943eb1a0b72e6
 [DartPadF]: {{site.dartpad}}/5454e8bfadf3000179d19b9bc6be9918
 [Developing Packages & Plugins]: {{site.url}}/packages-and-plugins/developing-packages
-[DevTools]: {{site.url}}/tools/devtools
+[DevTools]: {{site.url}}/reference/devtools
 [`Dismissible`]: {{site.api}}/flutter/widgets/Dismissible-class.html
 [`FadeTransition`]: {{site.api}}/flutter/widgets/FadeTransition-class.html
 [Flutter packages]: {{site.pub}}/flutter/

@@ -2383,7 +2383,7 @@ see the [`firebase_messaging`][] plugin documentation.
 [Custom Paint]: {{site.so}}/questions/46241071/create-signature-area-for-mobile-app-in-dart-flutter
 [developing packages and plugins]: {{site.url}}/packages-and-plugins/developing-packages
 [`devicePixelRatio`]: {{site.api}}/flutter/dart-ui/FlutterView/devicePixelRatio.html
-[DevTools]: {{site.url}}/tools/devtools
+[DevTools]: {{site.url}}/reference/devtools
 [existing plugin]: {{site.pub}}/flutter/
 [`flutter_facebook_login`]: {{site.pub}}/packages/flutter_facebook_login
 [`firebase_admob`]: {{site.pub}}/packages/firebase_admob

@@ -49,9 +49,9 @@ in particular, its list of [other resources][].
 For more information on using DevTools with Dart command-line apps, see the 
 [DevTools documentation on dart.dev]({{site.dart-site}}/tools/dart-devtools).
 
-[Android Studio/IntelliJ]: {{site.url}}/tools/devtools/android-studio
-[VS Code]: {{site.url}}/tools/devtools/vscode
-[command line]: {{site.url}}/tools/devtools/cli
+[Android Studio/IntelliJ]: {{site.url}}/reference/devtools/android-studio
+[VS Code]: {{site.url}}/reference/devtools/vscode
+[command line]: {{site.url}}/reference/devtools/cli
 [DevTools issue tracker]: {{site.github}}/flutter/devtools/issues
 [Debugging]: {{site.url}}/testing/debugging
 [Other resources]: {{site.url}}/testing/debugging#other-resources

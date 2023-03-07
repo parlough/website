@@ -143,17 +143,17 @@ Not currently.
 [building a web app with Flutter]: {{site.url}}/platform-integration/web/building
 [Chrome DevTools]: {{site.developers}}/web/tools/chrome-devtools
 [Creating responsive apps]: {{site.url}}/ui/widgets/layout/adaptive-responsive
-[Debugging]: {{site.url}}/tools/devtools/debugger
+[Debugging]: {{site.url}}/reference/devtools/debugger
 [file an issue]: {{site.repo.flutter}}/issues/new?title=[web]:+%3Cdescribe+issue+here%3E&labels=%E2%98%B8+platform-web&body=Describe+your+issue+and+include+the+command+you%27re+running,+flutter_web%20version,+browser+version
-[Flutter DevTools]: {{site.url}}/tools/devtools/overview
+[Flutter DevTools]: {{site.url}}/reference/devtools/overview
 [Generating event timeline]: {{site.developers}}/web/tools/chrome-devtools/evaluate-performance/performance-reference
 [`http`]: {{site.pub}}/packages/http
 [`iframe`]: https://html.com/tags/iframe/
 [isolates]: {{site.dart-site}}/guides/language/concurrency
 [Issue 32248]: {{site.repo.flutter}}/issues/32248
-[Logging]: {{site.url}}/tools/devtools/logging
+[Logging]: {{site.url}}/reference/devtools/logging
 [Preparing a web app for release]: {{site.url}}/deployment/web
-[Running Flutter inspector]: {{site.url}}/tools/devtools/inspector
+[Running Flutter inspector]: {{site.url}}/reference/devtools/inspector
 [Upgrading from package:flutter_web to the Flutter SDK]: {{site.repo.flutter}}/wiki/Upgrading-from-package:flutter_web-to-the-Flutter-SDK
 [widget tests]: {{site.url}}/testing#widget-tests
 [Web support for Flutter]: {{site.url}}/platform-integration/web

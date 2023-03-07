@@ -1003,7 +1003,7 @@ apps built with Flutter should follow Apple's
 [Contributing Guide]: {{site.repo.flutter}}/blob/master/CONTRIBUTING.md
 [CodePen]: https://codepen.io/topic/flutter
 [Dart]: {{site.dart-site}}/
-[Dart DevTools]: {{site.url}}/tools/devtools
+[Dart DevTools]: {{site.url}}/reference/devtools
 [Debugging with Flutter]: {{site.url}}/testing/debugging
 [desktop]: {{site.url}}/platform-integration/desktop
 [detailed discussion on the API docs for `State.build`]: {{site.api}}/flutter/widgets/State/build.html
@@ -1016,7 +1016,7 @@ apps built with Flutter should follow Apple's
 [example of using isolates with Flutter]: {{site.repo.flutter}}/blob/master/examples/layers/services/isolate.dart
 [example project]: {{site.repo.flutter}}/tree/main/examples/platform_channel
 [Executing Dart in the Background with Flutter Plugins and Geofencing]: {{site.flutter-medium}}/executing-dart-in-the-background-with-flutter-plugins-and-geofencing-2b3e40a1a124
-[Flutter DevTools]: {{site.url}}/tools/devtools/overview
+[Flutter DevTools]: {{site.url}}/reference/devtools/overview
 [`TextButton`]: {{site.api}}/flutter/material/TextButton-class.html
 [Flutter 1.0]: {{site.google-blog}}/2018/12/flutter-10-googles-portable-ui-toolkit.html
 [Flutter 2]: {{site.google-blog}}/2021/03/announcing-flutter-2.html

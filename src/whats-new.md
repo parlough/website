@@ -119,7 +119,7 @@ and [Introducing Dart 3 alpha][].
 [Introducing isolate background channels]: {{site.medium}}/flutter/introducing-background-isolate-channels-7a299609cad8
 [Learning Dart as a Swift developer]: {{site.dart-site}}/guides/language/coming-from/swift-to-dart
 [Security false positives]: {{site.url}}/resources/security-false-positives
-[Using the memory view]: {{site.url}}/tools/devtools/memory
+[Using the memory view]: {{site.url}}/reference/devtools/memory
 [Writing and using fragment shaders]: {{site.url}}/ui/widgets/painting/shaders
 [Writing custom platform-specific code]: {{site.url}}/platform-integration/platform-channels
 
@@ -491,7 +491,7 @@ publication since the last stable release:
 [How It's Made: I/O Photo Booth]: {{site.flutter-medium}}/how-its-made-i-o-photo-booth-3b8355d35883
 [Inherited widgets]: {{site.youtube-site}}/watch?v=LFcGPS6cGrY
 [Inherited widgets DartPad]: {{site.url}}/go/inheritedwidget-workshop
-[Memory view page]: {{site.url}}/tools/devtools/memory
+[Memory view page]: {{site.url}}/reference/devtools/memory
 [Null safety]: {{site.youtube-site}}/watch?v=HdKwuHQvArY
 [Slivers]: {{site.youtube-site}}/watch?v=YY-_yrZdjGc
 [Q1 2021 survey]: {{site.flutter-medium}}/which-factors-affected-users-decisions-to-adopt-flutter-q1-2021-user-survey-results-563e61fc68c9
@@ -583,11 +583,11 @@ publication since the last stable release:
 [Dart sound null safety: technical preview 2]: {{site.flutter-medium}}/null-safety-flutter-tech-preview-cb5c98aba187
 [Deprecation Lifetime in Flutter]: {{site.flutter-medium}}/deprecation-lifetime-in-flutter-e4d76ee738ad
 [Desktop support for Flutter]: {{site.url}}/platform-integration/desktop
-[Devtools]: {{site.url}}/tools/devtools/overview
+[Devtools]: {{site.url}}/reference/devtools/overview
 [Flutter Ads]: {{site.main-url}}/monetization
 [Flutter 2 release notes]: {{site.url}}/reference/sdk/release-notes/release-notes-2.0.0
 [Flutter Fix]: {{site.url}}/tools/flutter-fix
-[Flutter inspector]: {{site.url}}/tools/devtools/inspector
+[Flutter inspector]: {{site.url}}/reference/devtools/inspector
 [Flutter web support hits the stable milestone]: {{site.flutter-medium}}/flutter-web-support-hits-the-stable-milestone-d6b84e83b425
 [implement deep linking]: {{site.url}}/ui/navigation/deep-linking
 [internationalization]: {{site.url}}/accessibility-and-localization/internationalization
@@ -668,7 +668,7 @@ publication since the last stable release:
 [animations]: {{site.pub}}/packages/animations
 [Announcing Flutter 1.22]: {{site.flutter-medium}}/announcing-flutter-1-22-44f146009e5f
 [Announcing Flutter Windows Alpha]: {{site.flutter-medium}}/announcing-flutter-windows-alpha-33982cd0f433
-[App Size tool]: {{site.url}}/tools/devtools/app-size
+[App Size tool]: {{site.url}}/reference/devtools/app-size
 [Building Beautiful Transitions with Material Motion for Flutter]: {{site.codelabs}}/codelabs/material-motion-flutter
 [cupertino-icons]: {{site.url}}/reference/sdk/breaking-changes/cupertino-icons-1.0.0
 [Developing for iOS 14]: {{site.url}}/platform-integration/ios/ios-debugging
@@ -936,7 +936,7 @@ Happy Fluttering!
 [Flutter Favorite program]: {{site.url}}/packages-and-plugins/favorites
 [Flutter 1.12.13]: {{site.url}}/reference/sdk/release-notes/release-notes-1.12.13
 [Flutter Gallery]: https://flutter.github.io/samples/#/
-[Flutter Layout Explorer]: {{site.url}}/tools/devtools/inspector#flutter-layout-explorer
+[Flutter Layout Explorer]: {{site.url}}/reference/devtools/inspector#flutter-layout-explorer
 [Flutter Medium publication]: {{site.medium}}/flutter
 [Migrating your plugin to the new Android APIs]: {{site.url}}/platform-integration/android/plugin-api-migration
 [implicit animations]: {{site.url}}/codelabs/implicit-animations
@@ -1011,7 +1011,7 @@ Happy Fluttering!
 [Flutter for web]: {{site.url}}/platform-integration/web
 [Flutter news from GDD China: uniting Flutter on web and mobile, and introducing Flutter 1.9]: {{site.google-blog}}/2019/09/flutter-news-from-gdd-china-flutter1.9.html?m=1
 [Improving Flutter's Error Messages]: {{site.flutter-medium}}/improving-flutters-error-messages-e098513cecf9
-[Performance view]: {{site.url}}/tools/devtools/performance
+[Performance view]: {{site.url}}/reference/devtools/performance
 [preparing a web app for release]: {{site.url}}/deployment/web
 [`SelectableText`]: {{site.api}}/flutter/material/SelectableText-class.html
 [Showcase]: {{site.main-url}}/showcase
@@ -1063,7 +1063,7 @@ component and how to customize it, see
 [Cookbook]: {{site.url}}/cookbook
 [Debugging]: {{site.url}}/testing/debugging
 [Debugging apps programmatically]: {{site.url}}/testing/code-debugging
-[DevTools]: {{site.url}}/tools/devtools
+[DevTools]: {{site.url}}/reference/devtools
 [Flutter Medium Publication]: {{site.flutter-medium}}
 [Flutter's build modes]: {{site.url}}/testing/build-modes
 [Material RangeSlider in Flutter]: {{site.flutter-medium}}/material-range-slider-in-flutter-a285c6e3447d
@@ -1131,10 +1131,10 @@ If you have questions or comments about any of these docs,
 [simple app state management]: {{site.url}}/data-and-backend/state-mgmt/simple
 [state management advice]: {{site.url}}/data-and-backend/state-mgmt/intro
 [thinking declaratively]: {{site.url}}/data-and-backend/state-mgmt/declarative
-[this site]: {{site.url}}/tools/devtools
-[timeline view]: {{site.url}}/tools/devtools/performance
+[this site]: {{site.url}}/reference/devtools
+[timeline view]: {{site.url}}/reference/devtools/performance
 [VS Code]: {{site.url}}/tools/vs-code
-[widget inspector]: {{site.url}}/tools/devtools/inspector
+[widget inspector]: {{site.url}}/reference/devtools/inspector
 
 
 [version 1.2]: {{site.google-blog}}/2019/02/launching-flutter-12-at-mobile-world.html

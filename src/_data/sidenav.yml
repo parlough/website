@@ -63,7 +63,7 @@
           match-page-url-exactly: true
         - title: Tutorial
           permalink: /ui/widgets/layout/tutorial
-        - title: Explore layout types
+        - title: Explore layout basics
           permalink: /codelabs/layout-basics
         - title: Creating adaptive and responsive apps
           permalink: /ui/widgets/layout/adaptive-responsive
@@ -76,7 +76,6 @@
         - title: Box constraints
           permalink: /ui/widgets/layout/box-constraints
         - title: Lists, grids, & scrolling
-          permalink: /ui/widgets/layout/lists
           children:
             - title: Use lists
               permalink: /cookbook/lists/basic-list
@@ -179,7 +178,6 @@
         - title: Add Material touch ripples
           permalink: /cookbook/gestures/ripples
     - title: Forms and input
-      permalink: /ui/interactivity/forms
       children:
         - title: Build a form with validation
           permalink: /cookbook/forms/validation
@@ -194,7 +192,7 @@
     - title: Actions & shortcuts
       permalink: /ui/interactivity/actions-and-shortcuts
     - title: Keyboard focus system
-      permalink: /ui/interactivity/focus
+      permalink: /ui/interactivity/keyboard-focus
 
 - title: Assets & media
   permalink: /ui/assets/
@@ -220,7 +218,7 @@
     - title: Navigate to a new screen and back
       permalink: /cookbook/navigation/navigation-basics
     - title: Navigate with named routes
-      permalink: /ui/navigation/named-routes
+      permalink: /cookbook/navigation/named-routes
     - title: Pass arguments to a named route
       permalink: /cookbook/navigation/navigate-with-arguments
     - title: Send data to a new screen
@@ -261,7 +259,7 @@
     - title: Create a staggered menu animation
       permalink: /cookbook/effects/staggered-menu-animation
     - title: Create a shimmer loading effect
-      permalink: /ui/animations/shimmer-loading
+      permalink: /cookbook/effects/shimmer-loading
     - title: API overview
       permalink: /ui/animations/overview
 
@@ -312,7 +310,6 @@
         - title: Work with WebSockets
           permalink: /cookbook/networking/web-sockets
     - title: Persistence
-      permalink: /data-and-backend/persistence
       children:
         - title: Store key-value data on disk
           permalink: /cookbook/persistence/key-value
@@ -441,7 +438,6 @@
       permalink: /testing
       match-page-url-exactly: true
     - title: Widget testing
-      permalink: /testing/widget
       children:
         - title: Introduction
           permalink: /cookbook/testing/widget/introduction
@@ -464,7 +460,6 @@
         - title: Profiling an integration test
           permalink: /cookbook/testing/integration/profiling
     - title: Unit testing
-      permalink: /testing/unit
       children:
         - title: Introduction
           permalink: /cookbook/testing/unit/introduction
@@ -562,13 +557,10 @@
       permalink: /tools/android-studio
     - title: Visual Studio Code
       permalink: /tools/vs-code
-    - title: Flutter SDK
-      permalink: /tools/sdk
-      children:
-        - title: Overview
-          permalink: /tools/sdk/overview
-        - title: Upgrading
-          permalink: /tools/sdk/upgrading
+    - title: Launching Devtools
+      permalink: /reference/devtools/overview#how-do-i-install-devtools
+    - title: Upgrading Flutter
+      permalink: /reference/sdk/upgrading
     - title: Flutter and the pubspec file
       permalink: /tools/pubspec
     - title: Hot reload

@@ -119,7 +119,7 @@
     Take a look at <a href="https://docs.flutter.dev/perf/rendering/ui-performance" target="_blank" rel="noopener noreferrer">Flutter performance profiling</a>,
     and enable the <a href="https://docs.flutter.dev/perf/rendering/ui-performance#the-performance-overlay" target="_blank" rel="noopener noreferrer">performance
     overlay<a/> feature in the
-    <a href="https://docs.flutter.dev/tools/devtools/inspector#debugging-layout-issues-visually" target="_blank" rel="noopener noreferrer">Flutter
+    <a href="https://docs.flutter.dev/reference/devtools/inspector#debugging-layout-issues-visually" target="_blank" rel="noopener noreferrer">Flutter
     Inspector</a> to see whether frames are being drawn redundantly.
 
 - title: Is there an age limit to participate?

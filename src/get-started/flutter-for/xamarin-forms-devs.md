@@ -2540,7 +2540,7 @@ For more information on using the Firebase Cloud Messaging API, see the
 [`firebase_messaging`][] plugin documentation.
 
 
-[Adding assets and images]: {{site.url}}/ui/widgets/assets-and-images
+[Adding assets and images]: {{site.url}}/ui/assets/adding
 [Animation & Motion widgets]: {{site.url}}/ui/widgets/catalog/animation
 [Animations overview]: {{site.url}}/ui/animations
 [Animations tutorial]: {{site.url}}/ui/animations/tutorial
@@ -2552,7 +2552,7 @@ For more information on using the Firebase Cloud Messaging API, see the
 [Cupertino widgets]: {{site.url}}/ui/widgets/catalog/cupertino
 [`devicePixelRatio`]: {{site.api}}/flutter/dart-ui/FlutterView/devicePixelRatio.html
 [developing packages and plugins]: {{site.url}}/packages-and-plugins/developing-packages
-[DevTools]: {{site.url}}/tools/devtools/overview
+[DevTools]: {{site.url}}/reference/devtools/overview
 [existing plugin]: {{site.pub}}/flutter
 [`firebase_admob`]: {{site.pub}}/packages/firebase_admob
 [`firebase_analytics`]: {{site.pub}}/packages/firebase_analytics

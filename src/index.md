@@ -64,7 +64,7 @@ Coming from another platform? Check out Flutter for:
 [Building layouts]: {{site.url}}/ui/widgets/layout
 [FAQ]: {{site.url}}/resources/faq
 [Get started]: {{site.url}}/get-started/install
-[interactivity]: {{site.url}}/ui/widgets/interactive
+[interactivity]: {{site.url}}/ui/interactivity
 [SwiftUI]: {{site.url}}/get-started/flutter-for/swiftui-devs
 [UIKit]: {{site.url}}/get-started/flutter-for/uikit-devs
 [React Native]: {{site.url}}/get-started/flutter-for/react-native-devs

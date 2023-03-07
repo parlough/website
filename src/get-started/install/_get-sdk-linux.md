@@ -140,4 +140,4 @@ command again to verify that you’ve set everything up correctly.
 [Installing snapd]: https://snapcraft.io/docs/installing-snapd
 [SDK releases]: {{site.url}}/reference/sdk/releases
 [Update your path]: #update-your-path
-[Upgrading Flutter]: {{site.url}}/tools/sdk/upgrading
+[Upgrading Flutter]: {{site.url}}/reference/sdk/upgrading

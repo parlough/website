@@ -37,7 +37,7 @@ Reach out to us at our [mailing list][]. We'd love to hear from you!
 
 Happy Fluttering!
 
-[Add interactivity]: {{site.url}}/ui/widgets/interactive
+[Add interactivity]: {{site.url}}/ui/interactivity
 [Bootstrap into Dart: learn more about the language]: {{site.url}}/resources/bootstrap-into-dart
 [Building layouts]: {{site.url}}/ui/widgets/layout/tutorial
 [The Complete Flutter Developer Bootcamp Using Dart]: https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart

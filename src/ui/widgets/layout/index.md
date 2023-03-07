@@ -1225,7 +1225,7 @@ The following resources might help when writing layout code.
 : One person's experience writing his first Flutter app.
 
 
-[Adding assets and images]: {{site.url}}/ui/widgets/assets-and-images
+[Adding assets and images]: {{site.url}}/ui/assets/adding
 [API reference docs]: {{api}}
 [`build()`]: {{api}}/widgets/StatelessWidget/build.html
 [`Card`]: {{api}}/material/Card-class.html
@@ -1267,8 +1267,8 @@ The following resources might help when writing layout code.
 [tutorial]: {{site.url}}/ui/widgets/layout/tutorial
 [widgets library]: {{api}}/widgets/widgets-library.html
 [Widget catalog]: {{site.url}}/ui/widgets/catalog
-[Debugging layout issues visually]: {{site.url}}/tools/devtools/inspector#debugging-layout-issues-visually
+[Debugging layout issues visually]: {{site.url}}/reference/devtools/inspector#debugging-layout-issues-visually
 [Understanding constraints]: {{site.url}}/ui/widgets/layout/constraints
-[Using the Flutter inspector]: {{site.url}}/tools/devtools/inspector
+[Using the Flutter inspector]: {{site.url}}/reference/devtools/inspector
 [Widget of the Week series]: {{site.youtube-site}}/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 [Zero to One with Flutter]: {{site.medium}}/@mravn/zero-to-one-with-flutter-43b13fd7b354

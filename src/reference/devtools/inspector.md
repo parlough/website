@@ -537,7 +537,7 @@ using DevTools, check out a guided
 [DartConf 2018 talk]: {{site.youtube-site}}/watch?v=JIcmJNT9DNI
 [debug mode]: {{site.url}}/testing/build-modes#debug
 [Debugging Flutter apps]: {{site.url}}/testing/debugging
-[DevTools written in Flutter]: {{site.url}}/tools/devtools/overview#how-do-i-try-devtools-written-in-flutter
+[DevTools written in Flutter]: {{site.url}}/reference/devtools/overview#how-do-i-try-devtools-written-in-flutter
 [`Flex`]: {{site.api}}/flutter/widgets/Flex-class.html
 [flex layouts]: {{site.api}}/flutter/widgets/Flex-class.html
 [`FlexFit`]: {{site.api}}/flutter/rendering/FlexFit.html
