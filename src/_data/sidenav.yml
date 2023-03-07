@@ -127,38 +127,6 @@
           permalink: /ui/widgets/painting/shaders
     - title: Widget catalog
       permalink: /ui/widgets/catalog
-      children:
-        - title: Overview
-          permalink: /ui/widgets/catalog
-          match-page-url-exactly: true
-        - title: Accessibility
-          permalink: /ui/widgets/catalog/accessibility
-        - title: Animation
-          permalink: /ui/widgets/catalog/animation
-        - title: Assets
-          permalink: /ui/widgets/catalog/assets
-        - title: Async
-          permalink: /ui/widgets/catalog/async
-        - title: Basics
-          permalink: /ui/widgets/catalog/basics
-        - title: Cupertino
-          permalink: /ui/widgets/catalog/cupertino
-        - title: Input
-          permalink: /ui/widgets/catalog/input
-        - title: Interaction
-          permalink: /ui/widgets/catalog/interaction
-        - title: Layout
-          permalink: /ui/widgets/catalog/layout
-        - title: Material
-          permalink: /ui/widgets/catalog/material
-        - title: Painting
-          permalink: /ui/widgets/catalog/painting
-        - title: Scrolling
-          permalink: /ui/widgets/catalog/scrolling
-        - title: Styling
-          permalink: /ui/widgets/catalog/styling
-        - title: Text
-          permalink: /ui/widgets/catalog/text
 
 - title: Interactivity
   children:
