@@ -150,6 +150,10 @@ defaults:
       path: 'reference/sdk'
     values:
       show_breadcrumbs: true
+  - scope:
+      path: 'reference/devtools'
+    values:
+      show_breadcrumbs: true
 
 
 ########### Alerts ###########

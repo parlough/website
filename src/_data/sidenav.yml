@@ -599,35 +599,6 @@
       permalink: /tools/android-studio
     - title: Visual Studio Code
       permalink: /tools/vs-code
-    - title: DevTools
-      permalink: /tools/devtools
-      children:
-        - title: Overview
-          permalink: /tools/devtools/overview
-        - title: Install from Android Studio & IntelliJ
-          permalink: /tools/devtools/android-studio
-        - title: Install from VS Code
-          permalink: /tools/devtools/vscode
-        - title: Install from command line
-          permalink: /tools/devtools/cli
-        - title: Flutter inspector
-          permalink: /tools/devtools/inspector
-        - title: Performance view
-          permalink: /tools/devtools/performance
-        - title: CPU Profiler view
-          permalink: /tools/devtools/cpu-profiler
-        - title: Memory view
-          permalink: /tools/devtools/memory
-        - title: Network view
-          permalink: /tools/devtools/network
-        - title: Debugger
-          permalink: /tools/devtools/debugger
-        - title: Logging view
-          permalink: /tools/devtools/logging
-        - title: App size tool
-          permalink: /tools/devtools/app-size
-        - title: Release notes
-          permalink: /tools/devtools/release-notes
     - title: Flutter SDK
       permalink: /tools/sdk
       children:
@@ -693,34 +664,34 @@
     - title: Package site
       permalink: https://pub.dev/flutter
     - title: DevTools
-      permalink: /tools/devtools
+      permalink: /reference/devtools
       children:
         - title: Overview
-          permalink: /tools/devtools/overview
+          permalink: /reference/devtools/overview
         - title: Install from Android Studio & IntelliJ
-          permalink: /tools/devtools/android-studio
+          permalink: /reference/devtools/android-studio
         - title: Install from VS Code
-          permalink: /tools/devtools/vscode
+          permalink: /reference/devtools/vscode
         - title: Install from command line
-          permalink: /tools/devtools/cli
+          permalink: /reference/devtools/cli
         - title: Flutter inspector
-          permalink: /tools/devtools/inspector
+          permalink: /reference/devtools/inspector
         - title: Performance view
-          permalink: /tools/devtools/performance
+          permalink: /reference/devtools/performance
         - title: CPU Profiler view
-          permalink: /tools/devtools/cpu-profiler
+          permalink: /reference/devtools/cpu-profiler
         - title: Memory view
-          permalink: /tools/devtools/memory
+          permalink: /reference/devtools/memory
         - title: Network view
-          permalink: /tools/devtools/network
+          permalink: /reference/devtools/network
         - title: Debugger
-          permalink: /tools/devtools/debugger
+          permalink: /reference/devtools/debugger
         - title: Logging view
-          permalink: /tools/devtools/logging
+          permalink: /reference/devtools/logging
         - title: App size tool
-          permalink: /tools/devtools/app-size
+          permalink: /reference/devtools/app-size
         - title: Release notes
-          permalink: /tools/devtools/release-notes
+          permalink: /reference/devtools/release-notes
     - title: Flutter SDK
       children:
         - title: flutter CLI
