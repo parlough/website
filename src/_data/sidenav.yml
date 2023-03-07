@@ -95,38 +95,6 @@
               permalink: /ui/widgets/layout/lists/parallax-scrolling
             - title: Using slivers to achieve fancy scrolling
               permalink: /ui/widgets/layout/lists/slivers
-
-    - title: Adding interactivity
-      permalink: /ui/widgets/interactive
-      children:
-        - title: Introduction
-          permalink: /ui/widgets/interactive
-          match-page-url-exactly: true
-        - title: Gestures
-          permalink: /ui/advanced/gestures
-          children:
-            - title: Introduction
-              permalink: /ui/advanced/gestures
-              match-page-url-exactly: true
-            - title: Handle taps
-              permalink: /ui/widgets/interactive/handle-taps
-            - title: Add Material touch ripples
-              permalink: /ui/widgets/interactive/ripples
-        - title: Forms and input
-          permalink: /ui/interactive/forms
-          children:
-            - title: Build a form with validation
-              permalink: /ui/interactive/forms/validation
-            - title: Create and style a text field
-              permalink: /ui/interactive/forms/text-input
-            - title: Handle changes to a text field
-              permalink: /ui/interactive/forms/text-field-changes
-            - title: Retrieve the value of a text field
-              permalink: /ui/interactive/forms/text-input
-        - title: Actions & shortcuts
-          permalink: /ui/advanced/actions_and_shortcuts
-        - title: Keyboard focus system
-          permalink: /ui/advanced/focus
     - title: Assets & images
       permalink: /ui/widgets/assets-and-images
       children:
@@ -188,53 +156,36 @@
         - title: Text
           permalink: /ui/widgets/catalog/text
 
-#- title: Layouts
-#  permalink: /ui/widgets/layout
-#  children:
-#    - title: Layouts in Flutter
-#      permalink: /ui/layout
-#      match-page-url-exactly: true
-#    - title: Tutorial
-#      permalink: /ui/widgets/layout/tutorial
-#    - title: Creating adaptive and responsive apps
-#      permalink: /ui/widgets/layout/adaptive-responsive
-#    - title: Building adaptive apps
-#      permalink: /ui/widgets/layout/building-adaptive-apps
-#    - title: Understanding constraints
-#      permalink: /ui/widgets/layout/constraints
-#    - title: Box constraints
-#      permalink: /ui/widgets/layout/box-constraints
-#
-#- title: Interactivity
-#  children:
-#    - title: Adding interactivity
-#      permalink: /ui/widgets/interactive
-#      match-page-url-exactly: true
-#    - title: Gestures
-#      permalink: /ui/advanced/gestures
-#      children:
-#        - title: Introduction
-#          permalink: /ui/advanced/gestures
-#          match-page-url-exactly: true
-#        - title: Handle taps
-#          permalink: /ui/widgets/interactive/handle-taps
-#        - title: Add Material touch ripples
-#          permalink: /ui/widgets/interactive/ripples
-#    - title: Forms and input
-#      permalink: /ui/interactive/forms
-#      children:
-#        - title: Build a form with validation
-#          permalink: /ui/interactive/forms/validation
-#        - title: Create and style a text field
-#          permalink: /ui/interactive/forms/text-input
-#        - title: Handle changes to a text field
-#          permalink: /ui/interactive/forms/text-field-changes
-#        - title: Retrieve the value of a text field
-#          permalink: /ui/interactive/forms/text-input
-#    - title: Actions & shortcuts
-#      permalink: /ui/advanced/actions_and_shortcuts
-#    - title: Keyboard focus system
-#      permalink: /ui/advanced/focus
+- title: Interactivity
+  children:
+    - title: Adding interactivity
+      permalink: /ui/interactivity
+      match-page-url-exactly: true
+    - title: Gestures
+      permalink: /ui/interactivity/gestures
+      children:
+        - title: Introduction
+          permalink: /ui/interactivity/gestures
+          match-page-url-exactly: true
+        - title: Handle taps
+          permalink: /ui/widgets/interactive/handle-taps
+        - title: Add Material touch ripples
+          permalink: /ui/widgets/interactive/ripples
+    - title: Forms and input
+      permalink: /ui/interactivity/forms
+      children:
+        - title: Build a form with validation
+          permalink: /ui/interactive/forms/validation
+        - title: Create and style a text field
+          permalink: /ui/interactive/forms/text-input
+        - title: Handle changes to a text field
+          permalink: /ui/interactive/forms/text-field-changes
+        - title: Retrieve the value of a text field
+          permalink: /ui/interactive/forms/text-input
+    - title: Actions & shortcuts
+      permalink: /ui/interactivity/actions-and-shortcuts
+    - title: Keyboard focus system
+      permalink: /ui/interactivity/focus
 
 - title: Navigation & routing
   permalink: /ui/navigation
