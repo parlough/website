@@ -49,7 +49,7 @@
 - divider
 - header: User interface
 
-- title: Widgets, layout, & interactivity
+- title: Widgets & layout
   permalink: /ui/widgets
   children:
     - title: Introduction
