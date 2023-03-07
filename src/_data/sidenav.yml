@@ -231,6 +231,8 @@
       permalink: /ui/navigation/deep-linking
     - title: Configure URL strategies
       permalink: /ui/navigation/url-strategies
+    - title: Set up universal links for iOS
+      permalink: /cookbook/navigation/set-up-universal-links
 
 - title: Animations
   permalink: /ui/animations
