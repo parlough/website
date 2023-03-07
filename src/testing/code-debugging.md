@@ -966,14 +966,14 @@ effect by using a [`GridPaper`][] widget directly.
 [profile mode]: {{site.url}}/testing/build-modes#profile
 [debug mode]: {{site.url}}/testing/build-modes#debug
 [release mode]: {{site.url}}/testing/build-modes#release
-[DevTools]: {{site.url}}/development/tools/devtools
-[Flutter inspector]: {{site.url}}/development/tools/devtools/inspector
-[Logging view]: {{site.url}}/development/tools/devtools/logging
+[DevTools]: {{site.url}}/reference/devtools
+[Flutter inspector]: {{site.url}}/reference/devtools/inspector
+[Logging view]: {{site.url}}/reference/devtools/logging
 [Flutter enabled IDE/editor]: {{site.url}}/get-started/editor
 [`log()`]: {{site.api}}/flutter/dart-developer/log.html
-[Timeline events chart]: {{site.url}}/development/tools/devtools/performance#timeline-events-chart
-[Debugger]: {{site.url}}/development/tools/devtools/debugger
-[Inspector view]: {{site.url}}/development/tools/devtools/inspector
+[Timeline events chart]: {{site.url}}/reference/devtools/performance#timeline-events-chart
+[Debugger]: {{site.url}}/reference/devtools/debugger
+[Inspector view]: {{site.url}}/reference/devtools/inspector
 [The performance overlay]: {{site.url}}/perf/ui-performance#the-performance-overlay
 [Profiling Flutter performance]: {{site.url}}/perf/ui-performance
 [Debugging]: {{site.url}}/testing/debugging

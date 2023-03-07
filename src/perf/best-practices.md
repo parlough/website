@@ -93,7 +93,7 @@ For more information, check out:
   are more performant than functions.
 
 [`flutter_lints`]: {{site.pub-pkg}}/flutter_lints
-[`flutter_lints` migration guide]: {{site.url}}/release/breaking-changes/flutter-lints-package#migration-guide
+[`flutter_lints` migration guide]: {{site.url}}/reference/sdk/breaking-changes/flutter-lints-package#migration-guide
 [Performance considerations]: {{site.api}}/flutter/widgets/StatefulWidget-class.html#performance-considerations
 [source code for `SlideTransition`]: {{site.repo.flutter}}/blob/master/packages/flutter/lib/src/widgets/transitions.dart#L168
 [`StatefulWidget`]: {{site.api}}/flutter/widgets/StatefulWidget-class.html
@@ -140,7 +140,7 @@ your scene uses `saveLayer` by checking the
 `PerformanceOverlayLayer.checkerboardOffscreenLayers`
 switch in the [DevTools Performance view][].
 
-[DevTools timeline]: {{site.url}}/development/tools/devtools/performance#timeline-events-chart
+[DevTools timeline]: {{site.url}}/reference/devtools/performance#timeline-events-chart
 
 #### Minimizing calls to saveLayer
 
@@ -330,10 +330,10 @@ section in the [Flutter architectural overview][].
 
 
 [Flutter architectural overview]: {{site.url}}/resources/architectural-overview
-[how layout and constraints work]: {{site.url}}/development/ui/layout/constraints
+[how layout and constraints work]: {{site.url}}/ui/widgets/layout/constraints
 [layout and rendering]: {{site.url}}/resources/architectural-overview#layout-and-rendering
-[stack trace]: {{site.url}}/development/tools/devtools/cpu-profiler#flame-chart
-[Track layouts option]: {{site.url}}/development/tools/devtools/performance#track-layouts
+[stack trace]: {{site.url}}/reference/devtools/cpu-profiler#flame-chart
+[Track layouts option]: {{site.url}}/reference/devtools/performance#track-layouts
 
 ---
 
@@ -423,7 +423,7 @@ For more performance info, check out the following resources:
 
 [Child elements' lifecycle]: {{site.api}}/flutter/widgets/ListView-class.html#child-elements-lifecycle
 [`CustomPainter`]: {{site.api}}/flutter/rendering/CustomPainter-class.html
-[DevTools Performance view]: {{site.url}}/development/tools/devtools/performance
+[DevTools Performance view]: {{site.url}}/reference/devtools/performance
 [Performance optimizations]: {{site.api}}/flutter/widgets/AnimatedBuilder-class.html#performance-optimizations
 [Performance considerations for opacity animation]: {{site.api}}/flutter/widgets/Opacity-class.html#performance-considerations-for-opacity-animation
 [`RenderObject`]: {{site.api}}/flutter/rendering/RenderObject-class.html

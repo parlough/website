@@ -138,6 +138,6 @@ command again to verify that you’ve set everything up correctly.
 [Flutter repo]: {{site.repo.flutter}}
 [install Flutter using the Snap Store]: https://snapcraft.io/flutter
 [Installing snapd]: https://snapcraft.io/docs/installing-snapd
-[SDK releases]: {{site.url}}/development/tools/sdk/releases
+[SDK releases]: {{site.url}}/reference/sdk/releases
 [Update your path]: #update-your-path
-[Upgrading Flutter]: {{site.url}}/development/tools/sdk/upgrading
+[Upgrading Flutter]: {{site.url}}/reference/sdk/upgrading

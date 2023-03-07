@@ -9,9 +9,9 @@
 {% endif -%}
 
 {% if entry == 'divider' -%}
-
-  <div class="dropdown-divider"></div>
-
+  <li><div class="dropdown-divider" aria-hidden="true"></div></li>
+{% elsif entry contains 'header' -%}
+  <li class="nav-header">{{entry.header}}</li>
 {%- elsif entry.children -%}
 
   {% assign class = class | append: ' collapsable' -%}
