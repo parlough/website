@@ -95,24 +95,12 @@
               permalink: /ui/widgets/layout/lists/parallax-scrolling
             - title: Using slivers to achieve fancy scrolling
               permalink: /ui/widgets/layout/lists/slivers
-    - title: Assets & images
-      permalink: /ui/widgets/assets-and-images
-      children:
-        - title: Adding assets & images
-          permalink: /ui/widgets/assets-and-images
-          match-page-url-exactly: true
-        - title: Display images from the internet
-          permalink: /ui/widgets/assets-and-images/network-images
-        - title: Work with cached images
-          permalink: /ui/widgets/assets-and-images/cached-images
-        - title: Fade in images with a placeholder
-          permalink: /ui/widgets/assets-and-images/fading-in-images
     - title: Text
       permalink: /ui/widgets/text
       children:
-        - title: Overview
-          permalink: /ui/widgets/text
-          match-page-url-exactly: true
+#        - title: Overview
+#          permalink: /ui/widgets/text
+#          match-page-url-exactly: true
         - title: Fonts & typography
           permalink: /ui/widgets/text/typography
         - title: Use a custom font
@@ -121,6 +109,23 @@
           permalink: /ui/widgets/text/export-fonts
     - title: Material Design
       permalink: /ui/widgets/material
+      children:
+        - title: Overview
+          permalink: /ui/widgets/material
+          match-page-url-exactly: true
+        - title: Use themes to share styles
+          permalink: /cookbook/design/themes
+        - title: Add a drawer to a screen
+          permalink: /cookbook/design/drawer
+        - title: Display a snackbar
+          permalink: /cookbook/design/snackbars
+        - title: Work with tabs
+          permalink: /cookbook/design/tabs
+    - title: Custom drawing & graphics
+      permalink: /ui/widgets/painting
+      children:
+        - title: Shaders
+          permalink: /ui/widgets/painting/shaders
     - title: Widget catalog
       permalink: /ui/widgets/catalog
       children:
@@ -168,24 +173,41 @@
           permalink: /ui/interactivity/gestures
           match-page-url-exactly: true
         - title: Handle taps
-          permalink: /ui/widgets/interactive/handle-taps
+          permalink: /ui/interactivity/handle-taps
+        - title: Drag a UI element
+          permalink: /ui/interactivity/drag
         - title: Add Material touch ripples
-          permalink: /ui/widgets/interactive/ripples
+          permalink: /ui/interactivity/ripples
     - title: Forms and input
       permalink: /ui/interactivity/forms
       children:
         - title: Build a form with validation
-          permalink: /ui/interactive/forms/validation
+          permalink: /ui/interactivity/forms/validation
         - title: Create and style a text field
-          permalink: /ui/interactive/forms/text-input
+          permalink: /ui/interactivity/forms/text-input
         - title: Handle changes to a text field
-          permalink: /ui/interactive/forms/text-field-changes
+          permalink: /ui/interactivity/forms/text-field-changes
         - title: Retrieve the value of a text field
-          permalink: /ui/interactive/forms/text-input
+          permalink: /ui/interactivity/forms/text-input
     - title: Actions & shortcuts
       permalink: /ui/interactivity/actions-and-shortcuts
     - title: Keyboard focus system
       permalink: /ui/interactivity/focus
+
+- title: Assets & media
+  permalink: /ui/assets/
+  children:
+    - title: Adding assets & images
+      permalink: /ui/assets/adding
+      match-page-url-exactly: true
+    - title: Display images from the internet
+      permalink: /ui/assets/network-images
+    - title: Work with cached images
+      permalink: /ui/assets/cached-images
+    - title: Fade in images with a placeholder
+      permalink: /ui/assets/fading-in-images
+    - title: Play and pause a video
+      permalink: /ui/assets/play-video
 
 - title: Navigation & routing
   permalink: /ui/navigation
@@ -236,22 +258,6 @@
       permalink: /ui/animations/shimmer-loading
     - title: API overview
       permalink: /ui/animations/overview
-
-- title: Advanced UI
-  permalink: /ui/advanced
-  children:
-    - title: Actions & shortcuts
-      permalink: /ui/advanced/actions_and_shortcuts
-    - title: Fonts & typography
-      permalink: /ui/advanced/typography
-    - title: Keyboard focus system
-      permalink: /ui/advanced/focus
-    - title: Gestures
-      permalink: /ui/advanced/gestures
-    - title: Shaders
-      permalink: /ui/advanced/shaders
-    - title: Slivers
-      permalink: /ui/advanced/slivers
 
 - divider
 - header: Development
