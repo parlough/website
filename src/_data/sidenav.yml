@@ -588,8 +588,6 @@
       permalink: /reference/security-false-positives
     - title: API reference
       permalink: https://api.flutter.dev
-    - title: Security false positives
-      permalink: /reference/security-false-positives
     - title: Package site
       permalink: https://pub.dev/flutter
     - title: DevTools
