@@ -91,6 +91,8 @@
         color: $site-color-body;
 
         @include collapsable();
+
+        @include nav-link-not-active-hover;
       }
     }
   }
