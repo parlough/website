@@ -87,4 +87,3 @@ prior to the 2.5 release.
 [`provideSplashScreen`]: {{site.api}}/javadoc/io/flutter/embedding/android/SplashScreenProvider.html#provideSplashScreen--
 [`FlutterActivity`]: {{site.api}}/javadoc/io/flutter/embedding/android/FlutterActivity.html
 [define a launch theme]:  {{site.url}}/platform-integration/android/splash-screen
->>>>>>> 6420b9e3 ([WIP] Incorporate some IA architecture changes and new functionality):src/platform-integration/android/splash-screen-migration.md

@@ -300,6 +300,30 @@ Expose quick actions on the home screen
 </td>
 </tr>
 
+<tr>
+<td markdown="1">
+Index items in Spotlight search
+</td>
+<td markdown="1">
+`CoreSpotlight`
+</td>
+<td markdown="1">
+[`flutter_core_spotlight`][]
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
+Configure, update and communicate with Widgets
+</td>
+<td markdown="1">
+`WidgetKit`
+</td>
+<td markdown="1">
+[`home_widget`][]
+</td>
+</tr>
+
 </table>
 
 [^1]: Supports both Google Play Store on Android and Apple App Store on iOS.
@@ -332,5 +356,7 @@ Expose quick actions on the home screen
 [`health`]: {{site.pub-pkg}}/health
 [OpenWeatherMap API]: https://openweathermap.org/api
 [`sqflite`]: {{site.pub-pkg}}/sqflite
-[Writing platform-specific code]: {{site.url}}/platform-integration/platform-channels
+[Writing platform-specific code]: {{ site.url }}/platform-integration/platform-channels
 [`camera`]: {{site.pub-pkg}}/camera
+[`flutter_core_spotlight`]: {{site.pub-pkg}}/flutter_core_spotlight
+[`home_widget`]: {{site.pub-pkg}}/home_widget

@@ -258,6 +258,8 @@
           permalink: /cookbook/networking/background-parsing
     - title: Firebase
       permalink: /data-and-backend/firebase
+    - title: Google APIs
+      permalink: /data-and-backend/google-apis
     - title: Networking
       permalink: /data-and-backend/networking
       children:
@@ -307,8 +309,6 @@
           permalink: /platform-integration/android/c-interop
         - title: Hosting native Android views
           permalink: /platform-integration/android/platform-views
-        - title: Android plugin upgrade
-          permalink: /platform-integration/android/plugin-api-migration
         - title: AndroidX migration
           permalink: /platform-integration/android/androidx-migration
         - title: Deprecated Splash Screen API Migration
@@ -322,6 +322,8 @@
           permalink: /platform-integration/ios/apple-frameworks
         - title: Adding iOS App Clip support
           permalink: /platform-integration/ios/ios-app-clip
+        - title: Adding iOS app extensions
+          permalink: /platform-integration/ios/app-extensions
         - title: C interop
           permalink: /platform-integration/ios/c-interop
         - title: Hosting native iOS views
@@ -389,6 +391,8 @@
   children:
     - title: Debugging tools
       permalink: /testing/debugging
+    - title: Testing plugins
+      permalink: /testing/testing-plugins
     - title: Debugging apps programmatically
       permalink: /testing/code-debugging
     - title: Using an OEM debugger

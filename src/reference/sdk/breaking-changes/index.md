@@ -20,9 +20,11 @@ release, and listed in alphabetical order:
 
 * [Deprecated API removed after v3.7][]
 * [Removed `ignoringSemantics`][]
+* [The window singleton is deprecated][]
 
 [Deprecated API removed after v3.7]: {{site.url}}/reference/sdk/breaking-changes/3-7-deprecations
 [Removed `ignoringSemantics`]: {{site.url}}/reference/sdk/breaking-changes/ignoringsemantics-migration
+[The window singleton is deprecated]: {{site.url}}/reference/sdk/breaking-changes/window-singleton
 
 ### Released in Flutter 3.7
 
@@ -31,12 +33,14 @@ release, and listed in alphabetical order:
 * [Migrate `of` to non-nullable return values, and add `maybeOf`][]
 * [Removed RouteSettings.copyWith][]
 * [ThemeData's toggleableActiveColor property has been deprecated][]
+* [A new way to customize context menus][]
 
 [Deprecated API removed after v3.3]: {{site.url}}/reference/sdk/breaking-changes/3-3-deprecations
 [iOS FlutterViewController splashScreenView made nullable]: {{site.url}}/reference/sdk/breaking-changes/ios-flutterviewcontroller-splashscreenview-nullable
 [Migrate `of` to non-nullable return values, and add `maybeOf`]: {{site.url}}/reference/sdk/breaking-changes/supplemental-maybeOf-migration
 [Removed RouteSettings.copyWith]: {{site.url}}/reference/sdk/breaking-changes/routesettings-copywith-migration
 [ThemeData's toggleableActiveColor property has been deprecated]: {{site.url}}/reference/sdk/breaking-changes/toggleable-active-color
+[A new way to customize context menus]: {{site.url}}/release/breaking-changes/context-menus
 
 ### Released in Flutter 3.3
 

@@ -595,4 +595,3 @@ surrounding `Activity`.
 [`FlutterEngine`]: {{site.api}}/javadoc/io/flutter/embedding/engine/FlutterEngine.html
 [`FlutterEngineCache`]: {{site.api}}/javadoc/io/flutter/embedding/engine/FlutterEngineCache.html
 [splash screen guide]: {{site.url}}/platform-integration/android/splash-screen
->>>>>>> 6420b9e3 ([WIP] Incorporate some IA architecture changes and new functionality):src/add-to-app/android/add-flutter-fragment.md
