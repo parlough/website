@@ -397,10 +397,10 @@
     - title: Introduction
       permalink: /add-to-app
       match-page-url-exactly: true
-    - title: Adding to an Android app
+    - title: Add to an Android app
       permalink: /add-to-app/android
       children:
-        - title: Project setup
+        - title: Setup Android project
           permalink: /add-to-app/android/project-setup
         - title: Add a single Flutter screen
           permalink: /add-to-app/android/add-flutter-screen
@@ -408,16 +408,16 @@
           permalink: /add-to-app/android/add-flutter-fragment
         - title: Add a Flutter View
           permalink: /add-to-app/android/add-flutter-view
-        - title: Plugin setup
+        - title: Use a Flutter plugin
           permalink: /add-to-app/android/plugin-setup
-    - title: Adding to an iOS app
+    - title: Add to an iOS app
       permalink: /add-to-app/ios
       children:
-        - title: Project setup
+        - title: Setup iOS project
           permalink: /add-to-app/ios/project-setup
         - title: Add a single Flutter screen
           permalink: /add-to-app/ios/add-flutter-screen
-    - title: Debugging & hot reload
+    - title: Debug add-to-app module
       permalink: /add-to-app/debugging
     - title: Loading sequence and performance
       permalink: /add-to-app/performance

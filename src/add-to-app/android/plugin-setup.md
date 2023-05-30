@@ -1,7 +1,9 @@
 ---
 title: Managing plugins and dependencies in add-to-app
 short-title: Plugin setup
-description: Learn how to use plugins and share your plugin's library dependencies with your existing app.
+description: >
+  Learn how to use plugins and share your
+  plugin's library dependencies with your existing app.
 ---
 
 This guide describes how to set up your project to consume
@@ -150,4 +152,3 @@ existing app and Flutter module plugin.
 [firebase_crashlytics]: {{site.pub}}/packages/firebase_crashlytics
 [Gradle file]: {{site.github}}/FirebaseExtended/flutterfire/blob/bdb95fcacf7cf077d162d2f267eee54a8b0be3bc/packages/firebase_crashlytics/android/build.gradle#L40
 [resolves dependency version conflicts]: https://docs.gradle.org/current/userguide/dependency_resolution.html#sub:resolution-strategy
-
