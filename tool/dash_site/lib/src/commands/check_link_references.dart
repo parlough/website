@@ -1,6 +1,19 @@
 import 'dart:io';
 
+import 'package:args/command_runner.dart';
 import 'package:path/path.dart' as path;
+
+final class CheckLinkReferencesCommand extends Command<int> {
+  @override
+  String get description => 'Verify there are no unlinked/broken '
+      'Markdown link references in the generated site output.';
+
+  @override
+  String get name => 'check-link-references';
+
+  @override
+  Future<int> run() async => _checkLinkReferences();
+}
 
 /// Ignore blocks with TODOs:
 ///
@@ -75,31 +88,23 @@ List<String> _findInContent(String content) {
       .toList(growable: false);
 }
 
-/// Find all invalid link references
-/// within generated HTML files
-/// in the specified [directory].
-Map<String, List<String>> findInvalidLinkReferences(String directory) {
-  final invalidReferences = <String, List<String>>{};
+int _checkLinkReferences() {
+  print('Checking for broken Markdown link references...');
 
-  for (final filePath in Directory(directory)
-      .listSync(recursive: true)
-      .map((f) => f.path)
-      .where((p) => path.extension(p) == '.html')) {
-    final content = File(filePath).readAsStringSync();
-    final results = _findInContent(content);
-    if (results.isNotEmpty) {
-      invalidReferences[path.relative(filePath, from: directory)] = results;
-    }
+  const generatedSiteDirectory = '_site';
+
+  final directory = Directory(generatedSiteDirectory);
+
+  if (!directory.existsSync()) {
+    stderr.writeln('Generated site not found at $generatedSiteDirectory. '
+        'Make sure the site is generated first!');
+    return 1;
   }
 
-  return invalidReferences;
-}
-
-void main() {
-  final filesToInvalidReferences = findInvalidLinkReferences('_site');
+  final filesToInvalidReferences = findInvalidLinkReferences(directory);
 
   if (filesToInvalidReferences.isNotEmpty) {
-    print('check_link_references: Invalid link references found!');
+    print('Invalid link references found!');
 
     filesToInvalidReferences.forEach((sourceFile, invalidReferences) {
       print('\n$sourceFile:');
@@ -108,6 +113,30 @@ void main() {
       }
     });
 
-    exit(1);
+    return 1;
   }
+
+  print('No invalid link references found.');
+
+  return 0;
+}
+
+/// Find all invalid link references within generated HTML files
+/// in the specified [directory].
+Map<String, List<String>> findInvalidLinkReferences(Directory directory) {
+  final invalidReferences = <String, List<String>>{};
+
+  for (final filePath in directory
+      .listSync(recursive: true)
+      .map((f) => f.path)
+      .where((p) => path.extension(p) == '.html')) {
+    final content = File(filePath).readAsStringSync();
+    final results = _findInContent(content);
+    if (results.isNotEmpty) {
+      invalidReferences[path.relative(filePath, from: directory.path)] =
+          results;
+    }
+  }
+
+  return invalidReferences;
 }

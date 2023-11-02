@@ -1,13 +1,28 @@
 import 'dart:convert';
 import 'dart:io';
 
-void main() {
+import 'package:args/command_runner.dart';
+
+final class VerifyFirebaseJsonCommand extends Command<int> {
+  @override
+  String get description => 'Verify the firebase.json file is valid and '
+      'meets the site standards.';
+
+  @override
+  String get name => 'verify-firebase-json';
+
+  @override
+  Future<int> run() async => _verifyFirebaseJson();
+}
+
+int _verifyFirebaseJson() {
   final firebaseFile = File('firebase.json');
 
   if (!firebaseFile.existsSync()) {
-    _errorAndExit(
-      'Error: Cannot find the firebase.json file in the current directory.',
+    stderr.writeln(
+      'Cannot find the firebase.json file in the current directory.',
     );
+    return 1;
   }
 
   try {
@@ -18,9 +33,10 @@ void main() {
     final hostingConfig = firebaseConfig['hosting'] as Map<String, Object?>?;
 
     if (hostingConfig == null) {
-      _errorAndExit(
+      stderr.writeln(
         "The firebase.json file is missing a top-level 'hosting' entry.",
       );
+      return 1;
     }
 
     final redirects = hostingConfig['redirects'];
@@ -29,17 +45,18 @@ void main() {
       stdout.writeln(
         'There are no redirects specified within the firebase.json file.',
       );
-      return;
+      return 0;
     }
 
     if (redirects is! List<Object?>) {
-      _errorAndExit(
+      stderr.writeln(
         "The firebase.json file's 'redirect' entry is not a list.",
       );
+      return 1;
     }
 
     if (redirects.isEmpty) {
-      return;
+      return 0;
     }
 
     final sources = <String>{};
@@ -48,31 +65,35 @@ void main() {
 
     for (final redirect in redirects) {
       if (redirect is! Map<String, Object?>) {
-        _errorAndExit(
+        stderr.writeln(
           "Each redirect must be a map containing a 'source' or 'regex' field.",
         );
+        return 1;
       }
 
       final source = redirect['source'] ?? redirect['regex'];
       if (source == null) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json file has a '
           "redirect missing a 'source' or 'regex'.",
         );
+        return 1;
       }
 
       if (source is! String) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json redirect $redirect has a '
           "'source' or 'regex' specified which is not a string.",
         );
+        return 1;
       }
 
       if (source.isEmpty) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json redirect $redirect has an '
           "empty 'source' or 'regex'.",
         );
+        return 1;
       }
 
       if (sources.contains(source)) {
@@ -87,46 +108,42 @@ void main() {
       final destination = redirect['destination'];
 
       if (destination == null) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json file has a '
           "redirect missing a 'destination'.",
         );
+        return 1;
       }
 
       if (destination is! String) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json redirect $redirect has a '
           "'destination' specified which is not a string.",
         );
+        return 1;
       }
 
       if (destination.isEmpty) {
-        _errorAndExit(
+        stderr.writeln(
           'The firebase.json redirect $redirect has '
           "an empty 'destination'.",
         );
+        return 1;
       }
     }
 
     if (duplicatesFound > 0) {
-      _errorAndExit(
+      stderr.writeln(
         '$duplicatesFound duplicate sources found'
         'in the firebase.json redirects.',
       );
+      return 1;
     }
   } catch (e) {
-    _errorAndExit(
-      'Encountered an error when loading the firebase.json file:',
-      e,
-    );
+    stderr.writeln('Encountered an error when loading the firebase.json file:');
+    stderr.writeln(e);
+    return 1;
   }
-}
 
-Never _errorAndExit(String error, [Object? exception]) {
-  stderr.write('Error: ');
-  stderr.writeln(error);
-  if (exception != null) {
-    stderr.writeln(exception.toString());
-  }
-  exit(1);
+  return 0;
 }
