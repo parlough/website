@@ -96,20 +96,22 @@ int _checkLinkReferences() {
   final directory = Directory(generatedSiteDirectory);
 
   if (!directory.existsSync()) {
-    stderr.writeln('Generated site not found at $generatedSiteDirectory. '
-        'Make sure the site is generated first!');
+    stderr.writeln(
+      'ERROR: Generated site not found at $generatedSiteDirectory. '
+      'Make sure the site is generated first!',
+    );
     return 1;
   }
 
   final filesToInvalidReferences = findInvalidLinkReferences(directory);
 
   if (filesToInvalidReferences.isNotEmpty) {
-    print('Invalid link references found!');
+    stderr.writeln('ERROR: Invalid link references found!');
 
     filesToInvalidReferences.forEach((sourceFile, invalidReferences) {
-      print('\n$sourceFile:');
+      stderr.writeln('\n$sourceFile:');
       for (final invalidReference in invalidReferences) {
-        print(invalidReference);
+        stderr.writeln(invalidReference);
       }
     });
 

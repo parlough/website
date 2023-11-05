@@ -39,7 +39,7 @@ const skipFilePath = './tool/config/linkcheck-skip-list.txt';
 Future<int> checkLinks({bool checkExternal = false}) async {
   if (await _isPortInUse(emulatorPort)) {
     stderr.writeln(
-      'Port $emulatorPort is already in use! '
+      'ERROR: Port $emulatorPort is already in use! '
       'Are you running the emulator elsewhere?',
     );
     return 1;
@@ -65,7 +65,7 @@ Future<int> checkLinks({bool checkExternal = false}) async {
   try {
     // Check to see if the emulator is running.
     if (!(await _isPortInUse(emulatorPort))) {
-      stderr.writeln('The Firebase hosting emulator did not start!');
+      stderr.writeln('ERROR: The Firebase hosting emulator did not start!');
       return 1;
     }
 
@@ -81,7 +81,7 @@ Future<int> checkLinks({bool checkExternal = false}) async {
       );
       return result;
     } catch (e, stackTrace) {
-      stderr.writeln('linkcheck failed to execute properly!');
+      stderr.writeln('ERROR: linkcheck failed to execute properly!');
       stderr.writeln(e);
       stderr.writeln(stackTrace);
       return 1;

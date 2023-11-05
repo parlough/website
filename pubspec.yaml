@@ -6,5 +6,10 @@ environment:
 
 dev_dependencies:
   # Used to enable easy access from the root directory.
+  build_runner: ^2.4.6
+  code_excerpter:
+    path: site-shared/packages/code_excerpter
+  code_excerpt_updater:
+    path: site-shared/packages/code_excerpt_updater
   dash_site:
     path: tool/dash_site
