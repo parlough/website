@@ -1,3 +1,7 @@
+// Copyright 2023 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
@@ -6,11 +10,11 @@ import 'package:path/path.dart' as path;
 import '../utils.dart';
 
 final class FormatDartCommand extends Command<int> {
-  static const _check = 'check';
+  static const _checkFlag = 'check';
 
   FormatDartCommand() {
     argParser.addFlag(
-      _check,
+      _checkFlag,
       defaultsTo: false,
       help: 'Just check the formatting, do not update.',
     );
@@ -24,12 +28,12 @@ final class FormatDartCommand extends Command<int> {
   String get name => 'format-dart';
 
   @override
-  Future<int> run() async => _formatDart(
-        justCheck: argResults.get(_check, false),
+  Future<int> run() async => formatDart(
+        justCheck: argResults.get(_checkFlag, false),
       );
 }
 
-int _formatDart({bool justCheck = false}) {
+int formatDart({bool justCheck = false}) {
   // Currently format all Dart files in the /tool directory
   // and everything in /examples but the codelabs submodule.
   final directoriesToFormat = [

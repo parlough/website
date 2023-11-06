@@ -1,3 +1,7 @@
+// Copyright 2023 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -12,10 +16,10 @@ final class VerifyFirebaseJsonCommand extends Command<int> {
   String get name => 'verify-firebase-json';
 
   @override
-  Future<int> run() async => _verifyFirebaseJson();
+  Future<int> run() async => verifyFirebaseJson();
 }
 
-int _verifyFirebaseJson() {
+int verifyFirebaseJson() {
   final firebaseFile = File('firebase.json');
 
   if (!firebaseFile.existsSync()) {
@@ -34,7 +38,7 @@ int _verifyFirebaseJson() {
 
     if (hostingConfig == null) {
       stderr.writeln(
-        "The firebase.json file is missing a top-level 'hosting' entry.",
+        "ERROR: The firebase.json file is missing a top-level 'hosting' entry.",
       );
       return 1;
     }
@@ -50,7 +54,7 @@ int _verifyFirebaseJson() {
 
     if (redirects is! List<Object?>) {
       stderr.writeln(
-        "The firebase.json file's 'redirect' entry is not a list.",
+        "ERROR: The firebase.json file's 'redirect' entry is not a list.",
       );
       return 1;
     }
@@ -66,7 +70,8 @@ int _verifyFirebaseJson() {
     for (final redirect in redirects) {
       if (redirect is! Map<String, Object?>) {
         stderr.writeln(
-          "Each redirect must be a map containing a 'source' or 'regex' field.",
+          'ERROR: Each redirect must be a map containing '
+          "a 'source' or 'regex' field.",
         );
         return 1;
       }
@@ -74,7 +79,7 @@ int _verifyFirebaseJson() {
       final source = redirect['source'] ?? redirect['regex'];
       if (source == null) {
         stderr.writeln(
-          'The firebase.json file has a '
+          'ERROR: The firebase.json file has a '
           "redirect missing a 'source' or 'regex'.",
         );
         return 1;
@@ -82,7 +87,7 @@ int _verifyFirebaseJson() {
 
       if (source is! String) {
         stderr.writeln(
-          'The firebase.json redirect $redirect has a '
+          'ERROR: The firebase.json redirect $redirect has a '
           "'source' or 'regex' specified which is not a string.",
         );
         return 1;
@@ -90,7 +95,7 @@ int _verifyFirebaseJson() {
 
       if (source.isEmpty) {
         stderr.writeln(
-          'The firebase.json redirect $redirect has an '
+          'ERROR: The firebase.json redirect $redirect has an '
           "empty 'source' or 'regex'.",
         );
         return 1;
@@ -98,7 +103,7 @@ int _verifyFirebaseJson() {
 
       if (sources.contains(source)) {
         stderr.writeln(
-          "Multiple redirects share the '$source' source.",
+          "ERROR: Multiple redirects share the '$source' source.",
         );
         duplicatesFound += 1;
       }
@@ -109,7 +114,7 @@ int _verifyFirebaseJson() {
 
       if (destination == null) {
         stderr.writeln(
-          'The firebase.json file has a '
+          'ERROR: The firebase.json file has a '
           "redirect missing a 'destination'.",
         );
         return 1;
@@ -117,7 +122,7 @@ int _verifyFirebaseJson() {
 
       if (destination is! String) {
         stderr.writeln(
-          'The firebase.json redirect $redirect has a '
+          'ERROR: The firebase.json redirect $redirect has a '
           "'destination' specified which is not a string.",
         );
         return 1;
@@ -125,7 +130,7 @@ int _verifyFirebaseJson() {
 
       if (destination.isEmpty) {
         stderr.writeln(
-          'The firebase.json redirect $redirect has '
+          'ERROR: The firebase.json redirect $redirect has '
           "an empty 'destination'.",
         );
         return 1;
@@ -134,13 +139,15 @@ int _verifyFirebaseJson() {
 
     if (duplicatesFound > 0) {
       stderr.writeln(
-        '$duplicatesFound duplicate sources found'
+        'ERROR: $duplicatesFound duplicate sources found '
         'in the firebase.json redirects.',
       );
       return 1;
     }
   } catch (e) {
-    stderr.writeln('Encountered an error when loading the firebase.json file:');
+    stderr.writeln(
+      'ERROR: Encountered an error when loading the firebase.json file:',
+    );
     stderr.writeln(e);
     return 1;
   }

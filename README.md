@@ -284,7 +284,7 @@ code in the corresponding `.dart` file.
 
 To resolve this error,
 from the root of the `website` directory,
-run `dart run dash_site refresh-excerpts`. 
+run `dart run flutter_site refresh-excerpts`. 
 
 For more information see [Code excerpts][] . 
 

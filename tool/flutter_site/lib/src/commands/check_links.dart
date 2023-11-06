@@ -1,8 +1,15 @@
+// Copyright 2023 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'dart:async';
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
 import 'package:linkcheck/linkcheck.dart' as linkcheck show run;
+import 'package:path/path.dart' as path;
+
+import '../utils.dart';
 
 final class CheckLinksCommand extends Command<int> {
   static const _externalFlag = 'external';
@@ -24,17 +31,21 @@ final class CheckLinksCommand extends Command<int> {
 
   @override
   Future<int> run() async => checkLinks(
-        checkExternal: argResults?[_externalFlag] as bool? ?? false,
+        checkExternal: argResults.get(_externalFlag, false),
       );
 }
 
 /// The port that the firebase emulator runs on by default.
 /// This must match what's declared in the `firebase.json`
 /// and can't be 5000, since Airplay uses it.
-const emulatorPort = 5500;
+const int emulatorPort = 5500;
 
-/// The path from root where the linkcheck list lives.
-const skipFilePath = './tool/config/linkcheck-skip-list.txt';
+/// The path from root where the linkcheck skip list lives.
+final String skipFilePath = path.join(
+  'tool',
+  'config',
+  'linkcheck-skip-list.txt',
+);
 
 Future<int> checkLinks({bool checkExternal = false}) async {
   if (await _isPortInUse(emulatorPort)) {

@@ -11,5 +11,5 @@ dev_dependencies:
     path: site-shared/packages/code_excerpter
   code_excerpt_updater:
     path: site-shared/packages/code_excerpt_updater
-  dash_site:
-    path: tool/dash_site
+  flutter_site:
+    path: tool/flutter_site

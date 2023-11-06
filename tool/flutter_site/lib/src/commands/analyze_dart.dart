@@ -1,3 +1,7 @@
+// Copyright 2023 The Flutter team. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
@@ -13,12 +17,12 @@ final class AnalyzeDartCommand extends Command<int> {
   String get name => 'analyze-dart';
 
   @override
-  Future<int> run() async => _analyzeDart();
+  Future<int> run() async => analyzeDart();
 }
 
-int _analyzeDart() {
+int analyzeDart() {
   final directoriesToAnalyze = [
-    path.join('tool', 'dash_site'),
+    path.join('tool', 'flutter_site'),
     ...dartProjectExampleDirectories,
   ];
 
@@ -32,6 +36,7 @@ int _analyzeDart() {
         '--no-suggestions',
       ],
       workingDirectory: directory,
+      includeParentEnvironment: false,
     );
 
     if (flutterAnalyzeOutput.exitCode != 0) {
