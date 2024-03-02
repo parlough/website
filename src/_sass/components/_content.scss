@@ -71,32 +71,41 @@
     $icon-size: 1.5rem;
     $anchor-padding: 0.25rem;
 
-    > a.anchor {
-      float: left;
-      margin-left: -($icon-size + $anchor-padding);
-      padding-right: $anchor-padding;
+    // Push # link targets clear of page header.
+    &[id] {
+      scroll-margin: 60px;
+    }
+
+    .heading-link {
+      transition: all 0.2s ease-in-out;
       overflow: hidden;
-      text-decoration: none;
+      color: #4a4a4a;
+      opacity: 0;
 
-      .octicon-link {
-        transition: all 0.2s ease-in-out;
-
-        @include md-icon-before("tag", false);
-        font-size: $icon-size;
-        color: $site-color-body;
-        opacity: 0;
-
-        &:hover {
-          color: lighten($site-color-primary, 20%);
-        }
+      &:hover {
+        color: $site-color-primary;
       }
 
-      &:focus .octicon-link {
+      &:focus {
         opacity: 1
+      }
+
+      &:active {
+        color: $flutter-color-dark-blue;
       }
     }
 
-    &:hover > .anchor > .octicon-link { opacity: 1 }
+    &:hover {
+      .heading-link {
+        opacity: 1
+      }
+    }
+  }
+
+
+  // Push # link targets clear of page header.
+  a[id] {
+    scroll-margin: 60px;
   }
 
   // Embedded DartPad

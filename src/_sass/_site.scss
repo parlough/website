@@ -4,21 +4,18 @@
 
 // -- Vendor
 @use 'vendor/bootstrap';
-@use 'vendor/prettify';
 
 // -- Base
 @use 'base/base';
 
 // -- Components
 // (alpha ordered)
-@use 'components/admonitions';
 @use 'components/animations';
 @use 'components/banner';
 @use 'components/books';
 @use 'components/code';
 @use 'components/content';
 @use 'components/cookie-notice';
-@use 'components/d2h';
 @use 'components/footer';
 @use 'components/header';
 @use 'components/juicy-button';
