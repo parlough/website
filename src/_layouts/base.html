@@ -72,7 +72,7 @@
   </head>
   <body{% if body_class %} class="{{ body_class }}"{% endif %}>
 
-    {% include_cached cookie-notice.html %}
+    {% render cookie-notice.html %}
 
     {% if jekyll.environment == "production" %}
       <noscript>
@@ -88,13 +88,13 @@
     {% include header.html %}
 
     {% if show_banner -%}
-      {% include_cached banner.html %}
+      {% render banner.html %}
     {% endif -%}
 
     {{ content }}
 
     {% if show_footer %}
-      {% include_cached footer.html %}
+      {% render footer.html %}
     {% endif %}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
