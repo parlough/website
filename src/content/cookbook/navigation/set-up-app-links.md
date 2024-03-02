@@ -38,7 +38,7 @@ It provides a simple API to handle complex routing scenarios.
     To add the `go_router` package as a dependency,
     run `flutter pub add`:
 
-    ```terminal
+    ```console
     $ flutter pub add go_router
     ```
 

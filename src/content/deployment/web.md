@@ -127,7 +127,7 @@ command:
 
 8. Deploy the app to Firebase Hosting:
 
-    ```terminal
+    ```console
     firebase deploy
     ```
 

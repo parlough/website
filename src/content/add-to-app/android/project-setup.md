@@ -123,7 +123,7 @@ Let's assume that you have an existing Android app at
 `some/path/MyApp`, and that you want your Flutter
 project as a sibling:
 
-```terminal
+```console
 cd some/path/
 flutter create -t module --org com.example flutter_module
 ```
@@ -259,7 +259,7 @@ artifacts from a local or remote repository.
 Let's assume you built a Flutter module at
 `some/path/flutter_module`, and then run:
 
-```terminal
+```console
 cd some/path/flutter_module
 flutter build aar
 ```
@@ -272,7 +272,7 @@ More specifically, this command creates
 (by default all debug/profile/release modes)
 a [local repository][], with the following files:
 
-```nocode
+```plaintext
 build/host/outputs/repo
 └── com
     └── example

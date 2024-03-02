@@ -11,7 +11,7 @@ To develop Flutter apps for {{os}}, install Xcode to compile to native bytecode.
 1. To configure the command-line tools to use the installed version of Xcode,
    run the following commands.
 
-    ```terminal
+    ```console
     {{prompt1}} sudo sh -c 'xcode-select -s /Applications/Xcode.app/Contents/Developer && xcodebuild -runFirstLaunch'
     ```
 
@@ -22,7 +22,7 @@ To develop Flutter apps for {{os}}, install Xcode to compile to native bytecode.
 
 1. To install the iOS Simulator, run the following command.
 
-    ```terminal
+    ```console
     {{prompt1}} xcodebuild -downloadPlatform iOS
     ```
 
@@ -30,7 +30,7 @@ To develop Flutter apps for {{os}}, install Xcode to compile to native bytecode.
 
 1. Sign the Xcode license agreement.
 
-    ```terminal
+    ```console
     {{prompt1}} sudo xcodebuild -license
     ```
 
@@ -82,7 +82,7 @@ To install and set up CocoaPods, run the following commands:
 1. Install `cocoapods` following the
    [CocoaPods install guide][cocoapods].
 
-   ```terminal
+   ```console
    $ sudo gem install cocoapods
    ```
 1. Launch your preferred text editor.

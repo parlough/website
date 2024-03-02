@@ -116,7 +116,7 @@ Add your AdMob app ID to your iOS app.
 To add the `google_mobile_ads` plugin as a dependency, run
 `flutter pub add`:
 
-```terminal
+```console
 $ flutter pub add google_mobile_ads
 ```
 

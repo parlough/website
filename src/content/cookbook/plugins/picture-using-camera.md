@@ -36,7 +36,7 @@ To complete this recipe, you need to add three dependencies to your app:
 
 To add the packages as dependencies, run `flutter pub add`:
 
-```terminal
+```console
 $ flutter pub add camera path_provider path
 ```
 

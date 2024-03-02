@@ -255,7 +255,7 @@ exit 0
 
 This file should be added to your git repository and marked as executable.
 
-```terminal
+```console
 $ git add --chmod=+x ios/ci_scripts/ci_post_clone.sh
 ```
 

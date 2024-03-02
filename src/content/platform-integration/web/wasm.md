@@ -102,14 +102,14 @@ package root.
 If you don't have a local HTTP server installed, you can use the
 [`dhttpd` package]({{site.pub-pkg}}/dhttpd):
 
-```terminal
+```console
 flutter pub global activate dhttpd
 ```
 
 Then change to the `build/web_wasm` directory
 and run the server:
 
-```terminal
+```console
 > cd build/web_wasm
 > dhttpd
 Server started on port 8080

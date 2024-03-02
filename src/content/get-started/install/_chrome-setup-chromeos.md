@@ -10,7 +10,7 @@ Track this issue at [Issue 121462: Improve the web debugging experience on Chrom
 Instead, the best approach is to manually install a second copy of
 Chrome in the Linux container. You can do that with the following steps:
 
-```terminal
+```console
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 $ sudo apt install ./google-chrome-stable_current_amd64.deb
 ```

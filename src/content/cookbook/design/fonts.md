@@ -112,32 +112,32 @@ To import font files, perform the following steps.
 1. If necessary, to match the remaining steps in this guide,
    change the name of your Flutter app to `custom_fonts`.
 
-   ```terminal
+   ```console
    $ mv /path/to/my_app /path/to/custom_fonts
    ```
 
 1. Navigate to the root of your Flutter project.
 
-   ```terminal
+   ```console
    $ cd /path/to/custom_fonts
    ```
 
 1. Create a `fonts` directory at the root of your Flutter project.
 
-   ```terminal
+   ```console
    $ mkdir fonts
    ```
 
 1. Move or copy the font files in a `fonts` or `assets`
    folder at the root of your Flutter project.
 
-   ```terminal
+   ```console
    $ cp ~/Downloads/*.ttf ./fonts
    ```
 
 The resulting folder structure should resemble the following:
 
-```nocode
+```plaintext
 custom_fonts/
 |- fonts/
   |- Raleway-Regular.ttf
@@ -159,7 +159,7 @@ To add font files to your Flutter app, complete the following steps.
 
 1. Open the `pubspec.yaml` file at the root of your Flutter project.
 
-   ```terminal
+   ```console
    $ vi pubspec.yaml
    ```
 
@@ -317,7 +317,7 @@ Download the Raleway and RobotoMono font files from [Google Fonts][].
 
 1. Open the `pubspec.yaml` file at the root of your Flutter project.
 
-   ```terminal
+   ```console
    $ vi pubspec.yaml
    ```
 
@@ -354,7 +354,7 @@ Download the Raleway and RobotoMono font files from [Google Fonts][].
 
 1. Open the `main.dart` file in the `lib/` directory of your Flutter project.
 
-   ```terminal
+   ```console
    $ vi lib/main.dart
    ```
 

@@ -6,6 +6,6 @@
   in the `linux-requirements-list.md` include.
 {% endcomment -%}
 
-```terminal
+```console
 $ sudo apt-get install clang cmake git ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev
 ```

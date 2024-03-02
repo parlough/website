@@ -25,8 +25,6 @@ document.addEventListener("DOMContentLoaded", function(_) {
   setupTabs($('#china-os-dl-tabs'), 'dev.flutter.china-os-dl');
   setupTabs($('#china-os-pub-tabs'), 'dev.flutter.china-os-pub');
   setupTabs($('#base-os-tabs'), 'dev.flutter.os');
-
-  prettyPrint();
 });
 
 function _getOSForArchive() {

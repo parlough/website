@@ -122,7 +122,7 @@ If not, create one using one of the following methods:
 
    On macOS or Linux, use the following command:
 
-   ```terminal
+   ```console
    keytool -genkey -v -keystore ~/upload-keystore.jks -keyalg RSA \
            -keysize 2048 -validity 10000 -alias upload
    ```

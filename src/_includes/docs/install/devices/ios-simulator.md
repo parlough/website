@@ -6,7 +6,7 @@ follow this procedure.
 
 1. To start the Simulator, run the following command:
 
-    ```terminal
+    ```console
     $ open -a Simulator
     ```
 

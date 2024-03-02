@@ -139,14 +139,14 @@ agree to the licenses of the Android SDK platform.
 
 1. Run the following command to enable signing licenses.
 
-   ```terminal
+   ```console
    $ flutter doctor --android-licenses
    ```
 
    If you accepted the Android Studio licenses at another time,
    this command returns:
 
-   ```terminal
+   ```console
    [========================================] 100% Computing updates...
    All SDK package licenses accepted.
    ```
@@ -164,7 +164,7 @@ agree to the licenses of the Android SDK platform.
 
 You might have an issue with the Android SDK locating the Java SDK.
 
-```terminal
+```console
 $ flutter doctor --android-licenses
 
 ERROR: JAVA_HOME is set to an invalid directory: /Applications/Android\ Studio.app/Contents/jre/Contents/Home
@@ -202,7 +202,7 @@ Do not include the backslash between `Android` and `Studio`.
 To load this updated environment variable, reload your shell.
 This example uses the `zsh` resource file.
 
-```terminal
+```console
 source ~/.zshrc
 ```
 
