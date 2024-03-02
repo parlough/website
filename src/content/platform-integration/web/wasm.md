@@ -19,7 +19,7 @@ applications for the web.
   Ongoing development might result in frequent changes.
   Revisit this page for the latest updates.
   
-  **_Last updated {{page.last-update}}_**
+  **_Last updated {{last-update}}_**
 :::
 
 [`master` channel]: https://github.com/flutter/flutter/wiki/flutter-build-release-channels#master
@@ -117,7 +117,7 @@ Server started on port 8080
 
 #### Load it in a browser
 
-As of {{page.last-update}},
+As of {{last-update}},
 two browser families should be able to run
 Flutter/Wasm content:
 
