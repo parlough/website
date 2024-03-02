@@ -1,4 +1,4 @@
-{{site.alert.note}}
+:::note
   The Flutter SDK contains the `dart` command alongside the `flutter` command 
   so that you can more easily run Dart command-line programs. 
   Downloading the Flutter SDK also downloads the compatible version of Dart,
@@ -45,6 +45,6 @@
 
   To learn more about the `dart` command, run `dart -h`
   from the command line, or see the [dart tool][] page.
-{{site.alert.end}}
+:::
 
 [dart tool]: {{site.dart-site}}/tools/dart-tool

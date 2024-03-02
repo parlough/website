@@ -104,30 +104,6 @@ appnow:
   ios: '17'
   cocoapods: '1.13'
 
-########### Jekyll ###########
-
-source: src
-strict_front_matter: true
-permalink: pretty
-exclude: []
-liquid:
-  error_mode: strict
-  strict_filters: true
-sass:
-  sass_dir: _sass
-  cache: false
-  style: compressed
-  load_paths:
-    - ../node_modules
-
-plugins:
-  - jekyll-toc
-  - jekyll-include-cache
-
-toc:
-  min_level: 2
-  max_level: 4
-
 defaults:
   - scope:
       path: assets/images
@@ -208,46 +184,3 @@ defaults:
       path: 'ui/widgets'
     values:
       toc: false
-
-
-########### Alerts ###########
-# TODO these are bootstrap related, will not be supported
-
-alert:
-  bonus: >-
-    <aside class="alert alert-info" role="alert" markdown="1">
-    **Bonus questions!**
-  important: >-
-    <aside class="alert alert-warning alert-icon" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">error</i> **Important:**
-  info: >-
-    <aside class="alert alert-info" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">info</i>
-  note: >-
-    <aside class="alert alert-info" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">info</i> **Note:**
-  version-note: >-
-    <aside class="alert alert-info" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">merge_type</i> **Version note:**
-  recommend: >-
-    <aside class="alert alert-success alert-icon" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">bolt</i>
-  secondary: >-
-    <aside class="alert alert-secondary" role="alert" markdown="1">
-  tip: >-
-    <aside class="alert alert-success" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">lightbulb</i> **Tip:**
-  warning: >-
-    <aside class="alert alert-warning" role="alert" markdown="1">
-    <i class="material-symbols" aria-hidden="true">warning</i> **Warning:**
-  end: </aside>
-
-
-########### Custom ###########
-
-custom:
-  dartpad:
-    embed-dart-prefix: https://dartpad.dev/embed-dart.html
-    embed-flutter-prefix: https://dartpad.dev/embed-flutter.html
-    embed-html-prefix: https://dartpad.dev/embed-html.html
-    embed-inline-prefix: https://dartpad.dev/embed-inline.html

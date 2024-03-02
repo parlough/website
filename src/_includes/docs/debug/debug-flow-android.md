@@ -1,8 +1,8 @@
-{{site.alert.note}}
+:::note
   If you want to use the [GNU Project Debugger][] to debug the
   Flutter engine running within an Android app process,
   check out [`flutter_gdb`][].
-{{site.alert.end}}
+:::
 
 [GNU Project Debugger]: https://www.sourceware.org/gdb/
 [`flutter_gdb`]: {{site.repo.engine}}/blob/main/sky/tools/flutter_gdb

@@ -1,4 +1,4 @@
-{{site.alert.note}}
+:::note
   Downloading the Flutter SDK
   also downloads a compatible version of Dart.
   If you've downloaded the Dart SDK separately,
@@ -31,6 +31,6 @@
 
   To learn more about the `dart` command, run `dart -h`
   from the command line, or see the [dart tool][] page.
-{{site.alert.end}}
+:::
 
 [dart tool]: {{site.dart-site}}/tools/dart-tool

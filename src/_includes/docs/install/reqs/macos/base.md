@@ -76,12 +76,12 @@ Popular options include:
   with both the [Flutter plugin for IntelliJ][] and
   the [Android plugin for IntelliJ][].
 
-{{site.alert.recommend}}
+:::tip
   The Flutter team recommends installing
   [Visual Studio Code][] {{site.appmin.vscode}} or later and the
   [Flutter extension for VS Code][].
   This combination simplifies installing the Flutter SDK.
-{{site.alert.end}}
+:::
 
 [Android Studio]: https://developer.android.com/studio/install
 [IntelliJ IDEA]: https://www.jetbrains.com/help/idea/installation-guide.html

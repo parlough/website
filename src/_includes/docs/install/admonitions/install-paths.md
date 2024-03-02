@@ -1,5 +1,5 @@
 
-   {{site.alert.warning}}
+   :::warning
 
       Don't install Flutter to a directory or path that meets
       one or both of the following conditions:
@@ -9,4 +9,4 @@
 
       As an example, `C:\Program Files` fails both conditions.
 
-   {{site.alert.end}}
+   :::
