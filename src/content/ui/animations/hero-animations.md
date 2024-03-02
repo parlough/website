@@ -351,7 +351,7 @@ PhotoHeroes, and sets up the transition.
 
 Here's the code:
 
-{% prettify dart %}
+```dart
 class HeroAnimation extends StatelessWidget {
   const HeroAnimation({super.key});
 
@@ -395,7 +395,7 @@ class HeroAnimation extends StatelessWidget {
     );
   }
 }
-{% endprettify %}
+```
 
 Key information:
 
@@ -502,7 +502,7 @@ To run the example:
 
 The `Photo` class builds the widget tree that holds the image:
 
-{% prettify dart %}
+```dart
 class Photo extends StatelessWidget {
   const Photo({super.key, required this.photo, this.color, this.onTap});
 
@@ -524,7 +524,7 @@ class Photo extends StatelessWidget {
     );
   }
 }
-{% endprettify %}
+```
 
 Key information:
 
@@ -559,7 +559,7 @@ To do this, it builds the following widget tree:
 
 Here's the code:
 
-{% prettify dart %}
+```dart
 class RadialExpansion extends StatelessWidget {
   const RadialExpansion({
     super.key,
@@ -586,7 +586,7 @@ class RadialExpansion extends StatelessWidget {
     );
   }
 }
-{% endprettify %}
+```
 
 Key information:
 
