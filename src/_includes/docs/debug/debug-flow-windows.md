@@ -26,7 +26,7 @@ Building Windows application...                                    31.4s
 {% comment %} Tab panes {% endcomment -%}
 <div class="tab-content">
 
-<div class="tab-pane active" id="from-vscode-to-vs" role="tabpanel" aria-labelledby="from-vscode-to-vs-tab" markdown="1">
+<div class="tab-pane active" id="from-vscode-to-vs" role="tabpanel" aria-labelledby="from-vscode-to-vs-tab">
 
 #### Start debugging with VS Code first {#vscode-windows}
 {:.no_toc}
@@ -40,8 +40,9 @@ If you use VS Code to debug most of your code, start with this section.
 
 {% comment %}
      !['Flutter app generated as a Windows app. The app displays two buttons to open this page in a browser or in the app'](/assets/images/docs/testing/debugging/native/url-launcher-app/windows.png){:width="50%"}
-     <div markdown="1">{:.figure-caption}
-     Flutter app generated as a Windows app. The app displays two buttons to open this page in a browser or in the app.
+     <div class="figure-caption">
+     Flutter app generated as a Windows app.
+     The app displays two buttons to open this page in a browser or in the app.
      </div>
 {% endcomment %}
 
@@ -58,9 +59,11 @@ If you use VS Code to debug most of your code, start with this section.
 
 {% comment %}
    ![Open Project/Solution dialog box in Visual Studio 2022 with my_app.sln file selected.](/assets/images/docs/testing/debugging/native/visual-studio/choose-solution.png){:width="100%"}
-   <div markdown="1">{:.figure-caption}
+   <div class="figure-caption">
+
    Open Project/Solution dialog box in Visual Studio 2022 with
-   `my_app.sln`` file selected.
+   `my_app.sln` file selected.
+
    </div>
 {% endcomment %}
 
@@ -82,7 +85,7 @@ If you use VS Code to debug most of your code, start with this section.
 
 </div>
 
-<div class="tab-pane" id="from-vs-to-vscode" role="tabpanel" aria-labelledby="from-vs-to-vscode-tab" markdown="1">
+<div class="tab-pane" id="from-vs-to-vscode" role="tabpanel" aria-labelledby="from-vs-to-vscode-tab">
 
 #### Start debugging with Visual Studio first
 {:.no_toc}
@@ -103,9 +106,11 @@ If you use Visual Studio to debug most of your code, start with this section.
 
 {% comment %}
    ![Open Project/Solution dialog box in Visual Studio 2022 with my_app.sln file selected.](/assets/images/docs/testing/debugging/native/visual-studio/choose-solution.png){:width="100%"}
-   <div markdown="1">{:.figure-caption}
+   <div class="figure-caption">
+
    Open Project/Solution dialog box in Visual Studio 2022 with
-   `my_app.sln`` file selected.
+   `my_app.sln` file selected.
+
    </div>
 {% endcomment %}
 

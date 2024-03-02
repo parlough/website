@@ -25,7 +25,7 @@ Building macOS application...
 {% comment %} Tab panes {% endcomment -%}
 <div class="tab-content">
 
-<div class="tab-pane active" id="from-vscode-to-xcode-macos" role="tabpanel" aria-labelledby="from-vscode-to-xcode-macos-tab" markdown="1">
+<div class="tab-pane active" id="from-vscode-to-xcode-macos" role="tabpanel" aria-labelledby="from-vscode-to-xcode-macos-tab">
 
 #### Start debugging with VS Code first {#vscode-macos}
 {:.no_toc}
@@ -48,7 +48,7 @@ Building macOS application...
 
 </div>
 
-<div class="tab-pane" id="from-xcode-macos" role="tabpanel" aria-labelledby="from-xcode-macos-tab" markdown="1">
+<div class="tab-pane" id="from-xcode-macos" role="tabpanel" aria-labelledby="from-xcode-macos-tab">
 
 #### Start debugging with Xcode first {#xcode-macos}
 {:.no_toc}
@@ -62,7 +62,7 @@ Building macOS application...
 
 {% comment %}
    ![Start button in Xcode interface](/assets/images/docs/testing/debugging/native/xcode/run-app.png)
-   <div markdown="1">{:.figure-caption}
+   <div class="figure-caption">
    Start button displayed in Xcode interface.
    </div>
 {% endcomment %}

@@ -105,7 +105,7 @@ debugging your own Flutter project as well.
 
 {% comment %}
       ![Flutter test app paused](/assets/images/docs/testing/debugging/native/macos/basic-app.png){:width="50%"}
-      <div markdown="1">{:.figure-caption}
+      <div class="figure-caption">
       Default Flutter app as rendered on macOS.
       </div>
 {% endcomment %}
@@ -140,7 +140,8 @@ The following screenshot and table explain the purpose of each tool.
 
 ![VS Code with the Flutter plugin UI additions](/assets/images/docs/testing/debugging/vscode-ui/screens/debugger-parts.png)
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | Highlight Color in Screenshot | Bar, Panel, or Tab  | Contents                                                                          |
 |-------------------------------|---------------------|-----------------------------------------------------------------------------------|
 | **Yellow**                    | Variables           | List of current values of variables in the Flutter app                            |
@@ -155,6 +156,7 @@ The following screenshot and table explain the purpose of each tool.
 |                               | Output              | Response that the Flutter app returns when building an app                        |
 |                               | Debug Console       | Logs or error messages that the Flutter app generates while debugging             |
 |                               | Terminal            | System shell prompt contained in VS Code                                          |
+
 {:.table.table-striped}
 </div>
 
@@ -168,7 +170,8 @@ You can step in, out, and over Dart statements, hot reload, or resume the app.
 
 ![Flutter debugger toolbar in VS Code](/assets/images/docs/testing/debugging/vscode-ui/screens/debug-toolbar.png)
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | Icon                                                      | Action                | Default Keyboard Shortcut                             |
 |-----------------------------------------------------------|-----------------------|-------------------------------------------------------|
 | {% include_relative vscode-flutter-bar/_play.md %}        | Start or Resume       | <kbd>F5</kbd>                                         |
@@ -178,8 +181,9 @@ You can step in, out, and over Dart statements, hot reload, or resume the app.
 | {% include_relative vscode-flutter-bar/_step-out.md %}    | Step Out              | <kbd>Shift</kbd> + <kbd>F11</kbd>                     |
 | {% include_relative vscode-flutter-bar/_hot-reload.md %}  | Hot Reload            | <kbd>Ctrl</kbd> + <kbd>F5</kbd>                       |
 | {% include_relative vscode-flutter-bar/_hot-restart.md %} | Hot Restart           | <kbd>Shift</kbd> + <kbd>Special</kbd> + <kbd>F5</kbd> |
-| {% include_relative vscode-flutter-bar/_stop.md %}        | Stop                  | <kbd>Shift</kbd> + <kbd>F5</kbd>                     |
+| {% include_relative vscode-flutter-bar/_stop.md %}        | Stop                  | <kbd>Shift</kbd> + <kbd>F5</kbd>                      |
 | {% include_relative vscode-flutter-bar/_inspector.md %}   | Open Widget Inspector |                                                       |
+
 {:.table.table-striped}
 </div>
 

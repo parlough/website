@@ -170,7 +170,7 @@ Enabling certificates varies in different versions of iOS.
 {% comment %} Tab panes {% endcomment -%}
 <div class="tab-content">
 
-<div class="tab-pane" id="ios14" role="tabpanel" aria-labelledby="ios14-tab" markdown="1">
+<div class="tab-pane" id="ios14" role="tabpanel" aria-labelledby="ios14-tab">
 
 1. Open the **Settings** app on the iOS device.
 
@@ -181,7 +181,7 @@ Enabling certificates varies in different versions of iOS.
 
 </div>
 
-<div class="tab-pane" id="ios15" role="tabpanel" aria-labelledby="ios15-tab" markdown="1">
+<div class="tab-pane" id="ios15" role="tabpanel" aria-labelledby="ios15-tab">
 
 1. Open the **Settings** app on the iOS device.
 
@@ -192,7 +192,7 @@ Enabling certificates varies in different versions of iOS.
 
 </div>
 
-<div class="tab-pane active" id="ios16" role="tabpanel" aria-labelledby="ios16-tab" markdown="1">
+<div class="tab-pane active" id="ios16" role="tabpanel" aria-labelledby="ios16-tab">
 
 1. Open the **Settings** app on the iOS device.
 

@@ -26,7 +26,7 @@ Building com.example.myApp for device (ios)...
 {% comment %} Tab panes {% endcomment -%}
 <div class="tab-content">
 
-<div class="tab-pane active" id="from-vscode-to-xcode-ios" role="tabpanel" aria-labelledby="from-vscode-to-xcode-ios-tab" markdown="1">
+<div class="tab-pane active" id="from-vscode-to-xcode-ios" role="tabpanel" aria-labelledby="from-vscode-to-xcode-ios-tab">
 
 #### Start debugging with VS Code first {#vscode-ios}
 {:.no_toc}
@@ -50,7 +50,7 @@ If you use VS Code to debug most of your code, start with this section.
 
 </div>
 
-<div class="tab-pane" id="from-xcode-ios" role="tabpanel" aria-labelledby="from-xcode-ios-tab" markdown="1">
+<div class="tab-pane" id="from-xcode-ios" role="tabpanel" aria-labelledby="from-xcode-ios-tab">
 
 #### Start debugging with Xcode first {#xcode-ios}
 {:.no_toc}
@@ -68,7 +68,7 @@ If you use Xcode to debug most of your code, start with this section.
 
    {% comment %}
     ![Selecting iPhone 14 in the Scheme menu in the Xcode toolbar](/assets/images/docs/testing/debugging/native/xcode/select-device.png){:width="100%"}
-    <div markdown="1">{:.figure-caption}
+    <div class="figure-caption">
     Selecting iPhone 14 in the Scheme menu in the Xcode toolbar.
     </div>
     {% endcomment %}
@@ -77,7 +77,7 @@ If you use Xcode to debug most of your code, start with this section.
 
     {% comment %}
     ![Start button in Xcode interface](/assets/images/docs/testing/debugging/native/xcode/run-app.png)
-    <div markdown="1">{:.figure-caption}
+    <div class="figure-caption">
     Start button displayed in Xcode interface.
     </div>
     {% endcomment %}

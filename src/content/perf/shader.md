@@ -135,7 +135,7 @@ flutter_01.sksl.json --target=test_driver/app.dart`).
 
 </li>
 
-<li markdown="1"> Test the newly built app.
+<li> Test the newly built app.
 </li>
 </ol>
 

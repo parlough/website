@@ -55,13 +55,13 @@ With Xcode, you can run Flutter apps on an iOS device or on the simulator.
 {% comment %} Tab panes {% endcomment -%}
 <div class="tab-content">
 
-<div class="tab-pane active" id="virtual" role="tabpanel" aria-labelledby="virtual-tab" markdown="1">
+<div class="tab-pane active" id="virtual" role="tabpanel" aria-labelledby="virtual-tab">
 
 {% include docs/install/devices/ios-simulator.md os=include.os %}
 
 </div>
 
-<div class="tab-pane" id="physical" role="tabpanel" aria-labelledby="physical-tab" markdown="1">
+<div class="tab-pane" id="physical" role="tabpanel" aria-labelledby="physical-tab">
 
 {% include docs/install/devices/ios-physical.md os=include.os %}
 

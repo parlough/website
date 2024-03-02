@@ -187,10 +187,13 @@ or `C:\\Users\\<user name>\\upload-keystore.jks` on Windows.
 Configure gradle to use your upload key when building your app in release mode 
 by editing the `[project]/android/app/build.gradle` file.
 
-<ol markdown="1">
-<li markdown="1"> Add the keystore information from your properties file before the `android` block:
+<ol>
+<li>
 
-```
+Add the keystore information from your properties file
+before the `android` block:
+
+```gradle
    def keystoreProperties = new Properties()
    def keystorePropertiesFile = rootProject.file('key.properties')
    if (keystorePropertiesFile.exists()) {
@@ -206,9 +209,11 @@ by editing the `[project]/android/app/build.gradle` file.
 
 </li>
 
-<li markdown="1"> Find the `buildTypes` block:
+<li>
 
-```
+Find the `buildTypes` block:
+
+```gradle
    buildTypes {
        release {
            // TODO: Add your own signing config for the release build.
@@ -221,7 +226,7 @@ by editing the `[project]/android/app/build.gradle` file.
 
    And replace it with the following signing configuration info:
 
-```
+```gradle
    signingConfigs {
        release {
            keyAlias keystoreProperties['keyAlias']

@@ -573,7 +573,8 @@ numbers based on the locale and the desired format.
 The `int`, `double`, and `number` types can use any of the
 following `NumberFormat` constructors:
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | Message "format" value      | Output for 1200000 |
 | --------------------------- | ------------------ |
 | `compact`                   | "1.2M"             |
@@ -587,6 +588,7 @@ following `NumberFormat` constructors:
 | `percentPattern`            | "120,000,000%"     |
 | `scientificPattern`         | "1E6"              |
 | `simpleCurrency`*           | "$1,200,000"       |
+
 {:.table.table-striped}
 </div>
 
@@ -824,7 +826,8 @@ to specify the following:
 For a full list of options, either run `flutter gen-l10n --help`
 at the command line or refer to the following table:
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | Option                              | Description |
 | ------------------------------------| ------------------ |
 | `arb-dir`                           | The directory where the template and translated arb files are located. The default is `lib/l10n`. |
@@ -845,6 +848,7 @@ at the command line or refer to the following table:
 | `[no-]format`                       | When specified, the `dart format` command is run after generating the localization files. |
 | `use-escaping`                      | Specifies whether to enable the use of single quotes as escaping syntax. |
 | `[no-]suppress-warnings`            | When specified, all warnings are suppressed. |
+
 {:.table.table-striped}
 </div>
 

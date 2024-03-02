@@ -26,9 +26,11 @@ If you use the example code provided, you can build the following app.
    caption="The finished app."
    width="50%" %}
 
-<figcaption class="figure-caption" markdown="1">
+<figcaption class="figure-caption">
+
 Photo by [Dino Reichmuth][ch-photo] on [Unsplash][].
 Text by [Switzerland Tourism][].
+
 </figcaption>
 
 To get a better overview of the layout mechanism, start with
@@ -50,7 +52,7 @@ screen before writing code. It's the programming version of the adage:
 "Measure twice, cut once."
 
 <ol>
-<li markdown="1">
+<li>
 
 Ask these questions to break the layout down to its basic elements.
 
@@ -62,7 +64,7 @@ Ask these questions to break the layout down to its basic elements.
 
 </li>
 
-<li markdown="1">
+<li>
 
 Identify the larger elements. In this example, you arrange the image, title,
 buttons, and description into a column.
@@ -74,13 +76,13 @@ buttons, and description into a column.
     width="50%" %}
 
 </li>
-<li markdown="1">
+<li>
 
 Diagram each row.
 
 <ol type="a">
 
-<li markdown="1">
+<li>
 
 Row 1, the **Title** section, has three children:
 a column of text, a star icon, and a number.
@@ -94,7 +96,7 @@ That first column might need more space.
 
 </li>
 
-<li markdown="1">
+<li>
 
 Row 2, the **Button** section, has three children: each child contains
 a column which then contains an icon and text.

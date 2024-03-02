@@ -27,12 +27,13 @@ to cover all the important use cases. This advice is based on
 the fact that there are trade-offs between different kinds of testing,
 seen below.
 
-|                      | Unit   | Widget | Integration |
+| Trade-off            | Unit   | Widget | Integration |
 |----------------------|--------|--------|-------------|
 | **Confidence**       | Low    | Higher | Highest     |
 | **Maintenance cost** | Low    | Higher | Highest     |
 | **Dependencies**     | Few    | More   | Most        |
 | **Execution speed**  | Quick  | Quick  | Slow        |
+
 {:.table.table-striped}
 
 ## Unit tests

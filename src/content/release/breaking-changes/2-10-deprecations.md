@@ -195,13 +195,14 @@ They are replaced by new buttons, `TextButton`, `ElevatedButton`, and
 `OutlinedButton`. These new widgets also use new associated themes, rather than
 the generic `ButtonTheme`.
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
 
-| Old Widget     | Old Theme       | New Widget        | New Theme             |
-| ---------------|-----------------|-------------------|-----------------------|
-| `FlatButton`   | `ButtonTheme`   | `TextButton`      | `TextButtonTheme`     |
-| `RaisedButton` | `ButtonTheme`   | `ElevatedButton`  | `ElevatedButtonTheme` |
-| `OutlineButton`| `ButtonTheme`   | `OutlinedButton`  | `OutlinedButtonTheme` |
+| Old Widget      | Old Theme     | New Widget       | New Theme             |
+|-----------------|---------------|------------------|-----------------------|
+| `FlatButton`    | `ButtonTheme` | `TextButton`     | `TextButtonTheme`     |
+| `RaisedButton`  | `ButtonTheme` | `ElevatedButton` | `ElevatedButtonTheme` |
+| `OutlineButton` | `ButtonTheme` | `OutlinedButton` | `OutlinedButtonTheme` |
+
 {:.table .table-striped .nowrap}
 </div>
 

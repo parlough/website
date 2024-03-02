@@ -286,7 +286,7 @@ The custom PhotoHero class maintains the hero,
 and its size, image, and behavior when tapped.
 The PhotoHero builds the following widget tree:
 
-<div class="text-center mb-4" markdown="1">
+<div class="text-center mb-4">
 
   ![PhotoHero class widget tree](/assets/images/docs/ui/animations/photohero-class.png)
 
@@ -551,7 +551,7 @@ with a rectangular clip (that remains a constant size throughout).
 
 To do this, it builds the following widget tree:
 
-<div class="text-center mb-4" markdown="1">
+<div class="text-center mb-4">
 
   ![RadialExpansion widget tree](/assets/images/docs/ui/animations/radial-expansion-class.png)
 

@@ -2308,7 +2308,8 @@ In Flutter, if you are using an IDE, you can use the IDE tools. If you start
 your application using `flutter run` you can also access the menu by typing `h`
 in the terminal window, or type the following shortcuts:
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | Action| Terminal Shortcut| Debug functions and properties|
 | :------- | :------: | :------ |
 | Widget hierarchy of the app| `w`| debugDumpApp()|
@@ -2321,6 +2322,7 @@ in the terminal window, or type the following shortcuts:
 | To display the performance overlay | `P` | WidgetsApp. showPerformanceOverlay|
 | To save a screenshot to flutter. png| `s` ||
 | To quit| `q` ||
+
 {:.table.table-striped}
 </div>
 
@@ -2502,7 +2504,8 @@ The following table lists commonly-used React Native
 components mapped to the corresponding Flutter widget
 and common widget properties.
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper">
+
 | React Native Component                                                                    | Flutter Widget                                                                                             | Description                                                                                                                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Button`](https://facebook.github.io/react-native/docs/button.html)                        | [`ElevatedButton`][]                           | A basic raised button.                                                                              |
@@ -2572,6 +2575,7 @@ and common widget properties.
 | [`Slider`](https://facebook.github.io/react-native/docs/slider.html)                      | [`Slider`][]                                      | Used to select from a range of values.                                                                                                                                                                       |
 |                                                                                         | value [required]                                                                                          | [ double ] The current value of the slider.                                                                                                                                                                           |
 |                                                                                         | onChanged [required]                                                                                      | Called when the user selects a new value for the slider.                                                                                                                                                      |
+
 {:.table.table-striped}
 </div>
 
