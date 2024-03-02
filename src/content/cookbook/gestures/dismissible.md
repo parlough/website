@@ -1,7 +1,6 @@
 ---
 title: Implement swipe to dismiss
 description: How to implement swiping to dismiss or delete.
-diff2html: true
 js:
   - defer: true
     url: https://old-dartpad-3ce3f.web.app/inject_embed.dart.js

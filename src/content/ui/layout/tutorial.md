@@ -2,7 +2,6 @@
 title: Build a Flutter layout
 short-title: Layout tutorial
 description: Learn how to build a layout in Flutter.
-diff2html: true
 ---
 
 {% assign api = site.api | append: '/flutter' -%}

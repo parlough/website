@@ -2,7 +2,6 @@
 title: Animations tutorial
 short-title: Tutorial
 description: A tutorial showing how to build explicit animations in Flutter.
-diff2html: true
 ---
 
 {% assign api = '{{site.api}}/flutter' -%}

@@ -4,7 +4,6 @@ description: >
   Learn how to use Flutter's implicitly animated widgets
   through interactive examples and exercises.
 toc: true
-diff2html: true
 js:
   - defer: true
     url: https://old-dartpad-3ce3f.web.app/inject_embed.dart.js
