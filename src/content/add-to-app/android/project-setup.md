@@ -22,8 +22,7 @@ IDE with the [Flutter plugin][] or manually.
   Doing this avoids a missing `libflutter.so` runtime crash,
   for example:
 
-<?code-excerpt title="MyApp/app/build.gradle"?>
-```gradle
+```gradle title="MyApp/app/build.gradle"
 android {
   //...
   defaultConfig {
@@ -168,8 +167,7 @@ to your host Android app, ensure that your host Android
 app declares the following source compatibility within your
 app's `build.gradle` file, under the `android { }` block.
 
-<?code-excerpt title="MyApp/app/build.gradle"?>
-```gradle
+```gradle title="MyApp/app/build.gradle"
 android {
   //...
   compileOptions {
@@ -332,8 +330,8 @@ follow these steps to add the flutter_module.
 
 Include the flutter module as a dependency in 
 the Android project's `app/build.gradle` file.
-<?code-excerpt title="MyApp/app/build.gradle.kts"?>
-```gradle
+
+```gradle title="MyApp/app/build.gradle.kts"
 android {
     buildTypes {
         release {
@@ -357,16 +355,14 @@ dependencies {
 The `profileImplementation` ID is a custom `configuration` to be
 implemented in the `app/build.gradle` file of a host project.
 
-<?code-excerpt title="host-project/app/build.gradle.kts"?>
-```gradle
+```gradle title="host-project/app/build.gradle.kts"
 configurations {
     getByName("profileImplementation") {
     }
 }
 ```
 
-<?code-excerpt title="MyApp/settings.gradle.kts"?>
-```gradle
+```gradle title="MyApp/settings.gradle.kts"
 include(":app")
 
 dependencyResolutionManagement {
@@ -415,8 +411,7 @@ Include the Flutter module as a subproject in the host app's
 `settings.gradle`. This example assumes `flutter_module` and `MyApp`
 exist in the same directory
 
-<?code-excerpt title="MyApp/settings.gradle"?>
-```groovy
+```groovy title="MyApp/settings.gradle"
 // Include the host app project.
 include ':app'                                    // assumed existing content
 setBinding(new Binding([gradle: this]))                                // new
@@ -434,8 +429,7 @@ in the evaluation context of your `settings.gradle`.
 Introduce an `implementation` dependency on the Flutter
 module from your app:
 
-<?code-excerpt title="MyApp/app/build.gradle"?>
-```groovy
+```groovy title="MyApp/app/build.gradle"
 dependencies {
     implementation project(':flutter')
 }

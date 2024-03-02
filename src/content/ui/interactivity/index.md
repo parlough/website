@@ -148,7 +148,7 @@ instance of `_FavoriteWidgetState`,
 which you'll implement in the next step.
 
 <?code-excerpt path-base="layout/lakes/interactive"?>
-<?code-excerpt "lib/main.dart (FavoriteWidget)" title?>
+<?code-excerpt "lib/main.dart (FavoriteWidget)"?>
 ```dart
 class FavoriteWidget extends StatefulWidget {
   const FavoriteWidget({super.key});
@@ -176,7 +176,7 @@ red star, indicating that the lake has "favorite" status,
 along with 41 likes. These values are stored in the
 `_isFavorited` and `_favoriteCount` fields:
 
-<?code-excerpt "lib/main.dart (_FavoriteWidgetState fields)" replace="/(bool|int) .*/[!$&!]/g" title?>
+<?code-excerpt "lib/main.dart (_FavoriteWidgetState fields)" replace="/(bool|int) .*/[!$&!]/g"?>
 ```dart
 class _FavoriteWidgetState extends State<FavoriteWidget> {
   [!bool _isFavorited = true;!]
@@ -193,7 +193,7 @@ because it has an `onPressed` property that defines
 the callback function (`_toggleFavorite`) for handling a tap.
 You'll define the callback function next.
 
-<?code-excerpt "lib/main.dart (_FavoriteWidgetState build)" replace="/build|icon.*|onPressed.*|child: Text.*/[!$&!]/g" title?>
+<?code-excerpt "lib/main.dart (_FavoriteWidgetState build)" replace="/build|icon.*|onPressed.*|child: Text.*/[!$&!]/g"?>
 ```dart
 class _FavoriteWidgetState extends State<FavoriteWidget> {
   // ···

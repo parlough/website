@@ -46,8 +46,7 @@ In this example, we create a `FlutterEngine` object inside a SwiftUI `Observable
 We then pass this `FlutterEngine` into a `ContentView` using the 
  `environmentObject()` property. 
 
- <?code-excerpt title="MyApp.swift"?>
- ```swift
+ ```swift title="MyApp.swift"
 import SwiftUI
 import Flutter
 // The following library connects plugins with iOS platform code to this app.
@@ -80,8 +79,7 @@ As an example, we demonstrate creating a
 `FlutterEngine`, exposed as a property, on app startup in
 the app delegate.
 
-<?code-excerpt title="AppDelegate.swift"?>
-```swift
+```swift title="AppDelegate.swift"
 import UIKit
 import Flutter
 // The following library connects plugins with iOS platform code to this app.
@@ -107,8 +105,7 @@ object inside a SwiftUI `ObservableObject`.
 We then pass this `FlutterEngine` into a 
 `ContentView` using the `environmentObject()` property.
 
-<?code-excerpt title="AppDelegate.h"?>
-```objectivec
+```objectivec title="AppDelegate.h"
 @import UIKit;
 @import Flutter;
 
@@ -117,8 +114,7 @@ We then pass this `FlutterEngine` into a
 @end
 ```
 
-<?code-excerpt title="AppDelegate.m"?>
-```objectivec
+```objectivec title="AppDelegate.m"
 // The following library connects plugins with iOS platform code to this app.
 #import <FlutterPluginRegistrant/GeneratedPluginRegistrant.h>
 
@@ -151,8 +147,7 @@ The `FlutterViewController` constructor takes the pre-warmed
 `FlutterEngine` as an argument. `FlutterEngine` is passed in 
 as an `EnvironmentObject` via `flutterDependencies`.
 
-<?code-excerpt title="ContentView.swift"?>
-```swift
+```swift title="ContentView.swift"
 import SwiftUI
 import Flutter
 
@@ -195,8 +190,7 @@ The following example shows a generic `ViewController` with a
 The `FlutterViewController` uses the `FlutterEngine` instance
 created in the `AppDelegate`.
 
-<?code-excerpt title="ViewController.swift"?>
-```swift
+```swift title="ViewController.swift"
 import UIKit
 import Flutter
 
@@ -228,8 +222,7 @@ The following example shows a generic `ViewController` with a
 The `FlutterViewController` uses the `FlutterEngine` instance
 created in the `AppDelegate`.
 
-<?code-excerpt title="ViewController.m"?>
-```objectivec
+```objectivec title="ViewController.m"
 @import Flutter;
 #import "AppDelegate.h"
 #import "ViewController.h"
@@ -322,8 +315,7 @@ func openFlutterApp() {
 }
 ```
 {% sample UIKit-Swift %}
-<?code-excerpt title="ViewController.swift"?>
-```swift
+```swift title="ViewController.swift"
 // Existing code omitted.
 func showFlutter() {
   let flutterViewController = FlutterViewController(project: nil, nibName: nil, bundle: nil)
@@ -331,8 +323,7 @@ func showFlutter() {
 }
 ```
 {% sample UIKit-ObjC %}
-<?code-excerpt title="ViewController.m"?>
-```objectivec
+```objectivec title="ViewController.m"
 // Existing code omitted.
 - (void)showFlutter {
   FlutterViewController *flutterViewController =
@@ -448,8 +439,7 @@ For instance:
 
 {% samplecode app-delegate %}
 {% sample Swift %}
-<?code-excerpt title="AppDelegate.swift"?>
-```swift
+```swift title="AppDelegate.swift"
 import Foundation
 import Flutter
 
@@ -508,8 +498,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FlutterAppLifeCycleProvid
 ```
 
 {% sample Objective-C %}
-<?code-excerpt title="AppDelegate.h"?>
-```objectivec
+```objectivec title="AppDelegate.h"
 @import Flutter;
 @import UIKit;
 @import FlutterPluginRegistrant;
@@ -523,8 +512,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FlutterAppLifeCycleProvid
 The implementation should delegate mostly to a
 `FlutterPluginAppLifeCycleDelegate`:
 
-<?code-excerpt title="AppDelegate.m"?>
-```objectivec
+```objectivec title="AppDelegate.m"
 @interface AppDelegate ()
 @property (nonatomic, strong) FlutterPluginAppLifeCycleDelegate* lifeCycleDelegate;
 @end

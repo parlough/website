@@ -162,11 +162,11 @@ pre {
       }
     }
 
-    &.tag-good, &.tag-passes-sa, &.tag-runtime-success {
+    &.tag-good {
       background-color: $alert-success-bg;
     }
 
-    &.tag-bad, &.tag-fails-sa, &.tag-runtime-fail {
+    &.tag-bad {
       background-color: $alert-danger-bg;
     }
   }
