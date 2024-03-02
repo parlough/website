@@ -149,7 +149,7 @@ Reverted in version: xxx  (OPTIONAL, delete if not used)
   you link to "main-api.flutter.dev"; prefer our
   stable documentation if possible.
 
-{% include docs/main-api.md %}
+{% include 'docs/main-api.md' %}
 
 API documentation:
 
@@ -185,7 +185,7 @@ Relevant PRs:
 [`ClassName`]: {{site.api}}/flutter/[link_to_relevant_page].html
 
 <!-- Master channel link: -->
-{% include docs/main-api.md %}
+{% include 'docs/main-api.md' %}
 
 [`ClassName`]: {{site.main-api}}/flutter/[link_to_relevant_page].html
 

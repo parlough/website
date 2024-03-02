@@ -1,6 +1,6 @@
 ## Get the Flutter SDK
 
-{% include docs/china-notice.md %}
+{% render 'docs/china-notice.md' %}
 
 {% include_relative_help-link.md location='win-get-sdk' %}
 

@@ -128,7 +128,7 @@ current state or events to the console using the `debugPrint` property.
   development machine prints.
 :::
 
-{% include docs/admonitions/tip-hashCode-tree.md %}
+{% include 'docs/admonitions/tip-hashCode-tree.md' %}
 
 ### Print the widget tree
 

@@ -24,4 +24,4 @@ os-list: [Windows, macOS, Linux, ChromeOS]
 {% endfor %}
 </div>
 
-{% include docs/china-notice.md %}
+{% render 'docs/china-notice.md' %}

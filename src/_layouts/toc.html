@@ -25,7 +25,7 @@ sitemap: false
 {% endfor -%}
 
 {% assign entries = topics -%}
-{% capture md %}{% include mini-toc.md %}{% endcapture %}
+{% capture md %}{% include 'mini-toc.md' %}{% endcapture %}
 {{ md | markdownify }}
 
 {{content}}
