@@ -5,7 +5,7 @@
   overflow-y: auto;
   min-width: 16rem;
   width: 16rem;
-  max-height: calc(100vh - 80px);
+  max-height: calc(100vh - var(--site-header-height) - 2rem);
   padding-right: 1rem;
   padding-left: 0.5rem;
   padding-bottom: 1rem;
@@ -114,6 +114,21 @@
   }
 }
 
+#menu-button-inline {
+  position: fixed;
+  bottom: 0.75rem;
+  left: 14rem;
+  padding: 0.25rem;
+  opacity: 97.5%;
+  user-select: none;
+  background-color: var(--site-secondary-container);
+  color: var(--site-on-secondary-container);
+  z-index: 100;
+
+  transition: 0.3s transform cubic-bezier(0.4, 0, 0.2, 1),
+              0.25s left ease-in-out;
+}
+
 @media(max-width: 768px) {
   #sidenav {
     display: none;
@@ -151,5 +166,9 @@
         display: unset;
       }
     }
+  }
+
+  #menu-button-inline {
+    display: none;
   }
 }

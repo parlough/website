@@ -75,5 +75,17 @@ body {
         display: none;
       }
     }
+
+    #menu-button-inline {
+      left: -1rem;
+
+      .material-symbols {
+        transform: rotate(180deg);
+      }
+
+      &:hover {
+        left: 0.75rem;
+      }
+    }
   }
 }
