@@ -11,16 +11,6 @@ updates:
       - "auto.dependencies"
       - "auto.github-action"
       - "lang.yaml"
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    allow:
-      - dependency-type: "production"
-    labels:
-      - "auto.dependencies"
-      - "auto.npm"
-      - "lang.javascript"
   - package-ecosystem: "pub"
     versioning-strategy: "increase-if-necessary"
     directories:
