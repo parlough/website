@@ -5,4 +5,5 @@ environment:
   sdk: ^3.9.0
 
 workspace:
+  - site
   - tool/dash_site
