@@ -49,7 +49,7 @@ Component get _docsFlutterDevSite => ContentApp.custom(
       DashMarkdownParser(),
       HtmlParser(),
     ],
-    rawOutputPattern: RegExp(r'.*\.txt$'),
+    rawOutputPattern: RegExp(r'.*\.(txt|json|pdf)$'),
     extensions: allNodeProcessingExtensions,
     components: _embeddableComponents,
     layouts: const [DocLayout(), HomepageLayout()],
