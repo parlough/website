@@ -19,12 +19,25 @@ final class CleanSiteCommand extends Command<int> {
 
   @override
   Future<int> run() async {
+    print('Cleaning the Jaspr setup...');
+
+    installJasprCliIfNecessary();
+
+    final process = await Process.start(
+      Platform.resolvedExecutable,
+      ['pub', 'global', 'run', 'jaspr_cli:jaspr', 'clean', '--kill'],
+      workingDirectory: 'site',
+      mode: ProcessStartMode.inheritStdio,
+    );
+
+    final processExitCode = await process.exitCode;
+
     print('Cleaning the site output directory...');
     final outputDirectory = Directory(siteOutputDirectoryPath);
     if (outputDirectory.existsSync()) {
       outputDirectory.deleteSync(recursive: true);
     }
 
-    return 0;
+    return processExitCode;
   }
 }

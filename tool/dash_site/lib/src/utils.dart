@@ -27,6 +27,28 @@ final String siteOutputDirectoryPath = path.join(repositoryRoot, '_site');
 
 final bool _runningInCi = Platform.environment['CI'] == 'true';
 
+int installJasprCliIfNecessary() {
+  final activateOutput = Process.runSync(Platform.executable, const [
+    'pub',
+    'global',
+    'activate',
+    'jaspr_cli',
+    '^0.21.1',
+  ]);
+
+  if (activateOutput.exitCode != 0) {
+    final normalOutput = activateOutput.stdout.toString();
+    final errorOutput = activateOutput.stderr.toString();
+
+    stderr.write(normalOutput);
+    stderr.write(errorOutput);
+    stderr.writeln('Error: Installing jaspr_cli failed.');
+    return 1;
+  }
+
+  return 0;
+}
+
 void groupStart(String text) {
   if (_runningInCi) {
     print('::group::$text');
