@@ -37,6 +37,7 @@ int formatDart({bool justCheck = false}) {
   // Currently format all Dart files in the /tool directory
   // and everything in /examples.
   final directoriesToFormat = [
+    'site',
     'tool',
     ...Directory('examples')
         .listSync()

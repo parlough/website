@@ -33,6 +33,7 @@ final class AnalyzeDartCommand extends Command<int> {
 
 int analyzeDart({bool verboseLogging = false}) {
   final directoriesToAnalyze = [
+    path.join('site'),
     path.join('tool', 'dash_site'),
     path.join('examples'),
   ];
