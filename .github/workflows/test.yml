@@ -38,13 +38,13 @@ jobs:
         run: dart pub get
         continue-on-error: ${{ matrix.experimental }}
       - name: Check Dart code formatting
-        run: dart run flutter_site format-dart --check
+        run: dart run dash_site format-dart --check
         continue-on-error: ${{ matrix.experimental }}
       - name: Analyze Dart code
-        run: dart run flutter_site analyze-dart
+        run: dart run dash_site analyze-dart
         continue-on-error: ${{ matrix.experimental }}
       - name: Run Dart tests
-        run: dart run flutter_site test-dart
+        run: dart run dash_site test-dart
         continue-on-error: ${{ matrix.experimental }}
 
   excerpts:
@@ -59,7 +59,7 @@ jobs:
       - name: Fetch Dart dependencies
         run: dart pub get
       - name: Check if excerpts are up to date
-        run: dart run flutter_site refresh-excerpts --fail-on-update --dry-run
+        run: dart run dash_site refresh-excerpts --fail-on-update --dry-run
         continue-on-error: ${{ matrix.experimental }}
 
   linkcheck:
@@ -75,11 +75,11 @@ jobs:
       - name: Install firebase-tools
         run: curl -sL https://firebase.tools | bash
       - name: Build site
-        run: dart run flutter_site build
+        run: dart run dash_site build
       - name: Check for broken Markdown link references
-        run: dart run flutter_site check-link-references
+        run: dart run dash_site check-link-references
       - name: Check for broken internal links
-        run: dart run flutter_site check-links
+        run: dart run dash_site check-links
 
   firebase-validate:
     name: Validate Firebase configuration
@@ -93,4 +93,4 @@ jobs:
       - name: Fetch Dart dependencies
         run: dart pub get
       - name: Validate the firebase.json file
-        run: dart run flutter_site verify-firebase-json
+        run: dart run dash_site verify-firebase-json

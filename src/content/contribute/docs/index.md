@@ -72,7 +72,7 @@ This document is a work in progress.
 
       The other directories hosting the site content.
 - `tool/`
-  - `flutter_site/` and `dash_site/`
+  - `dash_site/`
 
     The implementation directories for the `dash_site` tooling.
 - `dash_site`

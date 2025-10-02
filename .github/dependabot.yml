@@ -15,7 +15,7 @@ updates:
     versioning-strategy: "increase-if-necessary"
     directories:
       - "/"
-      - "/tool/flutter_site"
+      - "/tool/dash_site"
     schedule:
       interval: "daily"
     labels:

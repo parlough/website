@@ -33,7 +33,7 @@ final class TestDartCommand extends Command<int> {
 
 Future<int> _testDart({bool verboseLogging = false}) async {
   final directoriesToTest = [
-    path.join('tool', 'flutter_site'),
+    path.join('tool', 'dash_site'),
     ...exampleProjectDirectories,
   ];
 
