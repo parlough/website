@@ -24,30 +24,18 @@ final class DashSideNav extends StatelessComponent {
 
   @override
   Component build(BuildContext _) => div(id: 'sidenav', [
-    form(action: '/search/', classes: 'site-header-search form-inline', [
-      input(
-        classes: 'site-header-searchfield search-field',
-        type: InputType.search,
-        name: 'q',
-        id: 'search-side',
-        attributes: {
-          'autocomplete': 'off',
-          'placeholder': 'Search',
-          'aria-label': 'Search',
-        },
+    nav([
+      _SideNavLevel(
+        entries: navEntries,
+        parentId: 'sidenav',
+        currentLevel: 0,
+        possiblyActive: true,
+        activePath: _ActiveNavigationPath.findActive(
+          entries: navEntries,
+          currentPageUrl: currentPageUrl,
+        ),
       ),
     ]),
-    _SideNavLevel(
-      entries: navEntries,
-      parentId: 'docs',
-      currentLevel: 0,
-      possiblyActive: true,
-      activePath: _ActiveNavigationPath.findActive(
-        entries: navEntries,
-        currentPageUrl: currentPageUrl,
-      ),
-      classes: 'nav',
-    ),
   ]);
 }
 
