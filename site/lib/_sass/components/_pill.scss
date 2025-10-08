@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 .rrec-pill {
   border-radius: 8px;
   margin: 0.5rem;
@@ -10,15 +12,15 @@
 
   // Green
   &.success {
-    background: darken(#f1fbf9, 10%);
+    background: color.scale(#f1fbf9, $lightness: -10%);
     color: #155723;
   }
 
   // Blue
   &.info {
     $info-bg: #e7f8ff;
-    background: darken($info-bg, 10%);
-    color: darken($info-bg, 60%);
+    background: color.scale($info-bg, $lightness: -10%);
+    color: color.scale($info-bg, $lightness: -60%);
   }
 }
 
@@ -37,17 +39,17 @@
   // compatible with dark mode.
 
   &.flutter-blue {
-    color: lighten(#E7F8FF, 10%);
+    color: color.scale(#E7F8FF, $lightness: 10%);
     background: #0468D7;
   }
 
   &.teal {
-    color: lighten(#B8EDE1, 10%);
+    color: color.scale(#B8EDE1, $lightness: 10%);
     background: #158477;
   }
 
   &.purple {
-    color: lighten(#C6BAFA, 10%);
+    color: color.scale(#C6BAFA, $lightness: 10%);
     background: #6200EE;
   }
 }
