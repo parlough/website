@@ -21,7 +21,7 @@ final class DashFooter extends StatelessComponent {
             attributes: {'title': 'Dart'},
             [
               img(
-                src: '/assets/img/logo/logo-white-text.svg',
+                src: '/assets/images/logo/logo-white-text.svg',
                 alt: 'Dart',
                 width: 164,
               ),
@@ -40,7 +40,7 @@ final class DashFooter extends StatelessComponent {
                   const Component.element(
                     tag: 'use',
                     attributes: {
-                      'href': '/assets/img/social/medium.svg#medium',
+                      'href': '/assets/images/social/medium.svg#medium',
                     },
                   ),
                 ]),
@@ -58,7 +58,7 @@ final class DashFooter extends StatelessComponent {
                   const Component.element(
                     tag: 'use',
                     attributes: {
-                      'href': '/assets/img/social/github.svg#github',
+                      'href': '/assets/images/social/github.svg#github',
                     },
                   ),
                 ]),
@@ -76,7 +76,7 @@ final class DashFooter extends StatelessComponent {
                   const Component.element(
                     tag: 'use',
                     attributes: {
-                      'href': '/assets/img/social/bluesky.svg#bluesky',
+                      'href': '/assets/images/social/bluesky.svg#bluesky',
                     },
                   ),
                 ]),
@@ -93,7 +93,7 @@ final class DashFooter extends StatelessComponent {
                 svg([
                   const Component.element(
                     tag: 'use',
-                    attributes: {'href': '/assets/img/social/x.svg#x'},
+                    attributes: {'href': '/assets/images/social/x.svg#x'},
                   ),
                 ]),
               ],
