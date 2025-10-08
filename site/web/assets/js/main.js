@@ -67,8 +67,6 @@ function getOS() {
  * Enables a "back to top" button in the TOC header.
  */
 function setupToc() {
-  const tocHeader = document.querySelector('#toc-side header');
-
   _setupTocActiveObserver();
   _setupInlineTocDropdown();
 }

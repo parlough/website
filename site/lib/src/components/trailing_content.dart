@@ -10,10 +10,9 @@ import 'feedback.dart';
 /// The trailing content of a content documentation page, such as
 /// its last updated information, report an issue links, and similar.
 class TrailingContent extends StatelessComponent {
-  const TrailingContent({super.key, this.repo, this.sdkVersion});
+  const TrailingContent({super.key, this.repo});
 
   final String? repo;
-  final String? sdkVersion;
 
   @override
   Component build(BuildContext context) {
@@ -30,9 +29,9 @@ class TrailingContent extends StatelessComponent {
     final inputPath = pageData['inputPath'] as String?;
     final pageDate = pageData['date'] as String?;
 
-    final currentSdkVersion =
-        sdkVersion ?? siteData['sdkVersion'] as String? ?? '';
-    final siteUrl = siteData['url'] as String? ?? 'https://dart.dev';
+    final currentFlutterVersion =
+        siteData['currentFlutterVersion'] as String? ?? '';
+    final siteUrl = siteData['url'] as String? ?? 'https://docs.flutter.dev';
 
     final fullPageUrl = '$siteUrl$pageUrl';
     final String issueUrl;
@@ -58,7 +57,7 @@ class TrailingContent extends StatelessComponent {
           span([
             text(
               'Unless stated otherwise, the documentation on '
-              'this site reflects Dart $currentSdkVersion. ',
+              'this site reflects Flutter $currentFlutterVersion. ',
             ),
             if (pageDate != null)
               text(

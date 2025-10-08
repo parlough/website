@@ -1,6 +1,6 @@
 name: docs_flutter_dev_site
 publish_to: none
-homepage: https://dart.dev
+homepage: https://docs.flutter.dev
 
 resolution: workspace
 environment:
