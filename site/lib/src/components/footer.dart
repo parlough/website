@@ -11,29 +11,30 @@ final class DashFooter extends StatelessComponent {
   @override
   Component build(BuildContext context) {
     return footer(
-      id: 'page-footer',
+      id: 'site-footer',
       attributes: {'data-nosnippet': 'true'},
       [
         div(classes: 'footer-section footer-main', [
           a(
             href: '/',
             classes: 'brand',
-            attributes: {'title': 'Dart'},
+            attributes: {'title': 'Flutter'},
             [
               img(
-                src: '/assets/images/logo/logo-white-text.svg',
-                alt: 'Dart',
+                src:
+                    '/assets/images/branding/flutter/logo+text/horizontal/white.svg',
+                alt: 'Flutter logo',
                 width: 164,
               ),
             ],
           ),
           div(classes: 'footer-social-links', [
             a(
-              href: 'https://blog.dart.dev',
+              href: 'https://blog.flutter.dev',
               target: Target.blank,
               attributes: {
                 'rel': 'noopener',
-                'title': 'Dart\'s Medium publication',
+                'title': 'Flutter\'s blog',
               },
               [
                 svg([
@@ -47,11 +48,29 @@ final class DashFooter extends StatelessComponent {
               ],
             ),
             a(
-              href: 'https://github.com/dart-lang',
+              href: 'https://youtube.com/@flutterdev',
               target: Target.blank,
               attributes: {
                 'rel': 'noopener',
-                'title': 'Dart\'s GitHub organization',
+                'title': 'Flutter\'s YouTube channel',
+              },
+              [
+                svg([
+                  const Component.element(
+                    tag: 'use',
+                    attributes: {
+                      'href': '/assets/images/social/youtube.svg#youtube',
+                    },
+                  ),
+                ]),
+              ],
+            ),
+            a(
+              href: 'https://github.com/flutter',
+              target: Target.blank,
+              attributes: {
+                'rel': 'noopener',
+                'title': 'Flutter\'s GitHub organization',
               },
               [
                 svg([
@@ -65,11 +84,11 @@ final class DashFooter extends StatelessComponent {
               ],
             ),
             a(
-              href: 'https://bsky.app/profile/dart.dev',
+              href: 'https://bsky.app/profile/flutter.dev',
               target: Target.blank,
               attributes: {
                 'rel': 'noopener',
-                'title': 'Dart\'s Bluesky (Twitter) profile',
+                'title': 'Flutter\'s Bluesky profile',
               },
               [
                 svg([
@@ -83,11 +102,11 @@ final class DashFooter extends StatelessComponent {
               ],
             ),
             a(
-              href: 'https://twitter.com/dart_lang',
+              href: 'https://twitter.com/FlutterDev',
               target: Target.blank,
               attributes: {
                 'rel': 'noopener',
-                'title': 'Dart\'s X (Twitter) profile',
+                'title': 'Flutter\'s X (Twitter) profile',
               },
               [
                 svg([
@@ -115,9 +134,16 @@ final class DashFooter extends StatelessComponent {
             ul([
               li([
                 a(
-                  href: '/terms',
+                  href: '/tos',
                   attributes: {'title': 'Terms of use'},
                   [text('Terms')],
+                ),
+              ]),
+              li([
+                a(
+                  href: '/brand',
+                  attributes: {'title': 'Brand usage guidelines'},
+                  [text('Brand')],
                 ),
               ]),
               li([

@@ -37,15 +37,6 @@ final class DashSideNav extends StatelessComponent {
         },
       ),
     ]),
-    ul(classes: 'navbar-nav', const [
-      _SideNavDivider(),
-      _TopNavItem(href: '/overview', label: 'Overview'),
-      _TopNavItem(href: '/community', label: 'Community'),
-      _TopNavItem(href: 'https://dartpad.dev', label: 'Try Dart'),
-      _TopNavItem(href: '/get-dart', label: 'Get Dart'),
-      _TopNavItem(href: '/docs', label: 'Docs'),
-      _SideNavDivider(),
-    ]),
     _SideNavLevel(
       entries: navEntries,
       parentId: 'docs',
@@ -57,18 +48,6 @@ final class DashSideNav extends StatelessComponent {
       ),
       classes: 'nav',
     ),
-  ]);
-}
-
-class _TopNavItem extends StatelessComponent {
-  const _TopNavItem({required this.href, required this.label});
-
-  final String href;
-  final String label;
-
-  @override
-  Component build(BuildContext _) => li(classes: 'nav-item', [
-    a(href: href, classes: 'nav-link', [text(label)]),
   ]);
 }
 
