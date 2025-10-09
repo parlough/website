@@ -8,14 +8,9 @@ description: >-
 
 <div class="card-grid">
 {% for card in docsCards -%}
-  <a class="card filled-card outlined-card" href="{{card.url}}">
-    <div class="card-header">
-      <span class="card-title">{{card.name}}</span>
-    </div>
-    <div class="card-content">
-      <p>{{card.description}}</p>
-    </div>
-  </a>
+  <Card title="{{card.name}}" link="{{card.url}}" outlined="true">
+    {{card.description}}
+  </Card>
 {% endfor -%}
 </div>
 

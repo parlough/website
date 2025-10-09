@@ -65,6 +65,7 @@ List<CustomComponent> get _embeddableComponents => [
     builder: (name, attributes, child) {
       final link = attributes['link'];
       final title = attributes['title']!;
+      final outlined = attributes['outlined'] == 'true';
       return Card(
         header: [
           header(classes: 'card-title', [text(title)]),
@@ -72,6 +73,7 @@ List<CustomComponent> get _embeddableComponents => [
         content: [?child],
         link: link,
         filled: link != null,
+        outlined: outlined,
       );
     },
   ),
