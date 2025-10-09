@@ -25,10 +25,10 @@ Ready to build beautiful, multiplatform apps from a single codebase?
 This video walks you through the fundamentals of Flutter and shows you how to get started.
 
 Once you've [Set up Flutter][],
-you should follow the 
-[Write your first Flutter app][] codelab 
-and read [Flutter fundamentals][]. 
-These resources are opinionated documentation 
+you should follow the
+[Write your first Flutter app][] codelab
+and read [Flutter fundamentals][].
+These resources are opinionated documentation
 that guide you through the most important
 parts of building a Flutter app.
 
@@ -70,13 +70,14 @@ Coming from another platform? Check out Flutter for:
 
 ### Videos
 
-{% videoWrapper 'Check out what\'s new in Flutter at Google I/O 2025!' %}
-<YouTubeEmbed id="v6Rzo5khNE8" title="What's new in Flutter"></YouTubeEmbed>
-{% endvideoWrapper %}
+<div class="video-wrapper">
+  <span class="video-intro">Check out what's new in Flutter at Google I/O 2025!</span>
+  <YouTubeEmbed id="v6Rzo5khNE8" title="What's new in Flutter"></YouTubeEmbed>
+</div>
 <br>
 
 For more Flutter at Google I/O 2025, check out
-[How to build agentic apps with Flutter and Firebase AI Logic][] 
+[How to build agentic apps with Flutter and Firebase AI Logic][]
 and [How Flutter makes the most of your platforms][].
 
 <div class="card-grid">
