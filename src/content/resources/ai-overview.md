@@ -5,7 +5,7 @@ description: >
   generative AI to your Flutter application.
 ---
 
-{% ytEmbed '1AuzJEiHjO4', 'Quick overview of the Google AI Dart SDK' %}
+<YouTubeEmbed id="1AuzJEiHjO4" title="Quick overview of the Google AI Dart SDK"></YouTubeEmbed>
 
 The Google AI Dart SDK enables you to use Google's
 state-of-the-art generative AI models (like Gemini)

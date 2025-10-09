@@ -105,7 +105,7 @@ navigate around your app.
 To learn how to find and customize Android's
 accessibility features, view the following video.
 
-{% ytEmbed 'FQyj_XTl01w', 'Customize Pixel and Android accessibility features' %}
+<YouTubeEmbed id="FQyj_XTl01w" title="Customize Pixel and Android accessibility features"></YouTubeEmbed>
 
 {% endtab %}
 {% tab "VoiceOver on iPhone" %}
@@ -116,7 +116,7 @@ accessibility features, view the following video.
 To learn how to find and customize iOS
 accessibility features, view the following video.
 
-{% ytEmbed 'ROIe49kXOc8', 'How to navigate your iPhone or iPad with VoiceOver' %}
+<YouTubeEmbed id="ROIe49kXOc8" title="How to navigate your iPhone or iPad with VoiceOver"></YouTubeEmbed>
 
 {% endtab %}
 {% tab "Browsers" %}
@@ -162,7 +162,7 @@ Windows apps, check out
 On a Mac, you can use the desktop version of VoiceOver,
 which is included in macOS.
 
-{% ytEmbed '5R-6WvAihms', 'Screen reader basics: VoiceOver' %}
+<YouTubeEmbed id="5R-6WvAihms" title="Screen reader basics: VoiceOver"></YouTubeEmbed>
 
 On Linux, a popular screen reader is called Orca.
 It comes pre-installed with some distributions
@@ -218,7 +218,7 @@ In the video below, two of our engineers take a mobile app from a dire
 accessibility state to one that takes advantage of Flutter's built-in
 widgets to offer a dramatically more accessible experience.
 
-{% ytEmbed 'bWbBgbmAdQs', 'Building Flutter apps with accessibility in mind' %}
+<YouTubeEmbed id="bWbBgbmAdQs" title="Building Flutter apps with accessibility in mind"></YouTubeEmbed>
 
 ## Enhancing Accessibility with Semantic Roles
 

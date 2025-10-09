@@ -435,7 +435,7 @@ If there was only one type error you should be
 prepared to confront when you first start building
 Flutter apps, it would be this one.
 
-{% ytEmbed 'jckqXR5CrPI', 'Decoding Flutter: Unbounded height and width' %}
+<YouTubeEmbed id="jckqXR5CrPI" title="Decoding Flutter: Unbounded height and width"></YouTubeEmbed>
 
 :::note The Widget inspector
 Flutter has a robust suite of DevTools that
@@ -589,7 +589,7 @@ from its parent, along with the widgets 'BuildContext'.
 With these constraints, you can return a different
 widget based on the available space.
 
-{% ytEmbed 'IYDVcriKjsw', 'LayoutBuilder (Flutter Widget of the Week)' %}
+<YouTubeEmbed id="IYDVcriKjsw" title="LayoutBuilder (Flutter Widget of the Week)"></YouTubeEmbed>
 
 In the following example, 
 the widget returned by the `LayoutBuilder` 

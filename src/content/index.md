@@ -71,7 +71,7 @@ Coming from another platform? Check out Flutter for:
 ### Videos
 
 {% videoWrapper 'Check out what\'s new in Flutter at Google I/O 2025!' %}
-{% ytEmbed 'v6Rzo5khNE8', 'What\'s new in Flutter', true %}
+<YouTubeEmbed id="v6Rzo5khNE8" title="What's new in Flutter"></YouTubeEmbed>
 {% endvideoWrapper %}
 <br>
 
@@ -82,12 +82,12 @@ and [How Flutter makes the most of your platforms][].
 <div class="card-grid">
   <div class="card wrapped-card outlined-card">
     <div class="card-content">
-      {% ytEmbed 'xo271p-Fl_4', 'How to build agentic apps with Flutter and Firebase AI Logic', true %}
+      <YouTubeEmbed id="xo271p-Fl_4" title="How to build agentic apps with Flutter and Firebase AI Logic"></YouTubeEmbed>
     </div>
   </div>
   <div class="card wrapped-card outlined-card">
     <div class="card-content">
-      {% ytEmbed 'flwULzNYRac', 'How Flutter makes the most of your platforms', true %}
+      <YouTubeEmbed id="flwULzNYRac" title="How Flutter makes the most of your platforms"></YouTubeEmbed>
     </div>
   </div>
 </div>
