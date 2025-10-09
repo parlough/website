@@ -13,6 +13,7 @@ import 'src/components/card.dart';
 import 'src/components/tabs.dart';
 import 'src/extensions/registry.dart';
 import 'src/layouts/doc_layout.dart';
+import 'src/layouts/toc_layout.dart';
 import 'src/loaders/data_processor.dart';
 import 'src/markdown/markdown_parser.dart';
 import 'src/pages/custom_pages.dart';
@@ -51,7 +52,7 @@ Component get _docsFlutterDevSite => ContentApp.custom(
     rawOutputPattern: RegExp(r'.*\.(txt|json|pdf)$'),
     extensions: allNodeProcessingExtensions,
     components: _embeddableComponents,
-    layouts: const [DocLayout()],
+    layouts: const [DocLayout(), TocLayout()],
     theme: const ContentTheme.none(),
     secondaryOutputs: const [RobotsTxtOutput()],
   ),

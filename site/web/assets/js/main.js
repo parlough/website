@@ -59,8 +59,8 @@ function getOS() {
 
 /**
  * Adjusts the behavior of the table of contents (TOC) on the page.
- * 
- * This function enables a "scrollspy" feature on the TOC, 
+ *
+ * This function enables a "scrollspy" feature on the TOC,
  * where the active link in the TOC is updated
  * based on the currently visible section in the page.
  *
@@ -116,7 +116,7 @@ function _setupInlineTocDropdown() {
 }
 
 function _setupTocActiveObserver() {
-  const headings = document.querySelectorAll('article > .header-wrapper, #site-header-wrapper');
+  const headings = document.querySelectorAll('article > .header-wrapper, #site-content-title');
   const currentHeaderText = document.getElementById('current-header');
 
   // No need to have toc scrollspy if there is only one non-title heading.
