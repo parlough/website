@@ -126,9 +126,9 @@ The following steps assume you're using the sample
 application and Share extension from
 [Adding iOS app extensions][].
 
-{% tabs "register-plugins-tabs", true %}
+<Tabs key="register-plugins-tabs" wrapped="true">
 
-{% tab "Simulator" %}
+<Tab name="Simulator">
 
 1.  In Xcode, [add an app extension to your project][].
 
@@ -147,9 +147,9 @@ application and Share extension from
     *   Select a photo, tap the share button, then tap
         on the share extension icon of your app.
 
-{% endtab %}
+</Tab>
 
-{% tab "Physical device" %}
+<Tab name="Physical device">
 
 1.  Add an app extension to your project.
 
@@ -167,9 +167,9 @@ application and Share extension from
     *   Select a photo, tap the share button, then tap on
         the share extension icon of your app.
 
-{% endtab %}
+</Tab>
 
-{% endtabs %}
+</Tabs>
 
 [Adding iOS app extensions]: #add-extension
 [add an app extension to your project]: #add-extension
@@ -403,9 +403,8 @@ called `Runner`, and the Flutter app is called
     *   Update `ShareViewController` to use the
         `FlutterViewController` class:
 
-{% tabs "controller-code-tabs", true %}
-
-{% tab "UIKit-Swift" %}
+<Tabs key="controller-code-tabs" wrapped="true">
+<Tab name="UIKit-Swift">
 
 ```swift title="ShareViewController.swift"
 import UIKit
@@ -434,9 +433,9 @@ class ShareViewController: UIViewController {
 }
 ```
 
-{% endtab %}
+</Tab>
 
-{% tab "UIKit-ObjC" %}
+<Tab name="UIKit-ObjC">
 
 ```objc title="ShareViewController.h"
 @import Flutter;
@@ -474,9 +473,9 @@ class ShareViewController: UIViewController {
 @end
 ```
 
-{% endtab %}
+</Tab>
 
-{% endtabs %}
+</Tabs>
 
 8.  [Test your app with the simulator][].
 
@@ -544,18 +543,18 @@ called `Runner`, and the Flutter app is called
     *   Update the `ShareViewController` file to use the
         `GeneratedPluginRegistrant.h`:
 
-{% tabs "register-plugins-tabs", true %}
+<Tabs key="register-plugins-tabs" wrapped="true">
 
-{% tab "UIKit-Swift" %}
+<Tab name="UIKit-Swift">
 
 ```swift title="ShareViewController.swift"
 // Add this inside `showFlutter()` at the top
 GeneratedPluginRegistrant.register(with: flutterEngine)
 ```
 
-{% endtab %}
+</Tab>
 
-{% tab "UIKit-ObjC" %}
+<Tab name="UIKit-ObjC">
 
 ```objc title="ShareViewController.m"
 // Add this import at the top
@@ -567,9 +566,9 @@ GeneratedPluginRegistrant.register(with: flutterEngine)
 [GeneratedPluginRegistrant registerWithRegistry:flutterEngine];
 ```
 
-{% endtab %}
+</Tab>
 
-{% endtabs %}
+</Tabs>
 
 5.  (Xcode) [Test your app with the simulator][].
 

@@ -13,8 +13,8 @@ Running Gradle task 'bundleDebug'...                               27.1s
 ```
 
 
-{% tabs %}
-{% tab "Start from VS Code" %}
+<Tabs key="android-debug-flow">
+<Tab name="Start from VS Code">
 
 #### Start debugging with VS Code first {:#from-vscode-to-android-studio}
 
@@ -26,8 +26,8 @@ If you use VS Code to debug most of your code, start with this section.
 
 {% render "docs/debug/debug-android-attach-process.md" %}
 
-{% endtab %}
-{% tab "Start from Android Studio" %}
+</Tab>
+<Tab name="Start from Android Studio">
 
 #### Start debugging with Android Studio first {:#from-android-studio}
 
@@ -37,5 +37,5 @@ If you use Android Studio to debug most of your code, start with this section.
 
 {% render "docs/debug/debug-android-attach-process.md" %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>

@@ -170,8 +170,8 @@ On the platform side, use the standard
 `io.flutter.plugin.platform` package
 in either Kotlin or Java:
 
-{% tabs "android-language" %}
-{% tab "Kotlin" %}
+<Tabs key="android-language">
+<Tab name="Kotlin">
 
 In your native code, implement the following:
 
@@ -272,8 +272,8 @@ class PlatformViewPlugin : FlutterPlugin {
 }
 ```
 
-{% endtab %}
-{% tab "Java" %}
+</Tab>
+<Tab name="Java">
 
 In your native code, implement the following:
 
@@ -392,8 +392,8 @@ public class PlatformViewPlugin implements FlutterPlugin {
 }
 ```
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 For more information, see the API docs for:
 

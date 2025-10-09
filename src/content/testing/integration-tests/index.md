@@ -306,23 +306,23 @@ complete the following tasks.
 
 Based on platform, the command result should resemble the following output.
 
-{% tabs %}
-{% tab "Windows" %}
+<Tabs key="dev-os">
+<Tab name="Windows">
 
 {% render "docs/test/integration/windows-example.md" %}
 
-{% endtab %}
-{% tab "macOS" %}
+</Tab>
+<Tab name="macOS">
 
 {% render "docs/test/integration/macos-example.md" %}
 
-{% endtab %}
-{% tab "Linux" %}
+</Tab>
+<Tab name="Linux">
 
 {% render "docs/test/integration/linux-example.md" %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 ---
 

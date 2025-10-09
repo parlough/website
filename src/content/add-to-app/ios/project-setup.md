@@ -115,23 +115,23 @@ To use Flutter debugging features such as hot reload,
 consult [Debugging your add-to-app module][].
 :::
 
-{% tabs %}
-{% tab "Use CocoaPods" %}
+<Tabs key="darwin-deps">
+<Tab name="Use CocoaPods">
 
 {% render "docs/add-to-app/ios-project/embed-cocoapods.md" %}
 
-{% endtab %}
-{% tab "Use frameworks" %}
+</Tab>
+<Tab name="Use frameworks">
 
 {% render "docs/add-to-app/ios-project/embed-frameworks.md" %}
 
-{% endtab %}
-{% tab "Use frameworks and CocoaPods" %}
+</Tab>
+<Tab name="Use frameworks and CocoaPods">
 
 {% render "docs/add-to-app/ios-project/embed-split.md" %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 
 ## Set local network privacy permissions

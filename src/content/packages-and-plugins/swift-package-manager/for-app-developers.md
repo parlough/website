@@ -33,33 +33,33 @@ Flutter's Swift Package Manager integration has several benefits:
 
 ### Add to a Flutter app
 
-{% tabs %}
-{% tab "iOS project" %}
+<Tabs key="darwin-platform">
+<Tab name="iOS project">
 
 {% render "docs/swift-package-manager/migrate-ios-project.md", site: site %}
 
-{% endtab %}
-{% tab "macOS project" %}
+</Tab>
+<Tab name="macOS project">
 
 {% render "docs/swift-package-manager/migrate-macos-project.md", site: site %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 ### Add to a Flutter app _manually_
 
-{% tabs %}
-{% tab "iOS project" %}
+<Tabs key="darwin-platform">
+<Tab name="iOS project">
 
 {% render "docs/swift-package-manager/migrate-ios-project-manually.md", site: site %}
 
-{% endtab %}
-{% tab "macOS project" %}
+</Tab>
+<Tab name="macOS project">
 
 {% render "docs/swift-package-manager/migrate-macos-project-manually.md", site: site %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 ### Add to an existing app (add-to-app)
 

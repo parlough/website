@@ -12,8 +12,8 @@ Building Windows application...                                    31.4s
 √  Built build\windows\runner\Debug\my_app.exe.
 ```
 
-{% tabs %}
-{% tab "Start from VS Code" %}
+<Tabs key="windows-debug-flow">
+<Tab name="Start from VS Code">
 
 #### Start debugging with VS Code first {:#vscode-windows}
 
@@ -69,8 +69,8 @@ If you use VS Code to debug most of your code, start with this section.
    ![Visual Studio debugger running and monitoring the Flutter app](/assets/images/docs/testing/debugging/native/visual-studio/debugger-active.png){:width="100%"}
 {% endcomment %}
 
-{% endtab %}
-{% tab "Start from Visual Studio" %}
+</Tab>
+<Tab name="Start from Visual Studio">
 
 #### Start debugging with Visual Studio first
 
@@ -137,5 +137,5 @@ If you use Visual Studio to debug most of your code, start with this section.
    ![Alt text](/assets/images/docs/testing/debugging/vscode-ui/screens/vscode-add-attach-uri-filled.png)
 {% endcomment %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>

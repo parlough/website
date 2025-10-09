@@ -94,8 +94,8 @@ navigate around your app.
 
 **To turn on the screen reader on your device, complete the following steps:**
 
-{% tabs %}
-{% tab "TalkBack on Android" %}
+<Tabs key="screen-reader">
+<Tab name="TalkBack on Android">
 
 1. On your device, open **Settings**.
 2. Select **Accessibility** and then **TalkBack**.
@@ -107,8 +107,8 @@ accessibility features, view the following video.
 
 <YouTubeEmbed id="FQyj_XTl01w" title="Customize Pixel and Android accessibility features"></YouTubeEmbed>
 
-{% endtab %}
-{% tab "VoiceOver on iPhone" %}
+</Tab>
+<Tab name="VoiceOver on iPhone">
 
 1. On your device, open **Settings > Accessibility > VoiceOver**
 2. Turn the VoiceOver setting on or off
@@ -118,8 +118,8 @@ accessibility features, view the following video.
 
 <YouTubeEmbed id="ROIe49kXOc8" title="How to navigate your iPhone or iPad with VoiceOver"></YouTubeEmbed>
 
-{% endtab %}
-{% tab "Browsers" %}
+</Tab>
+<Tab name="Browsers">
 
 For web, the following screen readers are currently supported:
 
@@ -148,8 +148,8 @@ void main() {
 }
 ```
 
-{% endtab %}
-{% tab "Desktop" %}
+</Tab>
+<Tab name="Desktop">
 
 Windows comes with a screen reader called Narrator
 but some developers recommend using the more popular
@@ -172,8 +172,8 @@ To learn about using Orca, check out
 
 [orca]: https://www.a11yproject.com/posts/getting-started-with-orca
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 <br/>
 

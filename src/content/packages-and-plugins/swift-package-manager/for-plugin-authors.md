@@ -46,18 +46,18 @@ Plugins that don't support Swift Package Manager can cause problems for projects
 that have migrated.
 
 
-{% tabs %}
-{% tab "Swift plugin" %}
+<Tabs key="darwin-plugin-type">
+<Tab name="Swift plugin">
 
 {% render "docs/swift-package-manager/migrate-swift-plugin.md", site: site %}
 
-{% endtab %}
-{% tab "Objective-C plugin" %}
+</Tab>
+<Tab name="Objective-C plugin">
 
 {% render "docs/swift-package-manager/migrate-objective-c-plugin.md", site: site %}
 
-{% endtab %}
-{% endtabs %}
+</Tab>
+</Tabs>
 
 ## How to update unit tests in a plugin's example app
 
