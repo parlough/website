@@ -28,6 +28,7 @@ class CopyButton extends StatefulComponent {
 
 class _CopyButtonState extends State<CopyButton> {
   bool _hidden = true;
+  bool _copied = false;
 
   @override
   void initState() {
@@ -39,9 +40,22 @@ class _CopyButtonState extends State<CopyButton> {
     super.initState();
   }
 
+  void _copy() {
+    web.window.navigator.clipboard.writeText(component.toCopy);
+
+    setState(() => _copied = true);
+
+    Future<void>.delayed(const Duration(seconds: 2), () {
+      if (mounted) {
+        setState(() => _copied = false);
+      }
+    });
+  }
+
   @override
   Component build(BuildContext _) {
     final iconButton = component.buttonText == null;
+
     return Button(
       style: iconButton ? ButtonStyle.text : ButtonStyle.filled,
       classes: [
@@ -50,11 +64,9 @@ class _CopyButtonState extends State<CopyButton> {
         ...component.classes,
       ],
       title: component.title ?? 'Copy ${component.toCopy} to your clipboard.',
-      content: component.buttonText,
+      content: _copied ? 'Copied!' : component.buttonText,
       icon: iconButton ? 'content_copy' : null,
-      onClick: () {
-        web.window.navigator.clipboard.writeText(component.toCopy);
-      },
+      onClick: _copy,
     );
   }
 }
