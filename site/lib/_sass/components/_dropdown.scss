@@ -9,7 +9,7 @@
     box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
     border-radius: calc(var(--site-radius) * 1.25);
     width: max-content;
-    border: var(--site-chrome-borderColor) 1px solid;
+    border: var(--site-outline-variant) 1px solid;
     z-index: var(--site-z-dropdown);
 
     .dropdown-divider {
