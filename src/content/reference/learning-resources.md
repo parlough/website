@@ -44,9 +44,9 @@ This page lists all of our additional learning resources:
                 </button>
             </div>
         </div>
-        {%- render docs/learning-resources-index/grid.md resources:resources -%}
+        {%- render "docs/learning-resources-index/grid.md" resources:resources -%}
     </div>
     <div class="right-col">
-        {%- render docs/learning-resources-index/side-filters.liquid filters:filters id:"resource-filter-group" -%}
+        {%- render "docs/learning-resources-index/side-filters.liquid" filters:filters id:"resource-filter-group" -%}
     </div>
 </div>

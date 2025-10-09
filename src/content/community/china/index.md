@@ -7,7 +7,7 @@ os-list: [Windows, macOS, Linux, ChromeOS]
 {% assign flutter-sdk = 'flutter_opsys_3.13.0-stable.' %}
 {% capture sdk-path -%}flutter_infra_release/releases/stable/opsys/{{flutter-sdk}}{%- endcapture %}
 
-{% render docs/china-notice-cn.md %}
+{% render "docs/china-notice-cn.md" %}
 
 To speed the download and installation of Flutter in China,
 consider using a [mirror site][] or _mirror_.
@@ -152,4 +152,3 @@ using the `{{mirror.mirror}}` mirror, report the issue to their
 If you're interested in setting up your own mirror,
 contact [flutter-dev@googlegroups.com](mailto:flutter-dev@googlegroups.com)
 for assistance.
-

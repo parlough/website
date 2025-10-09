@@ -139,9 +139,9 @@ Output:
 
 ```console
 Building flutter tool...
-Resolving dependencies... 
+Resolving dependencies...
 Got dependencies.
-Resolving dependencies... 
+Resolving dependencies...
 + file 7.0.0
 + flutter_driver 0.0.0 from sdk flutter
 + fuchsia_remote_debug_protocol 0.0.0 from sdk flutter
@@ -171,7 +171,7 @@ dev_dependencies:
 
 ## Create the integration test files
 
-Integration tests reside in a separate directory inside 
+Integration tests reside in a separate directory inside
 your Flutter project.
 
 1. Create a new directory named `integration_test`.
@@ -207,29 +207,29 @@ and your app's Dart file.
     import 'package:flutter_test/flutter_test.dart';
     import 'package:how_to/main.dart';
     import 'package:integration_test/integration_test.dart';
-    
+
     void main() {
       IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-    
+
       group('end-to-end test', () {
         testWidgets('tap on the floating action button, verify counter', (
           tester,
         ) async {
           // Load app widget.
           await tester.pumpWidget(const MyApp());
-    
+
           // Verify the counter starts at 0.
           expect(find.text('0'), findsOneWidget);
-    
+
           // Finds the floating action button to tap on.
           final fab = find.byKey(const ValueKey('increment'));
-    
+
           // Emulate a tap on the floating action button.
           await tester.tap(fab);
-    
+
           // Trigger a frame.
           await tester.pumpAndSettle();
-    
+
           // Verify the counter increments by 1.
           expect(find.text('1'), findsOneWidget);
         });
@@ -309,17 +309,17 @@ Based on platform, the command result should resemble the following output.
 {% tabs %}
 {% tab "Windows" %}
 
-{% render docs/test/integration/windows-example.md %}
+{% render "docs/test/integration/windows-example.md" %}
 
 {% endtab %}
 {% tab "macOS" %}
 
-{% render docs/test/integration/macos-example.md %}
+{% render "docs/test/integration/macos-example.md" %}
 
 {% endtab %}
 {% tab "Linux" %}
 
-{% render docs/test/integration/linux-example.md %}
+{% render "docs/test/integration/linux-example.md" %}
 
 {% endtab %}
 {% endtabs %}
@@ -438,7 +438,7 @@ To test in a web browser, perform the following steps.
    <?code-excerpt "test_driver/integration_test.dart"?>
    ```dart title="test_driver/integration_test.dart"
    import 'package:integration_test/integration_test_driver.dart';
-   
+
    Future<void> main() => integrationDriver();
    ```
 

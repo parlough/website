@@ -221,7 +221,7 @@ class MyApplication : Application() {
 ```java title="MyApplication.java"
 public class MyApplication extends Application {
   public FlutterEngine flutterEngine;
-  
+
   @Override
   public void onCreate() {
     super.onCreate();
@@ -341,7 +341,7 @@ of Flutter, use a release build.
 
 #### Initial route with a cached engine
 
-{% render docs/add-to-app/android-initial-route-cached-engine.md %}
+{% render "docs/add-to-app/android-initial-route-cached-engine.md" %}
 
 ## Add a translucent Flutter screen
 

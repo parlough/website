@@ -291,7 +291,7 @@ using an existing, pre-warmed instance of `FlutterEngine`.
 
 To use a pre-warmed `FlutterEngine` in a `FlutterFragment`,
 instantiate a `FlutterFragment` with the `withCachedEngine()`
-factory method.  
+factory method.
 
 {% tabs "android-language" %}
 {% tab "Kotlin" %}
@@ -354,7 +354,7 @@ first Flutter frame as quickly as possible.
 
 #### Initial route with a cached engine
 
-{% render docs/add-to-app/android-initial-route-cached-engine.md %}
+{% render "docs/add-to-app/android-initial-route-cached-engine.md" %}
 
 ## Display a splash screen
 

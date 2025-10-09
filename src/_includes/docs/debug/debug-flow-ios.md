@@ -21,7 +21,7 @@ If you use VS Code to debug most of your code, start with this section.
 
 ##### Start the Dart debugger in VS Code
 
-{% render docs/debug/debug-flow-vscode-as-start.md, add: add %}
+{% render "docs/debug/debug-flow-vscode-as-start.md", add: add %}
 
 ##### Attach to the Flutter process in Xcode
 
@@ -62,9 +62,9 @@ If you use Xcode to debug most of your code, start with this section.
     {% comment %}
     ![Start button in Xcode interface](/assets/images/docs/testing/debugging/native/xcode/run-app.png)
     <div class="figure-caption">
-    
+
     Start button displayed in Xcode interface.
-    
+
     </div>
     {% endcomment %}
 
