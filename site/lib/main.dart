@@ -10,7 +10,9 @@ import 'package:path/path.dart' as path;
 
 import 'jaspr_options.dart'; // Generated. Do not remove or edit.
 import 'src/components/card.dart';
+import 'src/components/pages/learning_resource_index.dart';
 import 'src/components/tabs.dart';
+import 'src/data/learning_resources.dart';
 import 'src/extensions/registry.dart';
 import 'src/layouts/doc_layout.dart';
 import 'src/layouts/toc_layout.dart';
@@ -107,6 +109,10 @@ List<CustomComponent> get _embeddableComponents => [
 </lite-youtube>
 ''');
     },
+  ),
+  CustomComponent(
+    pattern: RegExp('LearningResourceIndex', caseSensitive: false),
+    builder: (_, _, _) => LearningResourceIndex(allLearningResources),
   ),
 ];
 
