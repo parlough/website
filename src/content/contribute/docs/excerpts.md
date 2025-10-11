@@ -3,8 +3,8 @@ title: Code excerpts
 description: >-
   Learn about adding and using code excerpts
   in the Dart and Flutter documentation sites.
-sitemap: false,
-noindex: true,
+sitemap: false
+noindex: true
 showBreadcrumbs: true
 ---
 

@@ -2,6 +2,7 @@
 title: Books about Flutter
 description: Extra, extra! Here's a collection of books about Flutter.
 showToc: false
+showBreadcrumbs: false
 ---
 
 Here's a collection of books about Flutter,

@@ -3,6 +3,7 @@ title: AI
 description: >
   Learn about the resources available for adding
   generative AI to your Flutter application.
+showBreadcrumbs: false
 ---
 
 <YouTubeEmbed id="1AuzJEiHjO4" title="Quick overview of the Google AI Dart SDK"></YouTubeEmbed>

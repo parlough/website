@@ -2,6 +2,7 @@
 title: Videos
 description: >
   Available videos on various aspects of developing in Flutter.
+showBreadcrumbs: false
 ---
 
 These Flutter videos, produced both internally

@@ -3,8 +3,8 @@ title: Frontmatter
 description: >-
   Learn about the YAML frontmatter each document on
   the Dart and Flutter documentation sites starts with.
-sitemap: false,
-noindex: true,
+sitemap: false
+noindex: true
 showBreadcrumbs: true
 ---
 

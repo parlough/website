@@ -4,8 +4,8 @@ shortTitle: Tool
 description: >-
   Learn about the dash_site CLI tool that is used to
   develop, test, and serve the Dart and Flutter documentation sites.
-sitemap: false,
-noindex: true,
+sitemap: false
+noindex: true
 showBreadcrumbs: true
 ---
 

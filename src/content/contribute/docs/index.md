@@ -3,8 +3,8 @@ title: Contribute to the docs
 shortTitle: Docs
 description: >-
   Learn about contributing to the Dart and Flutter documentation sites.
-sitemap: false,
-noindex: true,
+sitemap: false
+noindex: true
 showBreadcrumbs: true
 ---
 
