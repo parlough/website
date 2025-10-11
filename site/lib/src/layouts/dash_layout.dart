@@ -14,8 +14,8 @@ import '../models/sidenav_model.dart';
 import '../util.dart';
 
 /// The base Jaspr Content layout for wrapping site content.
-abstract class DashLayout extends PageLayoutBase {
-  const DashLayout();
+abstract class FlutterDocsLayout extends PageLayoutBase {
+  const FlutterDocsLayout();
 
   @override
   String get name;
@@ -26,6 +26,7 @@ abstract class DashLayout extends PageLayoutBase {
     final pageData = page.data.page;
     final siteData = page.data.site;
     final pageTitle = (pageData['title'] ?? siteData['title']) as String;
+    final pageDescription = pageData['description'] as String? ?? '';
 
     return [
       ...super.buildHead(page),
@@ -40,48 +41,33 @@ abstract class DashLayout extends PageLayoutBase {
         raw('<script>window.location.replace("$redirectTo");</script>'),
       link(
         rel: 'icon',
-        href: '/assets/img/logo/dart-64.png',
+        href: '/assets/images/branding/flutter/icon/64.png',
         attributes: {'sizes': '64x64'},
       ),
       link(
         rel: 'apple-touch-icon',
-        href: '/assets/img/touch-icon-iphone.png',
-      ),
-      link(
-        rel: 'apple-touch-icon',
-        href: '/assets/img/touch-icon-ipad.png',
-        attributes: {'sizes': '152x152'},
-      ),
-      link(
-        rel: 'apple-touch-icon',
-        href: '/assets/img/touch-icon-iphone-retina.png',
-        attributes: {'sizes': '180x180'},
-      ),
-      link(
-        rel: 'apple-touch-icon',
-        href: '/assets/img/touch-icon-ipad-retina.png',
-        attributes: {'sizes': '167x167'},
+        href: '/assets/images/branding/flutter/logo/flutter-logomark-320px.png',
       ),
       meta(name: 'twitter:card', content: 'summary'),
-      meta(name: 'twitter:site', content: '@dart_lang'),
+      meta(name: 'twitter:site', content: '@flutterdev'),
       meta(name: 'twitter:title', content: pageTitle),
       meta(
         name: 'twitter:description',
-        content: '${pageData['description']}',
+        content: pageDescription,
       ),
 
       meta(attributes: {'property': 'og:title', 'content': pageTitle}),
       meta(
         attributes: {
           'property': 'og:description',
-          'content': '${pageData['description']}',
+          'content': pageDescription,
         },
       ),
       meta(attributes: {'property': 'og:url', 'content': page.path}),
       meta(
         attributes: {
           'property': 'og:image',
-          'content': '/assets/img/logo/dart-logo-for-shares.png',
+          'content': '/assets/images/flutter-logo-sharing.png',
         },
       ),
 
@@ -135,7 +121,9 @@ abstract class DashLayout extends PageLayoutBase {
       ),
 
       // Set up tag manager and analytics.
-      raw('''
+      if (productionBuild)
+        raw('''
+<meta name="google-site-verification" content="HFqxhSbf9YA_0rBglNLzDiWnrHiK_w4cqDh2YD2GEY4">
 <script>
   window.dataLayer = window.dataLayer || [];
 </script>
@@ -143,16 +131,15 @@ abstract class DashLayout extends PageLayoutBase {
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5VSZM5J');</script>
-'''),
-      raw('''
+})(window,document,'script','dataLayer','GTM-ND4LWWZ');</script>
+
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-26406144-4', 'auto');
+ga('create', 'UA-67589403-1', 'auto');
 ga('send', 'pageview');
 </script>
 '''),
@@ -173,9 +160,10 @@ ga('send', 'pageview');
     return Component.fragment(
       [
         if (bodyClass != null) Document.body(attributes: {'class': bodyClass}),
-        raw('''
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VSZM5J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-'''),
+        if (productionBuild)
+          raw(
+            '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND4LWWZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>',
+          ),
         a(
           id: 'skip-to-main',
           classes: 'filled-button',

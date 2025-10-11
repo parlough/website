@@ -16,7 +16,7 @@ import 'dash_layout.dart';
 
 /// The Jaspr Content layout to use for normal docs pages,
 /// adding elements such as breadcrumbs, TOC, and prev/next cards.
-class DocLayout extends DashLayout {
+class DocLayout extends FlutterDocsLayout {
   const DocLayout();
 
   @override
