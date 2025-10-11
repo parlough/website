@@ -1,5 +1,6 @@
 ---
 title: Flutter and Dart DevTools
+breadcrumb: DevTools
 description: How to use Flutter DevTools with Flutter.
 ---
 

@@ -54,7 +54,7 @@ Component get _docsFlutterDevSite => ContentApp.custom(
     components: _embeddableComponents,
     layouts: const [DocLayout(), TocLayout()],
     theme: const ContentTheme.none(),
-    secondaryOutputs: const [RobotsTxtOutput()],
+    secondaryOutputs: [const RobotsTxtOutput(), MarkdownOutput()],
   ),
 );
 

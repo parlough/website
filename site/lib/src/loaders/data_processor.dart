@@ -8,33 +8,46 @@ import 'dart:io' show FileSystemException, Process;
 import 'package:jaspr_content/jaspr_content.dart';
 import 'package:path/path.dart' as path;
 
+import '../data/devtools_releases.dart';
+
 /// A shared data loader to add data to each loaded page.
-///
-/// Currently adds data about the last modified date of the page,
-/// but can be expanded to add other data as necessary.
 final class DataProcessor implements DataLoader {
   @override
   Future<void> loadData(Page page) async {
-    final pageLoader = page.loader;
-    if (pageLoader is FilesystemLoader) {
-      final sourcePath = path.canonicalize(
-        path.join(pageLoader.directory, page.path),
-      );
+    _loadDevToolsReleases(page);
+    _loadLastModified(page);
+  }
 
-      final inputPath = path.relative(sourcePath, from: '..');
-      page.apply(
-        data: {
-          'page': {
-            'date': ?_lastModifiedDateForPath(inputPath),
-            'inputPath': inputPath,
-            if (page.data.page['sitemap'] == null)
-              'sitemap': {
-                'lastmod': _lastModifiedDateForPath(inputPath),
-              },
-          },
+  static void _loadDevToolsReleases(Page page) {
+    page.apply(
+      data: {
+        'devToolsReleases': devToolsReleases,
+      },
+    );
+  }
+
+  /// Adds data about the last modified date of the page.
+  static void _loadLastModified(Page page) {
+    final pageLoader = page.loader;
+    if (pageLoader is! FilesystemLoader) return;
+
+    final sourcePath = path.canonicalize(
+      path.join(pageLoader.directory, page.path),
+    );
+
+    final inputPath = path.relative(sourcePath, from: '..');
+    page.apply(
+      data: {
+        'page': {
+          'date': ?_lastModifiedDateForPath(inputPath),
+          'inputPath': inputPath,
+          if (page.data.page['sitemap'] == null)
+            'sitemap': {
+              'lastmod': _lastModifiedDateForPath(inputPath),
+            },
         },
-      );
-    }
+      },
+    );
   }
 }
 
